@@ -1,0 +1,50 @@
+.MobileCard {
+  display: flex;
+  width: 90%;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1rem;
+  border: 1px solid var(--black, #0b0c0d);
+}
+.CardTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+}
+.CardService {
+  color: var(--MainText, #212529);
+  font-family: "Montserrat-600",sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 22.5px */
+  flex: 1 0 0;
+}
+.CardPrice{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.discountprice{
+    color: var(--secondary, #34A852);
+font-family: "Montserrat-600",sans-serif;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 28.8px */
+}
+.originalprice{
+    color: var(--SecondaryText, #6C757D);
+font-family: "Montserrat-600",sans-serif;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 600;
+line-height: 160%;
+/* text-decoration-line: "strikethrough"; */
+text-decoration:line-through;
+}

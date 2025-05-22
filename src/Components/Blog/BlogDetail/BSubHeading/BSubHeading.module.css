@@ -1,0 +1,51 @@
+.BSubHeading {
+  color: var(--maintext);
+  font-family: "Roboto",sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  padding: 0 5.25rem;
+}
+@media (max-width: 375px) {
+  .BSubHeading {
+    font-size: 0.875rem; /* Smaller font size for mobile screens */
+    line-height: 1.4; /* Adjusted line height for better readability */
+    padding: 0 1rem; /* Reduced padding for a more compact look */
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+  .BSubHeading {
+    font-size: 0.875rem; /* Smaller font size for mobile screens */
+    line-height: 1.4; /* Adjusted line height for better readability */
+    padding: 0 1rem; /* Reduced padding for a more compact look */
+  }
+}
+@media (min-width:393px) and (max-width: 475px) {
+  .BSubHeading {
+    font-size: 0.875rem; /* Smaller font size for mobile screens */
+    line-height: 1.4; /* Adjusted line height for better readability */
+    padding: 0 1rem; /* Reduced padding for a more compact look */
+  }
+}
+@media (min-width:475px) and (max-width: 600px) {
+  .BSubHeading {
+    font-size: 0.875rem; /* Smaller font size for mobile screens */
+    line-height: 1.4; /* Adjusted line height for better readability */
+    padding: 0 1rem; /* Reduced padding for a more compact look */
+  }
+}
+@media (min-width:600px) and (max-width: 768px) {
+  .BSubHeading {
+    font-size: 0.875rem; /* Smaller font size for mobile screens */
+    line-height: 1.4; /* Adjusted line height for better readability */
+    padding: 0 1rem; /* Reduced padding for a more compact look */
+  }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+  .BSubHeading {
+    font-size: 0.875rem; /* Smaller font size for mobile screens */
+    line-height: 1.4; /* Adjusted line height for better readability */
+    padding: 0 1rem; /* Reduced padding for a more compact look */
+  }
+}

@@ -1,0 +1,139 @@
+.BDsecond {
+  display: flex;
+  padding: 0px 64px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.BDsecondcontent{
+    display: flex;
+padding: 32px 0px;
+flex-direction: column;
+align-items: flex-start;
+align-self: stretch;
+gap: 16px;
+}
+.BDsecondcontent>div:nth-of-type(1){
+    display: flex;
+align-items: center;
+gap: 16px;
+}
+.BDsecondcontent>div:nth-of-type(1)>div{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 4px;
+}
+.BDsecondcontent>div:nth-of-type(1)>div>p:nth-of-type(1){
+    color: var(--MainText, #212529);
+font-family: "Montserrat";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 20px */
+align-self: stretch;
+}
+.BDsecondcontent>div:nth-of-type(1)>div>p:nth-of-type(2){
+    color: var(--SecondaryText, #6C757D);
+font-family: "Roboto";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+align-self: stretch;
+}
+.BDsecondcontent>div:nth-of-type(2){
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+}
+.BDsecondcontent>div:nth-of-type(2)>p:nth-of-type(1){
+    color: var(--MainText, #212529);
+font-family: "Montserrat";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 114%; /* 45.6px */
+}
+.BDsecondcontent>div:nth-of-type(2)>p:nth-of-type(2){
+    color: var(--SecondaryText, #6C757D);
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+align-self: stretch;
+}
+.BDsecondcontentpoint{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+}
+.BDsecondcontentpoint>div{
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+}
+.BDsecondcontentpointtext{
+    color: var(--MainText, #212529);
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 20px */
+flex: 1 0 0;
+}
+.BDsecondcontentpointtext>span{
+    color: var(--MainText, #212529);
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+.sub{
+    color: var(--MainText, #212529);
+font-family: "Montserrat";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 114%; /* 45.6px */
+}
+.subpoint{
+    color: var(--SecondaryText, #6C757D);
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+margin-bottom: 16px;
+}
+.subpointss{
+    color: var(--MainText, #212529);
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    flex: 1 0 0;
+}
+.subheadSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.blogContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}

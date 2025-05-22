@@ -1,0 +1,235 @@
+.ServicePlanPricingContainer {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 16px;
+}
+
+.ServicePlanPricingContainer > div {
+  display: flex;
+  min-width: 320px;
+  padding: 32px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  flex: 1 1 320px;
+  border: 2px solid var(--maintext);
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+.PriceCard {
+  flex: 1 1 320px;
+  max-width: 100%;
+}
+
+.Header {
+  color: var(--MainText, #212529);
+  font-family: "Lexend";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 114%;
+  margin-bottom: 0;
+  text-align: center;
+  width: 100%;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide overflow if text is too long */
+  text-overflow: ellipsis; /* Add ellipsis if text overflows */
+}
+
+.PriceContent {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.PriceContent > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.PriceContent > div > div:nth-of-type(2) {
+  width: 100%;
+}
+
+.Pricing {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.np {
+  color: var(--secondary, #34a852);
+  font-family: "Inter";
+  font-size: 26px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.op {
+  color: var(--border, #bec1c3);
+  font-family: "Inter";
+  font-size: 28px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.btn {
+  width: 100%; /* Increased width */
+  display: flex;
+  padding: 12px 32px; /* Reduced vertical padding to decrease height */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 1px solid var(--MainText, #212529);
+  background: var(--MainText, #212529);
+  color: var(--background, #f8f9fa);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  height: 3rem;
+}
+
+.Description {
+  color: var(--black, #0c0d0b);
+  text-align: center;
+  font-family: "Inter"!important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: underline;
+  align-self: stretch;
+}
+
+.Points {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.Point {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.TickIcon {
+  padding-top: 2px;
+}
+
+.TickIcon img {
+  height: 20px;
+}
+
+.PointsContainer {
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 8px;
+  margin-top: 14px;
+  width: 100%;
+}
+
+.PointsContainer::-webkit-scrollbar {
+  appearance: none;
+}
+
+.PointsContainer::-webkit-scrollbar-thumb {
+  appearance: none;
+}
+
+.PointsContainer::-webkit-scrollbar-thumb:hover {
+  appearance: none;
+}
+
+.SpecialTitle {
+  font-size: 21px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  font-weight: bold;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .ServicePlanPricingContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .ServicePlanPricingContainer > div {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 24px;
+  }
+
+  .Header {
+    white-space: nowrap; /* Keep on one line */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .np {
+    font-size: 16px;
+  }
+
+  .op {
+    font-size: 10px;
+  }
+
+  .btn {
+    width: 100%; /* Maintain increased width on mobile */
+    padding: 10px 24px; /* Further reduce height on mobile */
+    font-size: 14px;
+  }
+
+  .Description {
+    font-size: 14px;
+  }
+
+  .TickIcon img {
+    height: 18px;
+  }
+
+  .Points {
+    gap: 16px;
+  }
+
+  .PointsContainer {
+    max-height: 320px;
+  }
+
+  .SpecialTitle {
+    font-size: 18px;
+  }
+}

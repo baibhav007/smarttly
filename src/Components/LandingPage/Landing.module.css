@@ -1,0 +1,1389 @@
+/* Base styles (web view) */
+.Service {
+  width: 100%;
+  flex-direction: column;
+  gap: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicetop {
+  width: 90%;
+  gap: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ServiceContent {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.75) 0%,
+      rgba(0, 0, 0, 0.75) 100%
+    )
+    50% / cover no-repeat;
+}
+
+.ServiceContent > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+}
+
+.title {
+  color: var(--background, #f8f9fa);
+  flex: 1 0 0;
+  font-size: 28px;
+  display: block;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: "Lexend" !important;
+  line-height: 114%;
+}
+
+.ServiceContent > div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  align-self: stretch;
+}
+
+.buttonn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.ServiceContent > div:nth-of-type(2) > div {
+  flex: 1 0 0;
+  color: var(--background, #f8f9fa);
+  font-family: "Inter"!important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.desc {
+  font-family: "Inter"!important;
+  font-style: normal;
+  color: var(--background, #F8F9FA);
+  flex: 1 0 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  padding-left: 1.5rem;
+}
+
+.list ul {
+  font-size: 1.125rem;
+  line-height: 160%;
+}
+
+.add {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-end !important;
+  text-align: end !important;
+}
+
+.servicecard {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.con {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.servicecard > div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0.5rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+  flex: 1 0 0;
+  border: 2px solid var(--maintext);
+  border-radius: 1rem;
+  align-self: stretch;
+}
+
+.PriceCard {
+  display: flex;
+  min-width: 19.75rem;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 1rem;
+  flex: 1 0 0;
+  border: 2px solid var(--maintext);
+  border-radius: 1rem;
+  background: #f8f9fa;
+}
+
+.PriceContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0rem;
+  align-self: stretch;
+}
+
+.PriceButtonWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Changed back to flex-end for right alignment */
+  gap: 0.25rem;
+}
+
+.Pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Changed back to flex-end for right alignment */
+  gap: 0.25rem;
+  height: 50px;
+  top: 1299px;
+}
+
+.Pricing.singleLine {
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-end; /* Changed back to flex-end for right alignment */
+}
+
+.Pricing .np {
+  color: var(--secondary, #34a852);
+  font-family: "Inter"!important;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: right;
+  margin : 0 auto !important;
+
+}
+
+.Pricing .ad-spend {
+  color: var(--secondary, #34a852);
+  font-family: "Inter"!important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--MainText, #212529);
+  width: auto;
+  height: 88px;
+  top: 1298px;
+  left: 63px;
+}
+
+.MainPlanTitle {
+  width: auto;
+  height: 56px;
+  top: 1298px;
+  padding-left: 10px;
+  font-family: "Lexend" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  display: block;
+  line-height: 114%;
+  margin-bottom: 0.5rem;
+  white-space: nowrap;
+}
+
+.SubPlanTitle {
+  width: auto;
+  height: 31px;
+  top: 1355px;
+  padding-left: 12px;
+ font-family: "Lexend" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 100%;
+  color: var(--MainText, #212529);
+  margin-top: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.Header img {
+  padding-left: 10px;
+}
+
+.LogoContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+    justify-content: flex-end !important;
+}
+
+.MainPlanLogo {
+  max-height: 40px;
+  object-fit: contain;
+}
+
+.LogoContainer > img:first-child {
+  margin-right: 10px;
+}
+
+.PlanName {
+  font-family: "Inter"!important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: var(--MainText, #212529);
+  position: relative;
+  z-index: 1;
+  margin-right: 10px;
+    justify-content: flex-end !important;
+}
+
+.LogoContainer > img:last-child {
+  position: relative;
+  z-index: 0;
+}
+
+.btn {
+  display: flex;
+  width: 176px;
+  height: 37px;
+  padding: 0.75rem 0.1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--MainText, #212529);
+  background: var(--MainText, #212529);
+  color: var(--background, #f8f9fa);
+  text-align: center;
+  font-family: "Inter"!important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  margin-left: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.viewall {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--secondarycolor);
+  cursor: pointer;
+  background-color: #34a852;
+}
+
+.cardview {
+  display: none;
+}
+
+.ServiceContact {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.ServiceContact > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  flex: 1 0 0;
+  min-width: 300px;
+}
+
+.ServiceContact > div:nth-of-type(1) > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+}
+
+.ServiceContacttoptext {
+  color: var(--MainText, #212529);
+  flex: 1 0 0;
+  font-size: 28px;
+  display: block;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: "Lexend" !important;
+  line-height: 114%;
+}
+
+.ServiceContactbottext {
+  color: var(--SecondaryText, #6c757d);
+  font-family: "Inter"!important;
+  font-style: normal;
+  flex: 1 0 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
+
+.ServiceContact > div:nth-of-type(2) {
+  width: 100%;
+  max-width: 33.25rem;
+  max-height: 20rem;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  flex: 1 0 0;
+  min-width: 300px;
+}
+
+.ServiceContact > div:nth-of-type(2) > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.Points {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+}
+
+.Point {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.TickIcon {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.TickIcon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.PointText {
+  flex: 1;
+  color: var(--MainText, #212529);
+  font-family: "Inter"!important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Updated Mobile Media Queries */
+@media (max-width: 375px) {
+  .ServiceContent {
+    padding: 12px;
+    gap: 12px;
+    border-radius: 10px;
+  }
+
+  .ServiceContent > div:nth-of-type(1) {
+    gap: 8px;
+  }
+
+  .title {
+    font-size: 18px;
+    line-height: 120%;
+    font-family: "Lexend" !important;
+    font-weight: 700;
+  }
+
+  .ServiceContent > div:nth-of-type(2) {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .ServiceContent > div:nth-of-type(2) > div {
+    font-size: 14px;
+    line-height: 130%;
+  }
+
+  .desc {
+    font-size: 14px;
+    line-height: 130%;
+  }
+
+  .buttonn {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .list ul {
+    font-size: 0.85rem;
+    line-height: 150%;
+  }
+
+  .ServiceContact {
+    flex-direction: column;
+    padding: 0.75rem;
+    gap: 1rem;
+  }
+
+  .ServiceContacttoptext {
+    font-size: 1.5rem;
+    line-height: 110%;
+  }
+
+  .ServiceContactbottext {
+    font-size: 0.85rem;
+    line-height: 140%;
+  }
+
+  .servicecard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+    align-items: center;
+  }
+
+  .ServiceContact > div:nth-of-type(2) {
+    max-width: 100%;
+    max-height: 12rem;
+    aspect-ratio: 16 / 9;
+  }
+
+  .servicecard > div {
+    min-width: 100%;
+    padding: 0.5rem;
+  }
+
+  .PriceCard {
+    min-width: 100%;
+    padding: 0.75rem;
+    gap: 0.75rem;
+  }
+
+  .PriceCard:has(.ppc-btn) .PriceContent {
+    flex-direction: column; /* Stack logo/plan and price vertically */
+    align-items: flex-end; /* Align to the right */
+    gap: 0.5rem; /* Reduced gap */
+  }
+
+  .PriceCard:has(.ppc-btn) .PriceButtonWrapper {
+    align-items: flex-end; /* Align price to the right */
+    width: 100%; /* Ensure it takes full width */
+  }
+
+  .PriceCard:has(.ppc-btn) .Pricing {
+    align-items: flex-end; /* Align price text to the right */
+  }
+
+  .MainPlanTitle {
+    font-size: 18px;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+    line-height: 120%;
+    padding-left: 8px;
+    margin-bottom: 0.25rem;
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .SubPlanTitle {
+    font-size: 18px;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+    line-height: 110%;
+    padding-left: 8px;
+    margin-top: 6px;
+    margin-bottom: 0.25rem;
+    width: 100%;
+  }
+
+  .PlanName {
+    font-size: 14px;
+    margin-right: 0px;
+  }
+
+  .MainPlanLogo {
+    max-height: 30px;
+  }
+
+  .LogoContainer > img:first-child {
+    margin-right: 6px;
+  }
+
+  .Pricing {
+    gap: 0.2rem;
+    height: auto;
+    align-items: flex-end;
+  }
+
+  .Pricing .np {
+    font-size: 14px;
+  }
+
+  .Pricing .ad-spend {
+    font-size: 14px;
+    line-height: 120%;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .btn.ppc-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    max-width: 120px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 393px) {
+  .ServiceContent {
+    padding: 14px;
+    gap: 14px;
+    border-radius: 10px;
+  }
+
+  .ServiceContent > div:nth-of-type(1) {
+    gap: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+    line-height: 120%;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+  }
+
+  .ServiceContent > div:nth-of-type(2) {
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .ServiceContent > div:nth-of-type(2) > div {
+    font-size: 15px;
+    line-height: 130%;
+  }
+
+  .desc {
+    font-size: 15px;
+    line-height: 130%;
+  }
+
+  .buttonn {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .list ul {
+    font-size: 0.9rem;
+    line-height: 150%;
+  }
+
+  .ServiceContact {
+    flex-direction: column;
+    padding: 0.75rem;
+    gap: 1rem;
+  }
+
+  .ServiceContacttoptext {
+    font-size: 1.6rem;
+    line-height: 110%;
+  }
+
+  .ServiceContactbottext {
+    font-size: 0.9rem;
+    line-height: 140%;
+  }
+
+  .servicecard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 0.75rem;
+    align-items: center;
+  }
+
+  .ServiceContact > div:nth-of-type(2) {
+    max-width: 100%;
+    max-height: 13rem;
+    aspect-ratio: 16 / 9;
+  }
+
+  .servicecard > div {
+    min-width: 100%;
+    padding: 0.5rem;
+  }
+
+  .PriceCard {
+    min-width: 100%;
+    padding: 0.75rem;
+    gap: 0.75rem;
+  }
+
+  .PriceCard:has(.ppc-btn) .PriceContent {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+  }
+
+  .PriceCard:has(.ppc-btn) .PriceButtonWrapper {
+    align-items: flex-end;
+  }
+
+  .PriceCard:has(.ppc-btn) .Pricing {
+    align-items: flex-end;
+  }
+
+  .MainPlanTitle {
+    font-size: 20px;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+    line-height: 120%;
+    padding-left: 8px;
+    margin-bottom: 0.25rem;
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .SubPlanTitle {
+    font-size: 20px;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+    line-height: 110%;
+    padding-left: 8px;
+    margin-top: 6px;
+    margin-bottom: 0.25rem;
+    width: 100%;
+  }
+
+  .PlanName {
+    font-size: 14px;
+    margin-right: 0px;
+  }
+
+  .MainPlanLogo {
+    max-height: 32px;
+  }
+
+  .LogoContainer > img:first-child {
+    margin-right: 6px;
+  }
+
+  .Pricing {
+    gap: 0.2rem;
+    height: auto;
+    align-items: flex-end;
+  }
+
+  .Pricing .np {
+    font-size: 14px;
+  }
+
+  .Pricing .ad-spend {
+    font-size: 14px;
+    line-height: 120%;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .btn.ppc-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    max-width: 120px;
+  }
+}
+
+@media (min-width: 393px) and (max-width: 475px) {
+  .ServiceContent {
+    padding: 16px;
+    gap: 16px;
+    border-radius: 12px;
+  }
+
+  .ServiceContent > div:nth-of-type(1) {
+    gap: 12px;
+  }
+
+  .title {
+    font-size: 22px;
+    line-height: 120%;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+  }
+
+  .ServiceContent > div:nth-of-type(2) {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .ServiceContent > div:nth-of-type(2) > div {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .desc {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .buttonn {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .list ul {
+    font-size: 0.95rem;
+    line-height: 150%;
+  }
+
+  .ServiceContact {
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1.25rem;
+  }
+
+  .ServiceContacttoptext {
+    font-size: 1.8rem;
+    line-height: 115%;
+  }
+
+  .ServiceContactbottext {
+    font-size: 0.95rem;
+    line-height: 140%;
+  }
+
+  .servicecard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .ServiceContact > div:nth-of-type(2) {
+    max-width: 100%;
+    max-height: 14rem;
+    aspect-ratio: 16 / 9;
+  }
+
+  .servicecard > div {
+    min-width: 90%;
+    padding: 0.75rem;
+  }
+
+  .PriceCard {
+    min-width: 90%;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .PriceCard:has(.ppc-btn) .PriceContent {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.5rem;
+  }
+
+  .PriceCard:has(.ppc-btn) .PriceButtonWrapper {
+    align-items: flex-end;
+  }
+
+  .PriceCard:has(.ppc-btn) .Pricing {
+    align-items: flex-end;
+  }
+
+  .MainPlanTitle {
+    font-size: 22px;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+    line-height: 120%;
+    padding-left: 10px;
+    margin-bottom: 0.3rem;
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .SubPlanTitle {
+    font-size: 22px;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+    line-height: 110%;
+    padding-left: 10px;
+    margin-top: 6px;
+    margin-bottom: 0.3rem;
+    width: 100%;
+  }
+
+  .PlanName {
+    font-size: 12px;
+    margin-right: 0px;
+  }
+
+  .MainPlanLogo {
+    max-height: 34px;
+  }
+
+  .LogoContainer > img:first-child {
+    margin-right: 8px;
+  }
+
+  .Pricing {
+    gap: 0.25rem;
+    height: auto;
+    align-items: flex-end;
+  }
+
+  .Pricing .np {
+    font-size: 12px;
+  }
+
+  .Pricing .ad-spend {
+    font-size: 16px;
+    line-height: 125%;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  .btn.ppc-btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    max-width: 100px;
+  }
+}
+
+@media (min-width: 475px) and (max-width: 600px) {
+  .ServiceContent {
+    padding: 18px;
+    gap: 18px;
+    border-radius: 12px;
+  }
+
+  .ServiceContent > div:nth-of-type(1) {
+    gap: 14px;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 120%;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+  }
+
+  .ServiceContent > div:nth-of-type(2) {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .ServiceContent > div:nth-of-type(2) > div {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .desc {
+    font-size: 16px;
+    line-height: 140%;
+  }
+
+  .buttonn {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .list ul {
+    font-size: 1rem;
+    line-height: 150%;
+  }
+
+  .ServiceContact {
+    padding: 1.25rem;
+    gap: 1.5rem;
+  }
+
+  .ServiceContacttoptext {
+    font-size: 2rem;
+    line-height: 115%;
+  }
+
+  .ServiceContactbottext {
+    font-size: 1rem;
+    line-height: 140%;
+  }
+
+  .servicecard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .ServiceContact > div:nth-of-type(2) {
+    max-width: 100%;
+    max-height: 16rem;
+    aspect-ratio: 16 / 9;
+  }
+
+  .servicecard > div {
+    min-width: 85%;
+    padding: 0.75rem;
+  }
+
+  .PriceCard {
+    min-width: 85%;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .PriceCard:has(.ppc-btn) .PriceContent {
+    flex-direction: row; /* Keep row for larger mobile screens */
+    gap: 0.5rem; /* Reduced gap */
+    align-items: flex-end;
+  }
+
+  .PriceCard:has(.ppc-btn) .PriceButtonWrapper {
+    align-items: flex-end;
+  }
+
+  .PriceCard:has(.ppc-btn) .Pricing {
+    align-items: flex-end;
+  }
+
+  .MainPlanTitle {
+    font-size: 22px;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+    line-height: 120%;
+    padding-left: 10px;
+    margin-bottom: 0.4rem;
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .SubPlanTitle {
+    font-size: 22px;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+    line-height: 110%;
+    padding-left: 10px;
+    margin-top: 6px;
+    margin-bottom: 0.4rem;
+    width: 100%;
+  }
+
+  .PlanName {
+    font-size: 14px;
+    margin-right: 0px;
+  }
+
+  .MainPlanLogo {
+    max-height: 36px;
+  }
+
+  .LogoContainer > img:first-child {
+    margin-right: 8px;
+  }
+
+  .Pricing {
+    gap: 0.25rem;
+    height: auto;
+    align-items: flex-end;
+  }
+
+  .Pricing .np {
+    font-size: 14px;
+  }
+
+  .Pricing .ad-spend {
+    font-size: 16px;
+    line-height: 125%;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+  }
+
+  .btn.ppc-btn {
+    padding: 10px;
+    font-size: 0.95rem;
+    max-width: 100px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .ServiceContent {
+    padding: 1.5rem;
+    gap: 1.5rem;
+    border-radius: 12px;
+  }
+
+  .ServiceContent > div:nth-of-type(1) {
+    gap: 1rem;
+  }
+
+  .title {
+    font-size: 24px;
+    line-height: 120%;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+  }
+
+  .ServiceContent > div:nth-of-type(2) {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .ServiceContent > div:nth-of-type(2) > div {
+    font-size: 1rem;
+    line-height: 150%;
+  }
+
+  .desc {
+    font-size: 1rem;
+    line-height: 150%;
+  }
+
+  .buttonn {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .list ul {
+    font-size: 1rem;
+    line-height: 150%;
+  }
+
+  .ServiceContact {
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .ServiceContacttoptext {
+    font-size: 2.2rem;
+    line-height: 115%;
+  }
+
+  .ServiceContactbottext {
+    font-size: 1rem;
+    line-height: 140%;
+  }
+
+  .servicecard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .ServiceContact > div:nth-of-type(2) {
+    max-width: 100%;
+    max-height: 18rem;
+    aspect-ratio: 16 / 9;
+  }
+
+  .servicecard > div {
+    min-width: 80%;
+    padding: 1rem;
+  }
+
+  .PriceCard {
+    min-width: 80%;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .PriceCard:has(.ppc-btn) .PriceContent {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0.5rem;
+  }
+
+  .PriceCard:has(.ppc-btn) .PriceButtonWrapper {
+    align-items: flex-end;
+  }
+
+  .PriceCard:has(.ppc-btn) .Pricing {
+    align-items: flex-end;
+  }
+
+  .MainPlanTitle {
+    font-size: 24px;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+    line-height: 120%;
+    padding-left: 10px;
+    margin-bottom: 0.5rem;
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .SubPlanTitle {
+    font-size: 24px;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+    line-height: 110%;
+    padding-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+
+  .PlanName {
+    font-size: 16px;
+    margin-right: 0px;
+  }
+
+  .MainPlanLogo {
+    max-height: 38px;
+  }
+
+  .LogoContainer > img:first-child {
+    margin-right: 10px;
+  }
+
+  .Pricing {
+    gap: 0.25rem;
+    height: auto;
+    align-items: flex-end;
+  }
+
+  .Pricing .np {
+    font-size: 16px;
+  }
+
+  .Pricing .ad-spend {
+    font-size: 18px;
+    line-height: 125%;
+  }
+
+  .btn {
+    width: 90%;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .btn.ppc-btn {
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+    max-width: 100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .ServiceContent {
+    padding: 1.75rem;
+    gap: 1.75rem;
+    border-radius: 12px;
+  }
+
+  .ServiceContent > div:nth-of-type(1) {
+    gap: 1rem;
+  }
+
+  .title {
+    font-size: 26px;
+    line-height: 120%;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+  }
+
+  .ServiceContent > div:nth-of-type(2) {
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+
+  .ServiceContent > div:nth-of-type(2) > div {
+    font-size: 1rem;
+    line-height: 150%;
+  }
+
+  .desc {
+    font-size: 1rem;
+    line-height: 150%;
+  }
+
+  .buttonn {
+    width: 100%;
+    padding: 1rem 1.5rem;
+  }
+
+  .list ul {
+    font-size: 1.125rem;
+    line-height: 150%;
+  }
+
+  .ServiceContact {
+    padding: 1.75rem;
+    gap: 1.75rem;
+  }
+
+  .ServiceContacttoptext {
+    font-size: 2.5rem;
+    line-height: 115%;
+  }
+
+  .ServiceContactbottext {
+    font-size: 1.125rem;
+    line-height: 140%;
+  }
+
+  .servicecard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .ServiceContact > div:nth-of-type(2) {
+    max-width: 100%;
+    max-height: 20rem;
+    aspect-ratio: 16 / 9;
+  }
+
+  .servicecard > div {
+    min-width: 75%;
+    padding: 1rem;
+  }
+
+  .PriceCard {
+    min-width: 75%;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .PriceCard:has(.ppc-btn) .PriceContent {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 0.5rem;
+  }
+
+  .PriceCard:has(.ppc-btn) .PriceButtonWrapper {
+    align-items: flex-end;
+  }
+
+  .PriceCard:has(.ppc-btn) .Pricing {
+    align-items: flex-end;
+  }
+
+  .MainPlanTitle {
+    font-size: 26px;
+    font-family: "Lexend" !important;
+    font-weight: 500;
+    line-height: 114%;
+    padding-left: 10px;
+    margin-bottom: 0.5rem;
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .SubPlanTitle {
+    font-size: 24px;
+    font-family: "Lexend" !important;
+    font-weight: 700;
+    line-height: 110%;
+    padding-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+
+  .PlanName {
+    font-size: 14px;
+    margin-right: 0px;
+  }
+
+  .MainPlanLogo {
+    max-height: 40px;
+  }
+
+  .LogoContainer > img:first-child {
+    margin-right: 10px;
+  }
+
+  .Pricing {
+    gap: 0.25rem;
+    height: 50px;
+    align-items: flex-end;
+  }
+
+  .Pricing .np {
+    font-size: 16px;
+  }
+
+  .Pricing .ad-spend {
+    font-size: 20px;
+    line-height: 125%;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .btn.ppc-btn {
+    padding: 0.1rem;
+    font-size: 0.95rem;
+    max-width: 100px;
+  }
+}

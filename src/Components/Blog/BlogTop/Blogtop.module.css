@@ -1,0 +1,440 @@
+.fbframe {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fblog {
+  display: flex;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  background: var(--black, #0b0c0d);
+  padding-left: 1rem;
+  gap: 1rem;
+}
+.fblog > img {
+  width: 40%;
+  max-width: 35rem;
+  align-self: stretch;
+  background-size: cover;
+  background-position: center;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  object-fit: cover;
+}
+.fblogcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align content to start for consistent padding */
+  justify-content: center;
+  gap: 1rem;
+  flex: 1 0 0;
+  padding: 1rem;
+}
+.fblogcontenttop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align all children to the start */
+  gap: 1rem;
+  width: 100%; /* Ensure full width for consistent alignment */
+}
+.fblogcontentbottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.fblogcontentbottom > div:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+}
+.fblogcontentbottom > div:nth-of-type(1) > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.fblogcontentbottom > div:nth-of-type(1) > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+.adminname {
+  color: var(--white, #fff);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%;
+  align-self: stretch;
+  font-size: 16px;
+  letter-spacing: 0%;
+}
+.admindesc {
+  color: var(--SecondaryText, #6c7d6c);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  align-self: stretch;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.topblogfirst{
+  padding: 0.5rem 2rem;
+  height:50px;
+  width: 150px;
+}
+.topblogarrow {
+  padding: 0.75rem 1.5rem;
+}
+.topblogarrow:hover {
+  color: var(--backgroundcolor) !important;
+  background-color: var(--maintext) !important;
+  border-color: var(--maintext) !important;
+}
+.fblogcontenttop > div:nth-of-type(2) {
+  overflow: hidden;
+  color: var(--border, #bec1c3);
+  text-overflow: ellipsis;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  align-self: stretch;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+.fblogcontenttop > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  width: 100%; /* Ensure full width for alignment */
+}
+.fblogcontenttop > div:nth-of-type(1) > div:nth-of-type(2) {
+  color: var(--background, #f8f9fa);
+   font-family: "Lexend"!important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  align-self: stretch;
+}
+.fblogcontenttop > div:nth-of-type(1) > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align to start for consistency */
+  gap: 0.25rem;
+}
+.fgreen {
+  color: var(--secondary, #34a852);
+  font-family: "Inter"!important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.ftime {
+  color: var(--SecondaryText, #34A852);
+   font-family: "Inter"!important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.link {
+  text-decoration: none;
+}
+@media (max-width: 375px) {
+  .fbframe {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 1.25rem;
+  }
+  .fblog {
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+  }
+  .fblog > img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    border-radius: 1rem;
+  }
+  .fblogcontent {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .fblogcontenttop {
+    gap: 0.5rem;
+  }
+  .fblogcontenttop > div:nth-of-type(2) {
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+  }
+  .fblogcontentbottom {
+    gap: 1rem;
+  }
+  .fblogcontentbottom > div:nth-of-type(1) {
+    justify-content: flex-start;
+  }
+  .adminname {
+    font-size: 0.875rem;
+  }
+  .admindesc {
+    font-size: 0.7rem;
+  }
+  .fgreen, .ftime {
+    font-size: 0.65rem;
+  }
+  .fblogcontenttop > div:nth-of-type(1) > div:nth-of-type(2) {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 375px) and (max-width: 393px) {
+  .fbframe {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 1.25rem;
+  }
+  .fblog {
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+  }
+  .fblog > img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    border-radius: 1rem;
+  }
+  .fblogcontent {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .fblogcontenttop {
+    gap: 0.5rem;
+  }
+  .fblogcontenttop > div:nth-of-type(2) {
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+  }
+  .fblogcontentbottom {
+    gap: 1rem;
+  }
+  .fblogcontentbottom > div:nth-of-type(1) {
+    justify-content: flex-start;
+  }
+  .adminname {
+    font-size: 0.875rem;
+  }
+  .admindesc {
+    font-size: 0.7rem;
+  }
+  .fgreen, .ftime {
+    font-size: 0.65rem;
+  }
+  .fblogcontenttop > div:nth-of-type(1) > div:nth-of-type(2) {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 393px) and (max-width: 475px) {
+  .fbframe {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 1.25rem;
+  }
+  .fblog {
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+  }
+  .fblog > img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    border-radius: 1rem;
+  }
+  .fblogcontent {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .fblogcontenttop {
+    gap: 0.5rem;
+  }
+  .fblogcontenttop > div:nth-of-type(2) {
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+  }
+  .fblogcontentbottom {
+    gap: 1rem;
+  }
+  .fblogcontentbottom > div:nth-of-type(1) {
+    justify-content: flex-start;
+  }
+  .adminname {
+    font-size: 0.875rem;
+  }
+  .admindesc {
+    font-size: 0.7rem;
+  }
+  .fgreen, .ftime {
+    font-size: 0.65rem;
+  }
+  .fblogcontenttop > div:nth-of-type(1) > div:nth-of-type(2) {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 475px) and (max-width: 600px) {
+  .fbframe {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 1.25rem;
+  }
+  .fblog {
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+  }
+  .fblog > img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    border-radius: 1rem;
+  }
+  .fblogcontent {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .fblogcontenttop {
+    gap: 0.5rem;
+  }
+  .fblogcontenttop > div:nth-of-type(2) {
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+  }
+  .fblogcontentbottom {
+    gap: 1rem;
+  }
+  .fblogcontentbottom > div:nth-of-type(1) {
+    justify-content: flex-start;
+  }
+  .adminname {
+    font-size: 0.875rem;
+  }
+  .admindesc {
+    font-size: 0.7rem;
+  }
+  .fgreen, .ftime {
+    font-size: 0.65rem;
+  }
+  .fblogcontenttop > div:nth-of-type(1) > div:nth-of-type(2) {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 600px) and (max-width: 768px) {
+  .fbframe {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 1.25rem;
+  }
+  .fblog {
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+  }
+  .fblog > img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    border-radius: 1rem;
+  }
+  .fblogcontent {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .fblogcontenttop {
+    gap: 0.5rem;
+  }
+  .fblogcontenttop > div:nth-of-type(2) {
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+  }
+  .fblogcontentbottom {
+    gap: 1rem;
+  }
+  .fblogcontentbottom > div:nth-of-type(1) {
+    justify-content: flex-start;
+  }
+  .adminname {
+    font-size: 0.875rem;
+  }
+  .admindesc {
+    font-size: 0.7rem;
+  }
+  .fgreen, .ftime {
+    font-size: 0.65rem;
+  }
+  .fblogcontenttop > div:nth-of-type(1) > div:nth-of-type(2) {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .fbframe {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 1.25rem;
+  }
+  .fblog {
+    width: 100%;
+    padding: 1rem;
+  }
+  .fblog > img {
+    width: 45%;
+    max-width: none;
+    height: auto;
+    border-radius: 1rem;
+  }
+  .fblogcontent {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+  .fblogcontenttop {
+    gap: 0.5rem;
+  }
+  .fblogcontenttop > div:nth-of-type(2) {
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    font-size: 0.9rem;
+  }
+  .fblogcontentbottom {
+    gap: 1rem;
+  }
+  .fblogcontentbottom > div:nth-of-type(1) {
+    justify-content: flex-start;
+  }
+  .adminname {
+    font-size: 0.875rem;
+  }
+  .admindesc {
+    font-size: 0.7rem;
+  }
+  .fgreen, .ftime {
+    font-size: 0.65rem;
+  }
+  .fblogcontenttop > div:nth-of-type(1) > div:nth-of-type(2) {
+    font-size: 1.5rem;
+  }
+}

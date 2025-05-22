@@ -1,0 +1,60 @@
+.BSubhead{
+    color: var(--MainText, #212529);
+    font-family: "Roboto-600";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 20px */
+    padding: 0.25rem 6.25rem;
+
+}
+
+
+@media (max-width: 375px) {
+    .BSubhead {
+      font-size: 0.875rem; /* Smaller font size for better mobile layout */
+      line-height: 1.4; /* Adjusted line height for mobile readability */
+      padding: 0.25rem 2rem; /* Reduced padding for smaller screens */
+    }
+  
+  }
+  @media (min-width:375px) and (max-width: 393px) {
+    .BSubhead {
+      font-size: 0.875rem; /* Smaller font size for better mobile layout */
+      line-height: 1.4; /* Adjusted line height for mobile readability */
+      padding: 0.25rem 2rem; /* Reduced padding for smaller screens */
+    }
+  
+  }
+  @media (min-width:393px) and (max-width: 475px) {
+    .BSubhead {
+      font-size: 0.875rem; /* Smaller font size for better mobile layout */
+      line-height: 1.4; /* Adjusted line height for mobile readability */
+      padding: 0.25rem 2rem; /* Reduced padding for smaller screens */
+    }
+  
+  }
+  @media (min-width:475px) and (max-width: 600px) {
+    .BSubhead {
+      font-size: 0.875rem; /* Smaller font size for better mobile layout */
+      line-height: 1.4; /* Adjusted line height for mobile readability */
+      padding: 0.25rem 2rem; /* Reduced padding for smaller screens */
+    }
+  
+  }
+  @media (min-width:600px) and (max-width: 768px) {
+    .BSubhead {
+      font-size: 0.875rem; /* Smaller font size for better mobile layout */
+      line-height: 1.4; /* Adjusted line height for mobile readability */
+      padding: 0.25rem 2rem; /* Reduced padding for smaller screens */
+    }
+  
+  }
+  @media (min-width:768px) and (max-width: 1024px) {
+    .BSubhead {
+      font-size: 0.875rem; /* Smaller font size for better mobile layout */
+      line-height: 1.4; /* Adjusted line height for mobile readability */
+      padding: 0.25rem 2rem; /* Reduced padding for smaller screens */
+    }
+  
+  }

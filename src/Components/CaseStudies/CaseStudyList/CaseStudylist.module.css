@@ -1,0 +1,306 @@
+.CaseStudyList {
+  display: flex;
+  width: 100%;
+  padding: 0 4rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.CaseStudyList > div:nth-of-type(1) {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+}
+.navButton{
+  height:50px;
+  width: 150px;
+  background-color: var(--secondarycolor, #34A852);
+  border: 1px solid var(--secondarycolor, #34A852);
+ border-radius: 30px; /* Curved sides (small radius for subtle rounding) */
+  display: flex;
+  align-items: center;
+  color: #f8f9fa;
+  font-size: 18px;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  align-self: stretch;
+}
+.casebtn {
+  display: flex;
+  width: 100%;
+  padding: 2rem 0px 4rem 0px;
+  align-items: center;
+  /* gap: 315px; */
+  justify-content: space-between;
+  border-top: 1px solid var(--SecondaryText, #6c757d);
+}
+.pageNumbers {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.pageNumber {
+  background-color: transparent;
+  border: 1px solid var(--maintext);
+  color: var(--maintext);
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pageNumber:hover {
+  background-color: var(--maintext);
+  color: var(--backgroundcolor);
+}
+
+.active {
+  background-color: var(--maintext);
+  color: var(--backgroundcolor);
+  font-weight: bold;
+}
+.drop {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  border-radius: 2rem;
+  border: 1px solid var(--MainText, #212529);
+  background-color: red;
+}
+@media (max-width: 375px) {
+  .CaseStudyList {
+    padding: 1rem 1rem; /* Further reduce padding */
+  }
+
+  .CaseStudyList > div:nth-of-type(1) {
+    flex-direction: column; /* Stack content vertically */
+    gap: 0.5rem;
+    display: none;
+  }
+
+  .container {
+    gap: 1rem; /* Adjust gap for smaller screens */
+  }
+
+  .casebtn {
+    padding: 1rem 0; /* Adjust padding */
+    /* gap: 0.1rem; */
+  }
+
+  .pageNumbers {
+    gap: 0.5rem;
+    justify-content: center; /* Center-align numbers */
+  }
+
+  .pageNumber {
+    width: 1.5rem; /* Scale down size */
+    height: 1.5rem;
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .drop {
+    padding: 0.5rem 0.75rem; /* Reduce padding for smaller screens */
+    gap: 0.5rem;
+    border-radius: 0.75rem; /* Adjust border radius */
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+  .CaseStudyList {
+    padding: 1rem 1rem; /* Further reduce padding */
+  }
+
+  .CaseStudyList > div:nth-of-type(1) {
+    flex-direction: column; /* Stack content vertically */
+    gap: 0.5rem;
+    display: none;
+  }
+
+  .container {
+    gap: 1rem; /* Adjust gap for smaller screens */
+  }
+
+  .casebtn {
+    padding: 1rem 0; /* Adjust padding */
+    /* gap: 0.1rem; */
+  }
+
+  .pageNumbers {
+    gap: 0.5rem;
+    justify-content: center; /* Center-align numbers */
+  }
+
+  .pageNumber {
+    width: 1.5rem; /* Scale down size */
+    height: 1.5rem;
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .drop {
+    padding: 0.5rem 0.75rem; /* Reduce padding for smaller screens */
+    gap: 0.5rem;
+    border-radius: 0.75rem; /* Adjust border radius */
+  }
+}
+@media (min-width:393px) and (max-width: 475px) {
+  .CaseStudyList {
+    padding: 1rem 1rem; /* Further reduce padding */
+  }
+
+  .CaseStudyList > div:nth-of-type(1) {
+    flex-direction: column; /* Stack content vertically */
+    gap: 0.5rem;
+    display: none;
+  }
+
+  .container {
+    gap: 1rem; /* Adjust gap for smaller screens */
+  }
+
+  .casebtn {
+    padding: 1rem 0; /* Adjust padding */
+    /* gap: 0.1rem; */
+  }
+
+  .pageNumbers {
+    gap: 0.5rem;
+    justify-content: center; /* Center-align numbers */
+  }
+
+  .pageNumber {
+    width: 2rem; /* Scale down size */
+    height: 2rem;
+    font-size: 1rem; /* Adjust font size */
+  }
+
+  .drop {
+    padding: 0.5rem 0.75rem; /* Reduce padding for smaller screens */
+    gap: 0.5rem;
+    border-radius: 0.75rem; /* Adjust border radius */
+  }
+}
+@media (min-width:475px) and (max-width: 600px) {
+  .CaseStudyList {
+    padding: 1rem 1rem; /* Further reduce padding */
+  }
+
+  .CaseStudyList > div:nth-of-type(1) {
+    flex-direction: column; /* Stack content vertically */
+    gap: 0.5rem;
+    display: none;
+  }
+
+  .container {
+    gap: 1rem; /* Adjust gap for smaller screens */
+  }
+
+  .casebtn {
+    padding: 1rem 0; /* Adjust padding */
+    /* gap: 0.1rem; */
+  }
+
+  .pageNumbers {
+    gap: 0.5rem;
+    justify-content: center; /* Center-align numbers */
+  }
+
+  .pageNumber {
+    width: 2rem; /* Scale down size */
+    height: 2rem;
+    font-size: 1rem; /* Adjust font size */
+  }
+
+  .drop {
+    padding: 0.5rem 0.75rem; /* Reduce padding for smaller screens */
+    gap: 0.5rem;
+    border-radius: 0.75rem; /* Adjust border radius */
+  }
+}
+@media (min-width:600px) and (max-width: 768px) {
+  .CaseStudyList {
+    padding: 1rem 1rem; /* Further reduce padding */
+  }
+
+  .CaseStudyList > div:nth-of-type(1) {
+    flex-direction: column; /* Stack content vertically */
+    gap: 0.5rem;
+    display: none;
+  }
+
+  .container {
+    gap: 1rem; /* Adjust gap for smaller screens */
+  }
+
+  .casebtn {
+    padding: 1rem 0; /* Adjust padding */
+    /* gap: 0.1rem; */
+  }
+
+  .pageNumbers {
+    gap: 0.5rem;
+    justify-content: center; /* Center-align numbers */
+  }
+
+  .pageNumber {
+    width: 2rem; /* Scale down size */
+    height: 2rem;
+    font-size: 1rem; /* Adjust font size */
+  }
+
+  .drop {
+    padding: 0.5rem 0.75rem; /* Reduce padding for smaller screens */
+    gap: 0.5rem;
+    border-radius: 0.75rem; /* Adjust border radius */
+  }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+  .CaseStudyList {
+    padding: 1rem 1rem; /* Further reduce padding */
+  }
+
+  .CaseStudyList > div:nth-of-type(1) {
+    flex-direction: column; /* Stack content vertically */
+    gap: 0.5rem;
+    display: none;
+  }
+
+  .container {
+    gap: 1rem; /* Adjust gap for smaller screens */
+  }
+
+  .casebtn {
+    padding: 1rem 0; /* Adjust padding */
+    /* gap: 0.1rem; */
+  }
+
+  .pageNumbers {
+    gap: 0.5rem;
+    justify-content: center; /* Center-align numbers */
+  }
+
+  .pageNumber {
+    width: 2rem; /* Scale down size */
+    height: 2rem;
+    font-size: 0.9rem; /* Adjust font size */
+  }
+
+  .drop {
+    padding: 0.5rem 0.75rem; /* Reduce padding for smaller screens */
+    gap: 0.5rem;
+    border-radius: 0.75rem; /* Adjust border radius */
+  }
+}

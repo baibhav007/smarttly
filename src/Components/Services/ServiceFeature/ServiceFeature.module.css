@@ -1,0 +1,273 @@
+/* ServiceFeature Styles */
+.ServiceFeatureFrame {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.ServiceFeature {
+  display: flex;
+  width: 100%;
+  max-width: 1390px;
+  padding: 32px 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.ServiceFeature > div:nth-of-type(1) {
+  color: var(--MainText, #212529);
+  text-align: center;
+  font-family: "Lexend"!important;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 114%;
+  align-self: center;
+}
+
+.ServiceFeature > div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+
+}
+
+.ServiceFeature > div:nth-of-type(2) > div {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+   font-family: "Inter";
+   width: 100%;
+}
+
+/* ServiceFeatureDataOne Styles */
+.featureContainer {
+  padding: 32px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Inter";
+}
+
+.featureTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 32px;
+  color: #333;
+  font-family: "DM Sans", sans-serif;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  background-color: #F8F9FA;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.featureTable {
+  width: 100%;
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.sectionHeader {
+  font-family: "DM Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 16px;
+  background-color: #34A852;
+  color: #F8F9FA;
+  border-bottom: 2px solid #ddd;
+  border: 1px solid black;
+  opacity: 0.9;
+}
+
+.planHeader {
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.planHeaderContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.planLine {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  font-family: "DM Sans", sans-serif;
+  align-self: flex-start;
+}
+
+.planPrice {
+  font-size: 18px;
+  font-weight: 600;
+  color: #28a745;
+  margin: 0;
+  font-family: "Inter";
+}
+
+.planPriceTime {
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  color: #666;
+  white-space: nowrap;
+  font-family: "Inter";
+}
+
+.firstColumn {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px;
+  background-color: #F8F9FA;
+  color: black;
+  border: 1px solid #ddd;
+  text-align: left;
+  min-width: 144px;
+}
+
+.planCell {
+  padding: 16px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.featureItem {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.featureTable thead tr:first-child th:first-child {
+  border-bottom: none;
+}
+
+.featureTable thead tr:nth-of-type(2) th:nth-of-type(1) {
+  border-top: none;
+}
+
+/* Responsive adjustments for mobile (below 768px) */
+@media (max-width: 768px) {
+  /* ServiceFeature Mobile Styles */
+  .ServiceFeature {
+    padding: 24px 0;
+  }
+
+  .ServiceFeature > div:nth-of-type(1) {
+    font-family: "DM Sans", sans-serif;
+    font-size: 28px;
+  }
+
+  .ServiceFeature > div:nth-of-type(2) {
+    gap: 12px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .ServiceFeature > div:nth-of-type(2) > div {
+    gap: 12px;
+  }
+
+  /* ServiceFeatureDataOne Mobile Styles */
+  .featureContainer {
+    padding: 16px;
+  }
+
+  .tableWrapper {
+    padding: 12px;
+  }
+
+  .featureTable {
+    min-width: 600px;
+  }
+
+  .featureTitle {
+    font-size: 24px;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  .sectionHeader {
+    font-size: 19px;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  .planLine {
+    font-size: 16px;
+    font-family: "DM Sans", sans-serif;
+  }
+
+  .planPrice {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .planPriceTime {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .firstColumn {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    min-width: 120px;
+  }
+
+  .planCell {
+    padding: 12px;
+  }
+
+  .featureItem {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* Cross-browser compatibility for Safari */
+@supports (-webkit-overflow-scrolling: touch) {
+  .ServiceFeatureFrame {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .tableWrapper {
+    -webkit-overflow-scrolling: touch;
+  }
+}

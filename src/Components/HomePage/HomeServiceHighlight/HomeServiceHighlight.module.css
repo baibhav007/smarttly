@@ -1,0 +1,156 @@
+.HomeServiceHighlightFrame {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeServiceHighlight {
+  width: 90%;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  align-self: stretch;
+  border-radius: 1rem;
+  background: url("https://firebasestorage.googleapis.com/v0/b/loyaltty-prod-89ee9.firebasestorage.app/o/smarttly%2Fservicehighlights.png?alt=media&token=de6517f2-d065-4f6a-be41-90323ee28bba") 19.5rem 7.5rem /
+      83.14% 81.522% no-repeat,
+    var(--black, #0b0c0d);
+}
+
+.HomeServiceHighlight > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.HomeServiceHighlight > div:nth-of-type(1) > p:nth-of-type(1) {
+  color: var(--background, #f8f9fa);
+  text-align: center;
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 114%;
+  letter-spacing: 0%;
+  align-self: stretch;
+}
+.navButton{
+  width: 4rem;
+  height: 2.5rem;
+  background-color: var(--secondarycolor, #34A852);
+  border: 1px solid var(--secondarycolor, #34A852);
+ border-radius: 30px; /* Curved sides (small radius for subtle rounding) */
+  display: flex;
+  align-items: center;
+  color: #f8f9fa;
+  font-size: 25px;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.HomeServiceHighlight > div:nth-of-type(1) > p:nth-of-type(2) {
+  color: var(--SecondaryText, #6c757d);
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  align-self: stretch;
+}
+
+.HomeServiceHighlight > div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.HomeServiceHighlight > div:nth-of-type(3) {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.servicebutton {
+  padding: 1rem 2rem;
+  font-family: "Inter";
+}
+
+.servicebutton:hover {
+  color: var(--backgroundcolor) !important;
+  background-color: var(--secondarycolor) !important;
+  border-color: var(--secondarycolor) !important;
+}
+
+@media (max-width: 1024px) {
+  .HomeServiceHighlightFrame {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .HomeServiceHighlight {
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 0.8rem;
+    background: url("https://firebasestorage.googleapis.com/v0/b/loyaltty-prod-89ee9.firebasestorage.app/o/smarttly%2Fservicehighlights.png?alt=media&token=de6517f2-d065-4f6a-be41-90323ee28bba") center center / cover no-repeat,
+      var(--black, #0b0c0d);
+  }
+
+  .HomeServiceHighlight > div:nth-of-type(1) {
+    gap: 0.8rem;
+  }
+
+  .HomeServiceHighlight > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-family: "Lexend";
+    font-size: 1.8rem;
+    line-height: 1.2;
+  }
+
+  .HomeServiceHighlight > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-family: "Inter";
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .HomeServiceHighlight > div:nth-of-type(2) {
+    display: none;
+  }
+
+  .HomeServiceHighlight > div:nth-of-type(3) {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  .scroller {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .scroller > button {
+    width: 2rem; /* Smaller button size for mobile */
+    height: 2rem; /* Smaller button size for mobile */
+    font-size: 1rem; /* Appropriate icon size */
+    background-color: var(--SecondaryText, #34A852);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* Remove padding to keep button compact */
+  }
+}

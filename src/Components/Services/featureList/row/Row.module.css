@@ -1,0 +1,19 @@
+.row {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: max-content;
+}
+.contaier {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: max-content;
+}

@@ -1,0 +1,187 @@
+.BreadCrumb {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.BreadCrumbContent {
+  display: flex;
+  width: 90%;
+  height: max-content;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url("https://firebasestorage.googleapis.com/v0/b/loyaltty-prod-89ee9.firebasestorage.app/o/smarttly%2Fbackground.jfif?alt=media&token=1509f61c-98b4-4621-8c6d-014f462c603f") lightgray 50% / cover no-repeat;
+}
+.BreadCrumbContent > div:nth-of-type(1) {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: var(--SecondaryText, #6c757d);
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  flex: 1 0 0;
+}
+.BreadCrumbContent > div:nth-of-type(1) > span {
+  color: var(--secondary, #34a852);
+  font-family: "Montserrat",sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.BreadCrumbContent > div:nth-of-type(2) {
+  display: flex;
+  max-width: 70rem;
+  padding: 2rem 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.BreadCrumbContent > div:nth-of-type(2) > p:nth-of-type(1) {
+  color: var(--background, #f8f9fa);
+  text-align: center;
+   font-family: "Lexend"!important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 125%;
+letter-spacing: 0%;
+
+
+}
+.BreadCrumbContent > div:nth-of-type(2) > p:nth-of-type(2) {
+  color: var(--background, #f8f9fa);
+  text-align: center;
+  font-family: "Inter";
+  flex: 1 0 0;
+  font-style: normal;
+
+  line-height: 160%;
+
+font-weight: 400;
+font-size: 18px;
+line-height: 125%;
+letter-spacing: 0%;
+
+
+}
+
+
+
+@media (max-width: 375px) {
+  .BreadCrumbContent {
+    width: 90%; /* Increase width slightly for a better fit */
+    padding: 1rem; /* Reduce padding for smaller screens */
+    border-radius: 0.75rem; /* Smaller border radius */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(1) {
+    padding: 1rem 0; /* Reduce padding for compact design */
+    gap: 0.5rem; /* Reduce gap between items */
+    font-size: 0.9rem; /* Adjust font size for readability */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(1) > span {
+    font-size: 0.9rem; /* Match font size of parent */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(2) {
+    max-width: 90%; /* Allow content to stretch fully */
+    padding: 1rem 0; /* Reduce vertical padding */
+    gap: 0.75rem; /* Adjust gap for compact layout */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(2) > p:nth-of-type(1) {
+    font-size: 2rem; /* Decrease title font size */
+    line-height: 120%; /* Adjust line height for better readability */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(2) > p:nth-of-type(2) {
+    font-size: 1rem; /* Decrease subtitle font size */
+    line-height: 140%; /* Adjust line height */
+  }
+}
+
+@media (min-width:375px) and (max-width: 393px) {
+  .BreadCrumbContent {
+    width: 90%; /* Increase width slightly for a better fit */
+    padding: 1rem; /* Reduce padding for smaller screens */
+    border-radius: 0.75rem; /* Smaller border radius */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(1) {
+    padding: 1rem 0; /* Reduce padding for compact design */
+    gap: 0.5rem; /* Reduce gap between items */
+    font-size: 0.9rem; /* Adjust font size for readability */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(1) > span {
+    font-size: 0.9rem; /* Match font size of parent */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(2) {
+    max-width: 90%; /* Allow content to stretch fully */
+    padding: 1rem 0; /* Reduce vertical padding */
+    gap: 0.75rem; /* Adjust gap for compact layout */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(2) > p:nth-of-type(1) {
+    font-size: 2rem; /* Decrease title font size */
+    line-height: 120%; /* Adjust line height for better readability */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(2) > p:nth-of-type(2) {
+    font-size: 1rem; /* Decrease subtitle font size */
+    line-height: 140%; /* Adjust line height */
+  }
+}
+
+
+
+@media (min-width:393px) and (max-width: 475px) {
+  .BreadCrumbContent {
+    width: 90%; /* Increase width slightly for a better fit */
+    padding: 1rem; /* Reduce padding for smaller screens */
+    border-radius: 0.75rem; /* Smaller border radius */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(1) {
+    padding: 1rem 0; /* Reduce padding for compact design */
+    gap: 0.5rem; /* Reduce gap between items */
+    font-size: 0.9rem; /* Adjust font size for readability */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(1) > span {
+    font-size: 0.9rem; /* Match font size of parent */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(2) {
+    max-width: 90%; /* Allow content to stretch fully */
+    padding: 1rem 0; /* Reduce vertical padding */
+    gap: 0.75rem; /* Adjust gap for compact layout */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(2) > p:nth-of-type(1) {
+    font-size: 2rem; /* Decrease title font size */
+    line-height: 120%; /* Adjust line height for better readability */
+  }
+
+  .BreadCrumbContent > div:nth-of-type(2) > p:nth-of-type(2) {
+    font-size: 1rem; /* Decrease subtitle font size */
+    line-height: 140%; /* Adjust line height */
+  }
+}

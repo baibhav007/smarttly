@@ -1,0 +1,103 @@
+.BDfourth {
+  display: flex;
+  padding: 0px 64px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.BDfourthcontent {
+  display: flex;
+  padding: 32px 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+.BDfourthcontent>p:nth-of-type(1){
+    color: var(--MainText, #212529);
+font-family: "Montserrat";
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: 114%; /* 45.6px */
+}
+.BDfourthcontent>p:nth-of-type(2){
+    color: var(--SecondaryText, #6C757D);
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+align-self: stretch;
+}
+.BDfourthcontent>div{
+    display: flex;
+padding-bottom: 32px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+border-bottom: 1px solid var(--border, #BEC1C3);
+}
+.BDfourthcontenttitle{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
+align-self: stretch;
+}
+.BDfourthcontenttitleline{
+    width: 64px;
+height: 1px;
+background: var(--MainText, #212529);
+}
+.BDfourthcontenttitletext{
+    color: var(--MainText, #212529);
+font-family: "Montserrat";
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 44.8px */
+flex: 1 0 0;
+}
+.BDfourthcontenttitleptext{
+    color: var(--SecondaryText, #6C757D);
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 25.6px */
+align-self: stretch;
+}
+.point{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+}
+.pointtext{
+    color: var(--MainText, #212529);
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 160%; /* 25.6px */
+flex: 1 0 0;
+}
+.pointtext>span{
+    color: var(--MainText, #212529);
+font-family: "Roboto";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+.pointcontent{
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+}

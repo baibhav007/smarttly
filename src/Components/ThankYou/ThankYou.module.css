@@ -1,0 +1,224 @@
+.ThankYouFrame{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.ThankYou{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.submitimg{
+    height: 100%;
+    width: auto;
+    max-height: 6rem;
+    max-width: 6rem;
+}
+.thankyousubmit{
+    color: var(--secondary, #34a852);
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.contact{
+    color: var(--secondary, #6c757d);
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 175% */
+    align-self: stretch;
+}
+.check{
+    color: var(--secondarycolor, #6c757d);
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem; /* 175% */
+    align-self: stretch;
+}
+@media (max-width: 375px) {
+  .ThankYouFrame {
+    padding: 1.5rem 0; /* Reduce padding for smaller screens */
+  }
+
+  .ThankYou {
+    width: 95%; /* Increase width usage */
+    gap: 1rem; /* Reduce gap for compact layout */
+  }
+
+  .submitimg {
+    max-height: 4.5rem; /* Adjust image size */
+    max-width: 4.5rem;
+  }
+
+  .thankyousubmit {
+    font-size: 2rem; /* Reduce font size for better fit */
+  }
+
+  .contact {
+    font-size: 0.875rem; /* Smaller text */
+    line-height: 1.5rem; /* Adjusted line-height */
+  }
+
+  .check {
+    font-size: 1.25rem; /* Adjust font size */
+    line-height: 1.5rem;
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+    .ThankYouFrame {
+      padding: 1.5rem 0; /* Reduce padding for smaller screens */
+    }
+  
+    .ThankYou {
+      width: 95%; /* Increase width usage */
+      gap: 1rem; /* Reduce gap for compact layout */
+    }
+  
+    .submitimg {
+      max-height: 4.5rem; /* Adjust image size */
+      max-width: 4.5rem;
+    }
+  
+    .thankyousubmit {
+      font-size: 2rem; /* Reduce font size for better fit */
+    }
+  
+    .contact {
+      font-size: 0.875rem; /* Smaller text */
+      line-height: 1.5rem; /* Adjusted line-height */
+    }
+  
+    .check {
+      font-size: 1.25rem; /* Adjust font size */
+      line-height: 1.5rem;
+    }
+  }
+  @media (min-width:393px) and (max-width: 475px) {
+    .ThankYouFrame {
+      padding: 1.5rem 0; /* Reduce padding for smaller screens */
+    }
+  
+    .ThankYou {
+      width: 95%; /* Increase width usage */
+      gap: 1rem; /* Reduce gap for compact layout */
+    }
+  
+    .submitimg {
+      max-height: 4.5rem; /* Adjust image size */
+      max-width: 4.5rem;
+    }
+  
+    .thankyousubmit {
+      font-size: 2rem; /* Reduce font size for better fit */
+    }
+  
+    .contact {
+      font-size: 0.875rem; /* Smaller text */
+      line-height: 1.5rem; /* Adjusted line-height */
+    }
+  
+    .check {
+      font-size: 1.25rem; /* Adjust font size */
+      line-height: 1.5rem;
+    }
+  }
+  @media (min-width:475px) and (max-width: 600px) {
+    .ThankYouFrame {
+      padding: 1.5rem 0; /* Reduce padding for smaller screens */
+    }
+  
+    .ThankYou {
+      width: 95%; /* Increase width usage */
+      gap: 1rem; /* Reduce gap for compact layout */
+    }
+  
+    .submitimg {
+      max-height: 4.5rem; /* Adjust image size */
+      max-width: 4.5rem;
+    }
+  
+    .thankyousubmit {
+      font-size: 2rem; /* Reduce font size for better fit */
+    }
+  
+    .contact {
+      font-size: 0.875rem; /* Smaller text */
+      line-height: 1.5rem; /* Adjusted line-height */
+    }
+  
+    .check {
+      font-size: 1.25rem; /* Adjust font size */
+      line-height: 1.5rem;
+    }
+  }
+  @media (min-width:600px) and (max-width: 768px) {
+    .ThankYouFrame {
+      padding: 1.5rem 0; /* Reduce padding for smaller screens */
+    }
+  
+    .ThankYou {
+      width: 95%; /* Increase width usage */
+      gap: 1rem; /* Reduce gap for compact layout */
+    }
+  
+    .submitimg {
+      max-height: 4.5rem; /* Adjust image size */
+      max-width: 4.5rem;
+    }
+  
+    .thankyousubmit {
+      font-size: 2rem; /* Reduce font size for better fit */
+    }
+  
+    .contact {
+      font-size: 0.875rem; /* Smaller text */
+      line-height: 1.5rem; /* Adjusted line-height */
+    }
+  
+    .check {
+      font-size: 1.25rem; /* Adjust font size */
+      line-height: 1.5rem;
+    }
+  }
+  @media (min-width:768px) and (max-width: 1024px) {
+    .ThankYouFrame {
+      padding: 1.5rem 0; /* Reduce padding for smaller screens */
+    }
+  
+    .ThankYou {
+      width: 95%; /* Increase width usage */
+      gap: 1rem; /* Reduce gap for compact layout */
+    }
+  
+    .submitimg {
+      max-height: 4.5rem; /* Adjust image size */
+      max-width: 4.5rem;
+    }
+  
+    .thankyousubmit {
+      font-size: 2rem; /* Reduce font size for better fit */
+    }
+  
+    .contact {
+      font-size: 0.875rem; /* Smaller text */
+      line-height: 1.5rem; /* Adjusted line-height */
+    }
+  
+    .check {
+      font-size: 1.25rem; /* Adjust font size */
+      line-height: 1.5rem;
+    }
+  }

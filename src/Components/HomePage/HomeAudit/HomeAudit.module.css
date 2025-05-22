@@ -1,0 +1,1776 @@
+.HomeAuditFrame {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.HomeAudit {
+  padding: 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  border-radius: 1rem;
+  background-blend-mode: overlay, normal;
+  background-color: var(--black, #0b0c0d);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.HomeAudit > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) {
+  color: var(--backgroundcolor, #f8f9fa);
+  font-family: "Lexend"!important;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+letter-spacing: 0%;
+text-transform: capitalize;
+
+  /* align-self: stretch; */
+}
+.HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2) {
+  
+  font-family: "Inter";
+
+  font-style: normal;
+
+  color: var(--background, #F8F9FA);
+
+  flex: 1 0 0;
+
+font-weight: 500;
+font-size: 18px;
+line-height: 125%;
+letter-spacing: 0%;
+  text-transform: capitalize;
+  /* align-self: stretch; */
+}
+.form {
+  width: 100%;
+  color: var(--backgroundcolor, #f8f9fa);
+  font-family: "Montserrat-500",sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+}
+.form > form > div:nth-of-type(1) > input {
+  width: 100%;
+  display: flex;
+  padding: 1rem 1.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* align-self: stretch; */
+  border-radius: 0.5rem;
+  border: 1px solid var(--background, #f8f9fa);
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 1rem;
+}
+.form > form > div:nth-of-type(1) > input::placeholder {
+  color: var(--background, #f8f9fa);
+  font-family: "Inter",sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+font-size: 14px;
+line-height: 125%;
+letter-spacing: 0%;
+
+  /* align-self: stretch; */
+}
+.form > form > div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  /* align-self: stretch; */
+  margin-bottom: 2rem;
+}
+.form > form > div:nth-of-type(2) > input {
+  display: flex;
+  padding: 1rem 1.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 0 0;
+  border-radius: 0.5rem;
+  border: 1px solid var(--background, #f8f9fa);
+  background: rgba(255, 255, 255, 0.2);
+}
+.form > form > div:nth-of-type(2) > input::placeholder {
+  color: var(--background, #f8f9fa);
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  /* align-self: stretch; */
+}
+.form > form > div:nth-of-type(3) {
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15.5rem;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.form > form > div:nth-of-type(3) {
+  color: var(--background, #f8f9fa);
+  text-align: center;
+  font-family: "Inter"!important;
+ 
+  font-style: normal;
+  font-weight: 300;
+
+  flex: 1 0 0;
+font-size: 18px;
+line-height: 120%;
+letter-spacing: 0%;
+text-transform: lowercase;
+
+  
+}
+
+
+.form > form > div:nth-of-type(3) > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1 0 0;
+}
+.form > form > div:nth-of-type(3) > div > div {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+}
+.HomeAudit > div:nth-of-type(2) {
+  display: flex;
+  padding: 1rem 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem;
+}
+.HomeAudit > div:nth-of-type(2) > div > div {
+  display: flex;
+  padding: 1rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  /* align-self: stretch; */
+  background: var(--MainText, #212529);
+}
+.HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(1) {
+  color: var(--backgroundcolor, #f8f9fa);
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  /* align-self: stretch; */
+}
+.HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(2) {
+  color: var(--backgroundcolor, #f8f9fa);
+  text-align: center;
+  font-family: "Montserrat-500",sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%;
+  /* align-self: stretch; */
+}
+
+
+/* pdf sample */
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+
+.modalOverlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.modalContainer {
+  width: 80%;
+  height: 80%;
+  background: white;
+  overflow-y: auto;
+  border-radius: 0.7rem;
+  padding: 1.25rem;
+  box-shadow: 0 0.25rem 0.7rem rgba(0, 0, 0, 0.2);
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modalBody {
+  height: calc(100% - 2.5rem);
+}
+
+/* Modal */
+.modall {
+  background: #fff;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  width: 55%;
+  height: 95%;
+  box-shadow: 0 0.25rem 0.35rem rgba(0, 0, 0, 0.1);
+  position: relative;
+  transform: translateX(100vw);
+  transition: transform 0.7s ease;
+}
+
+.modalOpen {
+  transform: translateX(0);
+}
+
+.modalClose {
+  transform: translateX(100vw);
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+.btn{
+  height: 50px;
+  max-width: 700px;
+  font-family: "Inter";
+
+}
+.modalHeader h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.modalBody {
+  height: calc(100%-2.5rem);
+  text-align: center;
+}
+
+.modalBody img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1.25rem;
+}
+.auditimg>img{
+  width: 13.625rem;
+  height: 9.625rem;
+}
+.response{
+  color: red;
+  font-size: 0.88rem;
+  margin-top: 0.7rem;
+}
+.input{
+  color: #BEC1C3;
+  font-size: 16px;
+  font-family: "Inter";
+}
+.formcontrolclass{
+  width: 14.75rem !important;
+  height: 3rem !important;
+  border: none;
+  border-radius: 0.5rem !important;
+}
+.formcontrolphone{
+  width: 14.75rem !important;
+  height: 3rem !important;
+  color: var(--backgroundcolor) !important;
+  border:1px solid var(--backgroundcolor) !important;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+.formcontrolphone::placeholder{
+  color: var(--backgroundcolor) !important;
+  font-size: 0.88rem !important;
+}
+.btnclassphone{
+  height: 3rem !important;
+  border: none !important;
+  background-color: var(--maintext) !important;
+  color: white !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+}
+.dropdownclassform{
+  width: 14.75rem !important;
+  color: var(--maintext) !important;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Start fully transparent */
+  z-index: 999; /* Behind the modal */
+  animation: fadeInBackground 4s ease-out forwards,
+    fadeOutBackground 2s 4s forwards;
+}
+
+@keyframes fadeInBackground {
+  from {
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent */
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent */
+  }
+}
+
+@keyframes fadeOutBackground {
+  from {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent */
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent */
+  }
+}
+
+.modal {
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  z-index: 1000; /* Above the overlay */
+  animation: slideDownToCenter 4s ease-out, fadeOut 2s 4s ease-in;
+  display: inline-flex;
+  padding: 3rem 9rem;
+  align-items: center;
+  gap: 1rem;
+  max-height: min-content;
+  min-width: 18.75rem;
+  background-color: white;
+}
+.modal > div {
+  display: flex;
+  padding: 1.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+.modalfirst {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalsecond {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+.modalsecond > p:nth-of-type(1) {
+  color: var(--secondary, #34a852);
+  text-align: center;
+  font-family: "Inter"!important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.modalsecond > p:nth-of-type(2) {
+  color: var(--secondary, #6c757d);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem; /* 175% */
+  align-self: stretch;
+}
+
+@keyframes slideDownToCenter {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@media (max-width: 375px) {
+  .HomeAuditFrame {
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+  }
+
+  .HomeAudit {
+    width: 100%;
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .HomeAudit > div:nth-of-type(1) {
+    gap: 1.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    font-family: "Lexend" !important; /* Match web view */
+  }
+
+  .HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 1rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .form {
+    font-size: 0.875rem;
+    font-family: "Montserrat-500", sans-serif; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(1) > input {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .form > form > div:nth-of-type(1) > input::placeholder {
+    font-size: 0.75rem;
+    font-family: "Inter", sans-serif; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(2) {
+    margin-bottom: 1rem;
+    flex-direction: column;
+  }
+
+  .form > form > div:nth-of-type(2) > input {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    width: 100%;
+  }
+
+  .form > form > div:nth-of-type(2) > input::placeholder {
+    font-size: 0.75rem;
+    font-family: "Poppins"; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(3) {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Inter" !important; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(3) > div {
+    gap: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) {
+    display: none;
+    padding: 0.5rem;
+    flex-direction: column-reverse;
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div {
+    gap: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(1) {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif; /* Match web view */
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(2) {
+    font-size: 1rem;
+    font-family: "Montserrat-500", sans-serif; /* Match web view */
+  }
+
+  /* Modal */
+  .modalContainer {
+    width: 90%;
+    height: 90%;
+    padding: 1rem;
+  }
+
+  .modalHeader {
+    margin-bottom: 1rem;
+  }
+
+  .modalBody {
+    padding: 1rem;
+  }
+
+  .modal {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2rem;
+    box-shadow: 0 0.25rem 0.35rem rgba(0, 0, 0, 0.1);
+  }
+
+  .modalHeader h2 {
+    font-size: 1.25rem;
+    font-family: "Inter"; /* Match web view (assuming default for h2) */
+  }
+
+  .modalBody img {
+    width: 100%;
+  }
+
+  .auditimg > img {
+    width: 10rem;
+    height: 7rem;
+  }
+
+  .response {
+    font-size: 0.75rem;
+    font-family: "Inter"; /* Assuming consistency with form-related text */
+  }
+
+  .input {
+    font-size: 0.75rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .formcontrolclass, .formcontrolphone, .dropdownclassform {
+    width: 100% !important;
+    margin-bottom: 0 !important;
+  }
+
+  .formcontrolphone {
+    height: 2.5rem !important;
+    color: var(--backgroundcolor) !important;
+    border: 1px solid var(--backgroundcolor) !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .formcontrolphone::placeholder {
+    font-size: 0.75rem !important;
+    font-family: "Poppins" !important; /* Match web view */
+  }
+
+  .btnclassphone {
+    height: 2.5rem !important;
+    background-color: var(--maintext) !important;
+    color: white !important;
+    border: 1px solid white !important;
+  }
+
+  .formcontrolclass {
+    height: 2.5rem !important;
+  }
+
+  .dropdownclassform {
+    width: 22.5rem !important;
+    color: var(--maintext) !important;
+    font-family: "Inter"; /* Assuming consistency with form elements */
+  }
+
+  /* Overlay */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Modal animation adjustments */
+  @keyframes fadeInBackground {
+    from {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  @keyframes fadeOutBackground {
+    from {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0);
+    }
+  }
+
+  @keyframes slideDownToCenter {
+    from {
+      top: -100%;
+    }
+    to {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .audittick {
+    text-align: start;
+    font-size: 0.88rem;
+    font-family: "Inter"; /* Assuming consistency with form-related text */
+  }
+}
+
+/* Repeat for other mobile breakpoints with font-family changes */
+@media (min-width: 375px) and (max-width: 393px) {
+  .HomeAuditFrame {
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+  }
+
+  .HomeAudit {
+    width: 100%;
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .HomeAudit > div:nth-of-type(1) {
+    gap: 1.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    font-family: "Lexend" !important; /* Match web view */
+  }
+
+  .HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 1rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .form {
+    font-size: 0.875rem;
+    font-family: "Montserrat-500", sans-serif; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(1) > input {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .form > form > div:nth-of-type(1) > input::placeholder {
+    font-size: 0.75rem;
+    font-family: "Inter", sans-serif; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(2) {
+    margin-bottom: 1rem;
+    flex-direction: column;
+  }
+
+  .form > form > div:nth-of-type(2) > input {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    width: 100%;
+  }
+
+  .form > form > div:nth-of-type(2) > input::placeholder {
+    font-size: 0.75rem;
+    font-family: "Poppins"; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(3) {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Inter" !important; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(3) > div {
+    gap: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) {
+    display: none;
+    padding: 0.5rem;
+    flex-direction: column-reverse;
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div {
+    gap: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(1) {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif; /* Match web view */
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(2) {
+    font-size: 1rem;
+    font-family: "Montserrat-500", sans-serif; /* Match web view */
+  }
+
+  /* Modal */
+  .modalContainer {
+    width: 90%;
+    height: 90%;
+    padding: 1rem;
+  }
+
+  .modalHeader {
+    margin-bottom: 1rem;
+  }
+
+  .modalBody {
+    padding: 1rem;
+  }
+
+  .modal {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2rem;
+    box-shadow: 0 0.25rem 0.35rem rgba(0, 0, 0, 0.1);
+  }
+
+  .modalHeader h2 {
+    font-size: 1.25rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .modalBody img {
+    width: 100%;
+  }
+
+  .auditimg > img {
+    width: 10rem;
+    height: 7rem;
+  }
+
+  .response {
+    font-size: 0.75rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .input {
+    font-size: 0.75rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .formcontrolclass, .formcontrolphone, .dropdownclassform {
+    width: 100% !important;
+    margin-bottom: 0 !important;
+  }
+
+  .formcontrolphone {
+    height: 2.5rem !important;
+    color: var(--backgroundcolor) !important;
+    border: 1px solid var(--backgroundcolor) !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .formcontrolphone::placeholder {
+    font-size: 0.75rem !important;
+    font-family: "Poppins" !important; /* Match web view */
+  }
+
+  .btnclassphone {
+    height: 2.5rem !important;
+    background-color: var(--maintext) !important;
+    color: white !important;
+    border: 1px solid white !important;
+  }
+
+  .formcontrolclass {
+    height: 2.5rem !important;
+  }
+
+  .dropdownclassform {
+    width: 22.5rem !important;
+    color: var(--maintext) !important;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  /* Overlay */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Modal animation adjustments */
+  @keyframes fadeInBackground {
+    from {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  @keyframes fadeOutBackground {
+    from {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0);
+    }
+  }
+
+  @keyframes slideDownToCenter {
+    from {
+      top: -100%;
+    }
+    to {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .audittick {
+    text-align: start;
+    font-size: 0.88rem;
+    font-family: "Inter"; /* Match web view */
+  }
+}
+
+/* Similar changes for other breakpoints (475px, 600px, 768px, 1024px) */
+@media (min-width: 393px) and (max-width: 475px) {
+  .HomeAuditFrame {
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+  }
+
+  .HomeAudit {
+    width: 100%;
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .HomeAudit > div:nth-of-type(1) {
+    gap: 1.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    font-family: "Lexend" !important; /* Match web view */
+  }
+
+  .HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 1rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .form {
+    font-size: 0.875rem;
+    font-family: "Montserrat-500", sans-serif; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(1) > input {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .form > form > div:nth-of-type(1) > input::placeholder {
+    font-size: 0.75rem;
+    font-family: "Inter", sans-serif; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(2) {
+    margin-bottom: 1rem;
+    flex-direction: column;
+  }
+
+  .form > form > div:nth-of-type(2) > input {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    width: 100%;
+  }
+
+  .form > form > div:nth-of-type(2) > input::placeholder {
+    font-size: 0.75rem;
+    font-family: "Poppins"; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(3) {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Inter" !important; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(3) > div {
+    gap: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) {
+    display: none;
+    padding: 0.5rem;
+    flex-direction: column-reverse;
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div {
+    gap: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(1) {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif; /* Match web view */
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(2) {
+    font-size: 1rem;
+    font-family: "Montserrat-500", sans-serif; /* Match web view */
+  }
+
+  /* Modal */
+  .modalContainer {
+    width: 90%;
+    height: 90%;
+    padding: 1rem;
+  }
+
+  .modalHeader {
+    margin-bottom: 1rem;
+  }
+
+  .modalBody {
+    padding: 1rem;
+  }
+
+  .modal {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2rem;
+    box-shadow: 0 0.25rem 0.35rem rgba(0, 0, 0, 0.1);
+  }
+
+  .modalHeader h2 {
+    font-size: 1.25rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .modalBody img {
+    width: 100%;
+  }
+
+  .auditimg > img {
+    width: 10rem;
+    height: 7rem;
+  }
+
+  .response {
+    font-size: 0.75rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .input {
+    font-size: 0.75rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .formcontrolclass, .formcontrolphone, .dropdownclassform {
+    width: 100% !important;
+    margin-bottom: 0 !important;
+  }
+
+  .formcontrolphone {
+    height: 2.5rem !important;
+    color: var(--backgroundcolor) !important;
+    border: 1px solid var(--backgroundcolor) !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .formcontrolphone::placeholder {
+    font-size: 0.75rem !important;
+    font-family: "Poppins" !important; /* Match web view */
+  }
+
+  .btnclassphone {
+    height: 2.5rem !important;
+    background-color: var(--maintext) !important;
+    color: white !important;
+    border: 1px solid white !important;
+  }
+
+  .formcontrolclass {
+    height: 2.5rem !important;
+  }
+
+  .dropdownclassform {
+    width: 22.5rem !important;
+    color: var(--maintext) !important;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  /* Overlay */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Modal animation adjustments */
+  @keyframes fadeInBackground {
+    from {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  @keyframes fadeOutBackground {
+    from {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0);
+    }
+  }
+
+  @keyframes slideDownToCenter {
+    from {
+      top: -100%;
+    }
+    to {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .audittick {
+    text-align: start;
+    font-size: 0.88rem;
+    font-family: "Inter"; /* Match web view */
+  }
+}
+
+@media (min-width: 475px) and (max-width: 600px) {
+  .HomeAuditFrame {
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+  }
+
+  .HomeAudit {
+    width: 100%;
+    padding: 0.5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .HomeAudit > div:nth-of-type(1) {
+    gap: 1.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    font-family: "Lexend" !important; /* Match web view */
+  }
+
+  .HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 1rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .form {
+    font-size: 0.875rem;
+    font-family: "Montserrat-500", sans-serif; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(1) > input {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .form > form > div:nth-of-type(1) > input::placeholder {
+    font-size: 0.75rem;
+    font-family: "Inter", sans-serif; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(2) {
+    margin-bottom: 1rem;
+    flex-direction: column;
+  }
+
+  .form > form > div:nth-of-type(2) > input {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    width: 100%;
+  }
+
+  .form > form > div:nth-of-type(2) > input::placeholder {
+    font-size: 0.75rem;
+    font-family: "Poppins"; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(3) {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Inter" !important; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(3) > div {
+    gap: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) {
+    display: none;
+    padding: 0.5rem;
+    flex-direction: column-reverse;
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div {
+    gap: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(1) {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif; /* Match web view */
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(2) {
+    font-size: 1rem;
+    font-family: "Montserrat-500", sans-serif; /* Match web view */
+  }
+
+  /* Modal */
+  .modalContainer {
+    width: 90%;
+    height: 90%;
+    padding: 1rem;
+  }
+
+  .modalHeader {
+    margin-bottom: 1rem;
+  }
+
+  .modalBody {
+    padding: 1rem;
+  }
+
+  .modal {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2rem;
+    box-shadow: 0 0.25rem 0.35rem rgba(0, 0, 0, 0.1);
+  }
+
+  .modalHeader h2 {
+    font-size: 1.25rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .modalBody img {
+    width: 100%;
+  }
+
+  .auditimg > img {
+    width: 10rem;
+    height: 7rem;
+  }
+
+  .response {
+    font-size: 0.75rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .input {
+    font-size: 0.75rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .formcontrolclass, .formcontrolphone, .dropdownclassform {
+    width: 100% !important;
+    margin-bottom: 0 !important;
+  }
+
+  .formcontrolphone {
+    height: 2.5rem !important;
+    color: var(--backgroundcolor) !important;
+    border: 1px solid var(--backgroundcolor) !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .formcontrolphone::placeholder {
+    font-size: 0.75rem !important;
+    font-family: "Poppins" !important; /* Match web view */
+  }
+
+  .btnclassphone {
+    height: 2.5rem !important;
+    background-color: var(--maintext) !important;
+    color: white !important;
+    border: 1px solid white !important;
+  }
+
+  .formcontrolclass {
+    height: 2.5rem !important;
+  }
+
+  .dropdownclassform {
+    width: 22.5rem !important;
+    color: var(--maintext) !important;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  /* Overlay */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Modal animation adjustments */
+  @keyframes fadeInBackground {
+    from {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  @keyframes fadeOutBackground {
+    from {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0);
+    }
+  }
+
+  @keyframes slideDownToCenter {
+    from {
+      top: -100%;
+    }
+    to {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .audittick {
+    text-align: start;
+    font-size: 0.88rem;
+    font-family: "Inter"; /* Match web view */
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .HomeAuditFrame {
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+  }
+
+  .HomeAudit {
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-around;
+  }
+
+  .HomeAudit > div:nth-of-type(1) {
+    gap: 1.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 1.3rem;
+    line-height: 1.3;
+    font-family: "Lexend" !important; /* Match web view */
+  }
+
+  .HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 1rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .form {
+    font-size: 0.875rem;
+    font-family: "Montserrat-500", sans-serif; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(1) > input {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .form > form > div:nth-of-type(1) > input::placeholder {
+    font-size: 0.75rem;
+    font-family: "Inter", sans-serif; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(2) {
+    margin-bottom: 1rem;
+    flex-direction: column;
+  }
+
+  .form > form > div:nth-of-type(2) > input {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    width: 100%;
+  }
+
+  .form > form > div:nth-of-type(2) > input::placeholder {
+    font-size: 0.75rem;
+    font-family: "Poppins"; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(3) {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Inter" !important; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(3) > div {
+    gap: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) {
+    display: none;
+    padding: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div {
+    gap: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(1) {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif; /* Match web view */
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(2) {
+    font-size: 1rem;
+    font-family: "Montserrat-500", sans-serif; /* Match web view */
+  }
+
+  /* Modal */
+  .modalContainer {
+    width: 90%;
+    height: 90%;
+    padding: 1rem;
+  }
+
+  .modalHeader {
+    margin-bottom: 1rem;
+  }
+
+  .modalBody {
+    padding: 1rem;
+  }
+
+  .modal {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2rem;
+    box-shadow: 0 0.25rem 0.35rem rgba(0, 0, 0, 0.1);
+  }
+
+  .modalHeader h2 {
+    font-size: 1.25rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .modalBody img {
+    width: 100%;
+  }
+
+  .auditimg > img {
+    width: 10rem;
+    height: 7rem;
+  }
+
+  .response {
+    font-size: 0.75rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .input {
+    font-size: 0.75rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .formcontrolclass, .formcontrolphone, .dropdownclassform {
+    width: 100% !important;
+    margin-bottom: 0 !important;
+  }
+
+  .formcontrolphone {
+    height: 2.5rem !important;
+    color: var(--backgroundcolor) !important;
+    border: 1px solid var(--backgroundcolor) !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .formcontrolphone::placeholder {
+    font-size: 0.75rem !important;
+    font-family: "Poppins" !important; /* Match web view */
+  }
+
+  .btnclassphone {
+    height: 2.5rem !important;
+    background-color: var(--maintext) !important;
+    color: white !important;
+    border: 1px solid white !important;
+  }
+
+  .formcontrolclass {
+    height: 2.5rem !important;
+  }
+
+  .dropdownclassform {
+    width: 22.5rem !important;
+    color: var(--maintext) !important;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  /* Overlay */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Modal animation adjustments */
+  @keyframes fadeInBackground {
+    from {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  @keyframes fadeOutBackground {
+    from {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0);
+    }
+  }
+
+  @keyframes slideDownToCenter {
+    from {
+      top: -100%;
+    }
+    to {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .audittick {
+    text-align: start;
+    font-size: 0.88rem;
+    font-family: "Inter"; /* Match web view */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .HomeAuditFrame {
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+  }
+
+  .HomeAudit {
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-around;
+  }
+
+  .HomeAudit > div:nth-of-type(1) {
+    gap: 1.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    font-family: "Lexend" !important; /* Match web view */
+  }
+
+  .HomeAudit > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 1rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .form {
+    font-size: 0.875rem;
+    font-family: "Montserrat-500", sans-serif; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(1) > input {
+    padding: 0.75rem 1rem;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .form > form > div:nth-of-type(1) > input::placeholder {
+    font-size: 0.75rem;
+    font-family: "Inter", sans-serif; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(2) {
+    margin-bottom: 1rem;
+    flex-direction: column;
+  }
+
+  .form > form > div:nth-of-type(2) > input {
+    font-size: 0.875rem;
+    padding: 0.75rem 1rem;
+    width: 100%;
+  }
+
+  .form > form > div:nth-of-type(2) > input::placeholder {
+    font-size: 0.75rem;
+    font-family: "Poppins"; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(3) {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Inter" !important; /* Match web view */
+  }
+
+  .form > form > div:nth-of-type(3) > div {
+    gap: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) {
+    padding: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div {
+    gap: 0.5rem;
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(1) {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif; /* Match web view */
+  }
+
+  .HomeAudit > div:nth-of-type(2) > div > div > p:nth-of-type(2) {
+    font-size: 1rem;
+    font-family: "Montserrat-500", sans-serif; /* Match web view */
+  }
+
+  /* Modal */
+  .modalContainer {
+    width: 90%;
+    height: 90%;
+    padding: 1rem;
+  }
+
+  .modalHeader {
+    margin-bottom: 1rem;
+  }
+
+  .modalBody {
+    padding: 1rem;
+  }
+
+  .modal {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 2rem;
+    box-shadow: 0 0.25rem 0.35rem rgba(0, 0, 0, 0.1);
+  }
+
+  .modalHeader h2 {
+    font-size: 1.25rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .modalBody img {
+    width: 100%;
+  }
+
+  .auditimg > img {
+    width: 10rem;
+    height: 7rem;
+  }
+
+  .response {
+    font-size: 0.75rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .input {
+    font-size: 0.75rem;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .formcontrolclass, .formcontrolphone, .dropdownclassform {
+    width: 100% !important;
+    margin-bottom: 0 !important;
+  }
+
+  .formcontrolphone {
+    height: 2.5rem !important;
+    color: var(--backgroundcolor) !important;
+    border: 1px solid var(--backgroundcolor) !important;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+  }
+
+  .formcontrolphone::placeholder {
+    font-size: 0.75rem !important;
+    font-family: "Poppins" !important; /* Match web view */
+  }
+
+  .btnclassphone {
+    height: 2.5rem !important;
+    background-color: var(--maintext) !important;
+    color: white !important;
+    border: 1px solid white !important;
+  }
+
+  .formcontrolclass {
+    height: 2.5rem !important;
+  }
+
+  .dropdownclassform {
+    width: 22.5rem !important;
+    color: var(--maintext) !important;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  /* Overlay */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  /* Modal animation adjustments */
+  @keyframes fadeInBackground {
+    from {
+      background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  @keyframes fadeOutBackground {
+    from {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    to {
+      background-color: rgba(0, 0, 0, 0);
+    }
+  }
+
+  @keyframes slideDownToCenter {
+    from {
+      top: -100%;
+    }
+    to {
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+
+  .audittick {
+    text-align: start;
+    font-size: 0.88rem;
+    font-family: "Inter"; /* Match web view */
+  }
+}

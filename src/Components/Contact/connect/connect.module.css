@@ -1,0 +1,326 @@
+.header {
+  display: flex;
+  width: 100%;
+  padding: 2rem 4rem 4rem 4rem;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: var(--background, #f8f9fa);
+}
+
+.firstCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  flex: 1 0 0;
+}
+
+.firstColItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+}
+
+.firstColItemDesc {
+  color: var(--MainText, #212529);
+  font-family: "Inter"!important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.secCol {
+  display: flex;
+  gap: 1rem 1rem;
+  width: 39rem;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+
+.secCol label {
+  margin-bottom: 2px;
+  color: var(--MainText, #212529);
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Inter"!important;
+}
+
+.btn {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  border-radius: 3rem;
+  border: 1px solid var(--MainText, #212529);
+  background: var(--MainText, #212529);
+  color: var(--background, #f8f9fa);
+  text-align: center;
+  font-family: "Lexend";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.map {
+  width: 90%;
+  height: 21.25rem;
+}
+
+/* Placeholder styles for input and textarea */
+.secCol input::placeholder,
+.secCol textarea::placeholder {
+  font-family: "Inter"!important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+
+.secCol input {
+ font-family: "Inter"!important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+}
+/* Vendor prefixes for placeholder compatibility */
+.secCol input::-webkit-input-placeholder,
+.secCol textarea::-webkit-input-placeholder {
+ font-family: "Inter"!important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+.secCol input::-moz-placeholder,
+.secCol textarea::-moz-placeholder {
+ font-family: "Inter"!important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+.secCol input:-ms-input-placeholder,
+.secCol textarea:-ms-input-placeholder {
+  font-family: "Inter"!important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+/* Style for the select element */
+.secCol select {
+  font-family: "Inter"!important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+}
+
+/* Style for the placeholder option in the select */
+.secCol select option[value=""] {
+ font-family: "Inter"!important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+/* Ensure other options have consistent styling */
+.secCol select option:not([value=""]) {
+   font-family: "Inter"!important;
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+}
+.secCol textarea {
+  font-family: "Inter"!important;
+  font-size: 16px;
+  font-weight: 400; /* Updated to 600 for Message textarea input value */
+  color: #212529; /* Consistent text color */
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 999;
+  animation: fadeInBackground 4s ease-out forwards,
+    fadeOutBackground 2s 4s forwards;
+}
+
+@keyframes fadeInBackground {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes fadeOutBackground {
+  from {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+.modal {
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  z-index: 1000;
+  animation: slideDownToCenter 4s ease-out, fadeOut 2s 4s forwards;
+  display: inline-flex;
+  padding: 3rem 9.5rem;
+  align-items: center;
+  gap: 1rem;
+  max-height: min-content;
+  min-width: 18.75rem;
+  background-color: white;
+}
+
+.modal > div {
+  display: flex;
+  padding: 1.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.modalfirst {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalsecond {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+
+.modalsecond > p:nth-of-type(1) {
+  color: var(--secondary, #34a852);
+  text-align: center;
+  font-family: "Montserrat-600", sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.modalsecond > p:nth-of-type(2) {
+  color: var(--secondary, #6c757d);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  align-self: stretch;
+}
+
+@keyframes slideDownToCenter {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .header {
+    flex-direction: column;
+    padding: 1rem 2rem;
+    gap: 1rem;
+  }
+
+  .firstCol,
+  .secCol {
+    width: 100%;
+    align-items: center;
+  }
+
+  .secCol {
+    gap: 0.5rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  .btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .modal {
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 80%;
+    max-width: 90%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+  }
+
+  .modal > div {
+    padding: 0.5rem;
+    gap: 0.7rem;
+  }
+
+  .modalfirst {
+    font-size: 1rem;
+  }
+
+  .modalsecond > p:nth-of-type(1) {
+    font-size: 2rem;
+  }
+
+  .modalsecond > p:nth-of-type(2) {
+    font-size: 1rem;
+  }
+
+  .firstColItem {
+    gap: 0.5rem;
+  }
+
+  .map {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media (min-width: 475px) and (max-width: 600px) {
+  .btn {
+    width: 80%;
+  }
+}

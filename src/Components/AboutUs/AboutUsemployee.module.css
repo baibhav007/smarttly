@@ -1,0 +1,103 @@
+.aboutcard {
+  width: 19rem;
+  height: 19rem;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 0.5rem;
+}
+.aboutcardinfo {
+  width: 16rem;
+  height: 4.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  border: 1px solid var(--white, #fff);
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(2px);
+  text-align: start;
+}
+.aboutname {
+  color: var(--MainText, #212529);
+  font-family: "Montserrat-600",sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 20px */
+  align-self: stretch;
+}
+.aboutcarddesc {
+    color: var(--SecondaryText, #6C757D);
+    font-family: "Roboto",sans-serif;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-self: stretch;
+}
+@media (max-width: 375px) {
+  .aboutcard {
+    width: 14rem; /* Reduced width */
+    height: 16rem; /* Reduced height */
+    padding-bottom: 8px; /* Reduced padding */
+  }
+
+  .aboutcardinfo {
+    width: 12rem; /* Adjusted width for smaller screen */
+    height: 4rem; /* Reduced height */
+    padding: 0.8rem; /* Reduced padding */
+  }
+
+  .aboutname {
+    font-size: 0.875rem; /* Smaller font size for the name */
+  }
+
+  .aboutcarddesc {
+    font-size: 0.625rem; /* Smaller font size for description */
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+  .aboutcard {
+    width: 14rem; /* Reduced width */
+    height: 16rem; /* Reduced height */
+    padding-bottom: 8px; /* Reduced padding */
+  }
+
+  .aboutcardinfo {
+    width: 12rem; /* Adjusted width for smaller screen */
+    height: 4rem; /* Reduced height */
+    padding: 0.8rem; /* Reduced padding */
+  }
+
+  .aboutname {
+    font-size: 0.875rem; /* Smaller font size for the name */
+  }
+
+  .aboutcarddesc {
+    font-size: 0.625rem; /* Smaller font size for description */
+  }
+}
+@media (min-width:393px) and (max-width: 475px) {
+  .aboutcard {
+    width: 14rem; /* Reduced width */
+    height: 16rem; /* Reduced height */
+    padding-bottom: 8px; /* Reduced padding */
+  }
+
+  .aboutcardinfo {
+    width: 12rem; /* Adjusted width for smaller screen */
+    height: 4rem; /* Reduced height */
+    padding: 0.8rem; /* Reduced padding */
+  }
+
+  .aboutname {
+    font-size: 0.875rem; /* Smaller font size for the name */
+  }
+
+  .aboutcarddesc {
+    font-size: 0.625rem; /* Smaller font size for description */
+  }
+}

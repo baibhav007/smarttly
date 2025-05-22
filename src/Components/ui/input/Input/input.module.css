@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  align-self: stretch;
+}
+.label {
+  color: var(--MainText, #212529);
+  font-family: "Montserrat",sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 20px */
+}
+.inp,
+.txt,
+.select {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 4px;
+  border: 1px solid var(--border, #bec1c3);
+  outline: none;
+  transition: border-color 0.3s;
+  background: none;
+}
+.select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%2334A852' d='M5 6L0 0h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 0.5rem;
+}
+.txt {
+  height: 8rem;
+  resize: none;
+}
+.inp:focus,
+.txt:focus {
+  border-color: var(--button-green);
+}
+
+.inp::placeholder,
+.txt::placeholder {
+  color: var(--border, #bec1c3);
+  font-family: "Roboto",sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.125rem; /* 118.75% */
+  letter-spacing: 0.2px;
+}
+
+.error {
+  color: red;
+  font-size: 0.75rem;
+  font-family: "Roboto",sans-serif;
+}

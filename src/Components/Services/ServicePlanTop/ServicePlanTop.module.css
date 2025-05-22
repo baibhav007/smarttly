@@ -1,0 +1,373 @@
+.ServicePlanTop {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.ServicePlanTopContent {
+  display: flex;
+  width: 95%;
+  padding: 2rem 4rem;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 1rem;
+  background: lightgray 50% / cover no-repeat, var(--black, #0b0c0d);
+  background-color: #0b0c0d;
+}
+.ServicePlanTopContent > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+}
+.ServicePlanTopContent > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+.ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) {
+  display: flex;
+  padding: 2rem 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.ServicePlanTopContent
+  > div:nth-of-type(1)
+  > div:nth-of-type(2)
+  > div:nth-of-type(1) {
+   
+  color: var(--secondary, #34a852);
+   font-family: "Lexend"!important;
+  font-size: 28Px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%; 
+  text-transform: capitalize;
+  align-self: stretch;
+  height: 168;
+  width:783;
+}
+.ServicePlanTopContent
+  > div:nth-of-type(1)
+  > div:nth-of-type(2)
+  > div:nth-of-type(2) {
+  color: var(--backgroundcolor, #f8f9fa);
+   font-family: "Lexend"!important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%; 
+  text-transform: capitalize;
+  align-self: stretch;
+ 
+}
+.ServicePlanTopContent
+  > div:nth-of-type(1)
+  > div:nth-of-type(2)
+  > div:nth-of-type(3) {
+  color: var(--border, #bec1c3);
+  font-family: "Inter",sans-serif;
+
+  font-style: normal;
+  font-weight: 400;
+ 
+  align-self: stretch;
+
+
+font-size: 18px;
+line-height: 160%;
+letter-spacing: 0%;
+}
+.ServicePlanTopContent > div:nth-of-type(2) > img {
+  max-width: 100%;
+  max-height: 20.75rem;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  align-self: flex-start;
+}
+
+@media (max-width: 375px) {
+  .ServicePlanTop {
+    flex-direction: column; /* Stack layout vertically */
+    align-items: center; /* Align to the start for smaller screens */
+  }
+
+  .ServicePlanTopContent {
+    flex-direction: column; /* Stack content vertically */
+    width: 95%; /* Utilize more screen width */
+    padding: 1rem 2rem; /* Reduce padding */
+    gap: 1.5rem; /* Adjust spacing */
+    border-radius: 0.5rem; /* Slightly reduce corner radius */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) {
+    gap: 1rem; /* Tighten spacing between sections */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) {
+    padding: 1rem 0; /* Reduce padding between content */
+    gap: 1.5rem; /* Adjust space between text blocks */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) {
+    font-size: 1.5rem; /* Reduce font size for titles */
+    line-height: 120%; /* Adjust line height */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) {
+    font-size: 0.85rem; /* Reduce description font size */
+    line-height: 140%; /* Adjust line height for readability */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(2) > img {
+    max-height: 15rem; /* Scale image to fit smaller screens */
+    border-radius: 0.5rem; /* Match card border radius */
+  }
+
+  .btn {
+    padding: 0.5rem 1rem; /* Adjust button padding */
+    font-size: 0.9rem; /* Slightly reduce font size */
+    border-radius: 1rem; /* Match smaller layout */
+    gap: 0.5rem; /* Tighten button spacing */
+  }
+}
+
+@media (min-width:375px) and (max-width: 393px) {
+  .ServicePlanTop {
+    flex-direction: column; /* Stack layout vertically */
+    align-items: center; /* Align to the start for smaller screens */
+  }
+
+  .ServicePlanTopContent {
+    flex-direction: column; /* Stack content vertically */
+    width: 95%; /* Utilize more screen width */
+    padding: 1rem 2rem; /* Reduce padding */
+    gap: 1.5rem; /* Adjust spacing */
+    border-radius: 0.5rem; /* Slightly reduce corner radius */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) {
+    gap: 1rem; /* Tighten spacing between sections */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) {
+    padding: 1rem 0; /* Reduce padding between content */
+    gap: 1.5rem; /* Adjust space between text blocks */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) {
+    font-size: 1.5rem; /* Reduce font size for titles */
+    line-height: 120%; /* Adjust line height */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) {
+    font-size: 0.85rem; /* Reduce description font size */
+    line-height: 140%; /* Adjust line height for readability */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(2) > img {
+    max-height: 15rem; /* Scale image to fit smaller screens */
+    border-radius: 0.5rem; /* Match card border radius */
+  }
+
+  .btn {
+    padding: 0.5rem 1rem; /* Adjust button padding */
+    font-size: 0.9rem; /* Slightly reduce font size */
+    border-radius: 1rem; /* Match smaller layout */
+    gap: 0.5rem; /* Tighten button spacing */
+  }
+}
+@media (min-width:393px) and (max-width: 475px) {
+  .ServicePlanTop {
+    flex-direction: column; /* Stack layout vertically */
+    align-items: center; /* Align to the start for smaller screens */
+  }
+
+  .ServicePlanTopContent {
+    flex-direction: column; /* Stack content vertically */
+    width: 95%; /* Utilize more screen width */
+    padding: 1rem 2rem; /* Reduce padding */
+    gap: 1.5rem; /* Adjust spacing */
+    border-radius: 0.5rem; /* Slightly reduce corner radius */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) {
+    gap: 1rem; /* Tighten spacing between sections */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) {
+    padding: 1rem 0; /* Reduce padding between content */
+    gap: 1.5rem; /* Adjust space between text blocks */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) {
+    font-size: 1.5rem; /* Reduce font size for titles */
+    line-height: 120%; /* Adjust line height */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) {
+    font-size: 0.85rem; /* Reduce description font size */
+    line-height: 140%; /* Adjust line height for readability */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(2) > img {
+    max-height: 15rem; /* Scale image to fit smaller screens */
+    border-radius: 0.5rem; /* Match card border radius */
+  }
+
+  .btn {
+    padding: 0.5rem 1rem; /* Adjust button padding */
+    font-size: 0.9rem; /* Slightly reduce font size */
+    border-radius: 1rem; /* Match smaller layout */
+    gap: 0.5rem; /* Tighten button spacing */
+  }
+}
+@media (min-width:475px) and (max-width: 600px) {
+  .ServicePlanTop {
+    flex-direction: column; /* Stack layout vertically */
+    align-items: center; /* Align to the start for smaller screens */
+  }
+
+  .ServicePlanTopContent {
+    flex-direction: column; /* Stack content vertically */
+    width: 95%; /* Utilize more screen width */
+    padding: 1rem 2rem; /* Reduce padding */
+    gap: 1.5rem; /* Adjust spacing */
+    border-radius: 0.5rem; /* Slightly reduce corner radius */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) {
+    gap: 1rem; /* Tighten spacing between sections */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) {
+    padding: 1rem 0; /* Reduce padding between content */
+    gap: 1.5rem; /* Adjust space between text blocks */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) {
+    font-size: 1.5rem; /* Reduce font size for titles */
+    line-height: 120%; /* Adjust line height */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) {
+    font-size: 0.85rem; /* Reduce description font size */
+    line-height: 140%; /* Adjust line height for readability */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(2) > img {
+    max-height: 15rem; /* Scale image to fit smaller screens */
+    border-radius: 0.5rem; /* Match card border radius */
+  }
+
+  .btn {
+    padding: 0.5rem 1rem; /* Adjust button padding */
+    font-size: 0.9rem; /* Slightly reduce font size */
+    border-radius: 1rem; /* Match smaller layout */
+    gap: 0.5rem; /* Tighten button spacing */
+  }
+}
+@media (min-width:600px) and (max-width: 768px) {
+  .ServicePlanTop {
+    flex-direction: column; /* Stack layout vertically */
+    align-items: center; /* Align to the start for smaller screens */
+  }
+
+  .ServicePlanTopContent {
+    width: 95%; /* Utilize more screen width */
+    padding: 1rem 2rem; /* Reduce padding */
+    gap: 1.5rem; /* Adjust spacing */
+    border-radius: 0.5rem; /* Slightly reduce corner radius */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) {
+    gap: 1rem; /* Tighten spacing between sections */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) {
+    padding: 1rem 0; /* Reduce padding between content */
+    gap: 1.5rem; /* Adjust space between text blocks */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) {
+    font-size: 1.5rem; /* Reduce font size for titles */
+    line-height: 120%; /* Adjust line height */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) {
+    font-size: 0.85rem; /* Reduce description font size */
+    line-height: 140%; /* Adjust line height for readability */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(2) > img {
+    max-height: 15rem; /* Scale image to fit smaller screens */
+    border-radius: 0.5rem; /* Match card border radius */
+  }
+
+  .btn {
+    padding: 0.5rem 1rem; /* Adjust button padding */
+    font-size: 0.9rem; /* Slightly reduce font size */
+    border-radius: 1rem; /* Match smaller layout */
+    gap: 0.5rem; /* Tighten button spacing */
+  }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+  .ServicePlanTop {
+    flex-direction: column; /* Stack layout vertically */
+    align-items: center; /* Align to the start for smaller screens */
+  }
+
+  .ServicePlanTopContent {
+    width: 95%; /* Utilize more screen width */
+    padding: 1rem 2rem; /* Reduce padding */
+    gap: 1.5rem; /* Adjust spacing */
+    border-radius: 0.5rem; /* Slightly reduce corner radius */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) {
+    gap: 1rem; /* Tighten spacing between sections */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) {
+    padding: 1rem 0; /* Reduce padding between content */
+    gap: 1.5rem; /* Adjust space between text blocks */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) {
+    font-size: 1.5rem; /* Reduce font size for titles */
+    line-height: 120%; /* Adjust line height */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) {
+    font-size: 0.85rem; /* Reduce description font size */
+    line-height: 140%; /* Adjust line height for readability */
+  }
+
+  .ServicePlanTopContent > div:nth-of-type(2) > img {
+    max-height: 15rem; /* Scale image to fit smaller screens */
+    border-radius: 0.5rem; /* Match card border radius */
+  }
+
+  .btn {
+    padding: 0.5rem 1rem; /* Adjust button padding */
+    font-size: 0.9rem; /* Slightly reduce font size */
+    border-radius: 1rem; /* Match smaller layout */
+    gap: 0.5rem; /* Tighten button spacing */
+  }
+}

@@ -1,0 +1,53 @@
+.BSubTitle {
+  /* color: var(--SecondaryText, #6c757d); */
+  color: var(--maintext);
+  font-family: "Roboto";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  align-self: stretch;
+  padding: 0.5rem 5.25rem;
+}
+@media (max-width: 375px) {
+  .BSubTitle {
+    font-size: 0.875rem; /* Slightly smaller font size for mobile */
+    padding: 0.5rem 1rem; /* Reduced padding to fit smaller screen */
+    line-height: 140%; /* Adjust line height for better readability */
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+  .BSubTitle {
+    font-size: 0.875rem; /* Slightly smaller font size for mobile */
+    padding: 0.5rem 1rem; /* Reduced padding to fit smaller screen */
+    line-height: 140%; /* Adjust line height for better readability */
+  }
+}
+@media (min-width:393px) and (max-width: 475px) {
+  .BSubTitle {
+    font-size: 0.875rem; /* Slightly smaller font size for mobile */
+    padding: 0.5rem 1rem; /* Reduced padding to fit smaller screen */
+    line-height: 140%; /* Adjust line height for better readability */
+  }
+}
+@media (min-width:475px) and (max-width: 600px) {
+  .BSubTitle {
+    font-size: 0.875rem; /* Slightly smaller font size for mobile */
+    padding: 0.5rem 1rem; /* Reduced padding to fit smaller screen */
+    line-height: 140%; /* Adjust line height for better readability */
+  }
+}
+@media (min-width:600px) and (max-width: 768px) {
+  .BSubTitle {
+    font-size: 0.875rem; /* Slightly smaller font size for mobile */
+    padding: 0.5rem 1rem; /* Reduced padding to fit smaller screen */
+    line-height: 140%; /* Adjust line height for better readability */
+  }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+  .BSubTitle {
+    font-size: 0.875rem; /* Slightly smaller font size for mobile */
+    padding: 0.5rem 1rem; /* Reduced padding to fit smaller screen */
+    line-height: 140%; /* Adjust line height for better readability */
+  }
+}

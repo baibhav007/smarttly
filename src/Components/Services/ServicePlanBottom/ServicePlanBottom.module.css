@@ -1,0 +1,406 @@
+/* ServicePlanPricing Styles */
+.ServicePlanPricingContainer {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 16px;
+  
+}
+
+.ServicePlanPricingContainer > div {
+  display: flex;
+  min-width: 320px;
+  padding: 32px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1 1 320px;
+  border: 2px solid var(--maintext);
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+.PlanCard, .PriceCard {
+  flex: 1 1 320px;
+  max-width: 100%;
+}
+
+.Header {
+  white-space: nowrap;
+  color: var(--MainText, #212529);
+  font-family: "DM Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 114%;
+  margin-bottom: 0;
+}
+
+.PlanContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.content {
+  color: var(--MainText, #212529);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 125%;
+  flex: 1 0 0;
+}
+
+.pointText {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+.pointTextBold {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.PriceContent {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.PriceContent > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.PriceContent > div > div:nth-of-type(2) {
+  width: 100%;
+}
+
+.Pricing {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.np {
+  color: var(--secondary, #34a852);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.op {
+  color: var(--border, #bec1c3);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 1px solid var(--MainText, #212529);
+  background: var(--MainText, #212529);
+  color: var(--background, #f8f9fa);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.Description {
+  color: var(--black, #0b0c0d);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 125%;
+  text-decoration: underline;
+  align-self: stretch;
+}
+
+.Points {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.Point {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.TickIcon {
+  padding-top: 2px;
+}
+
+.TickIcon img {
+  height: 20px;
+}
+
+.PointsContainer {
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 8px;
+  margin-top: 14px;
+  width: 100%;
+}
+
+.PointsContainer::-webkit-scrollbar {
+  appearance: none;
+}
+
+.PointsContainer::-webkit-scrollbar-thumb {
+  appearance: none;
+}
+
+.PointsContainer::-webkit-scrollbar-thumb:hover {
+  appearance: none;
+}
+
+.SpecialTitle {
+  font-size: 21px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  font-weight: bold;
+}
+
+/* ServicePlanBottom Styles */
+.ServicePlanBottom {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+  margin-bottom: 10px;
+}
+
+.ServicePlanBottomContent {
+  width: 90%;
+  display: flex;
+  padding: 32px 64px;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: var(--black, #0b0c0d);
+}
+
+.ServicePlanBottomContent > div:nth-of-type(1) {
+  display: flex;
+  max-width: 528px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.ServicePlanBottomContent > div:nth-of-type(1) > img {
+  width: 100%;
+}
+
+.ServicePlanBottomContent > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+}
+
+.ServicePlanBottomContent > div:nth-of-type(2) > p {
+  color: var(--background, #f8f9fa);
+  font-family: "Lexend"!important;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 114%;
+  letter-spacing: 0%;
+  align-self: stretch;
+}
+
+.ServicePlanBottomContent > div:nth-of-type(2) > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.sbppointdesc {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.sbppointdesc > div:nth-of-type(1) > img {
+  padding-top: 2px;
+}
+
+.spbpoint {
+  color: var(--background, #f8f9fa);
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 125%;
+  flex: 1 0 0;
+}
+
+.spbinner {
+  color: var(--background, #f8f9fa);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 125%;
+}
+
+/* Responsive adjustments for mobile (below 768px) */
+@media (max-width: 768px) {
+  /* ServicePlanPricing Mobile Styles */
+  .ServicePlanPricingContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .ServicePlanPricingContainer > div {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 24px;
+  }
+
+  .Header {
+    white-space: normal;
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .content {
+    font-size: 18px;
+  }
+
+  .pointText {
+    font-family: "Inter";
+    font-size: 18px;
+  }
+
+  .pointTextBold {
+    font-family: "Inter";
+    font-size: 18px;
+  }
+
+  .np {
+    font-size: 16px;
+  }
+
+  .op {
+    font-size: 10px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 14px;
+  }
+
+  .Description {
+    font-size: 14px;
+  }
+
+  .TickIcon img {
+    height: 18px;
+  }
+
+  .Points {
+    gap: 16px;
+  }
+
+  .PointsContainer {
+    max-height: 320px;
+  }
+
+  .SpecialTitle {
+    font-size: 18px;
+  }
+
+  /* ServicePlanBottom Mobile Styles */
+  .ServicePlanBottom {
+    gap: 16px;
+  }
+
+  .ServicePlanBottomContent {
+    padding: 24px 32px;
+    flex-direction: column;
+  }
+
+  .ServicePlanBottomContent > div:nth-of-type(1) {
+    width: 100%;
+  }
+
+  .ServicePlanBottomContent > div:nth-of-type(1) > img {
+    width: 100%;
+  }
+
+  .ServicePlanBottomContent > div:nth-of-type(2) {
+    gap: 24px;
+  }
+
+  .ServicePlanBottomContent > div:nth-of-type(2) > p {
+    font-family: "Lexend";
+    font-size: 24px;
+    line-height: 130%;
+  }
+
+  .ServicePlanBottomContent > div:nth-of-type(2) > div {
+    gap: 12px;
+  }
+
+  .spbpoint {
+    font-family: "Inter";
+    font-size: 16px;
+  }
+
+  .spbinner {
+    font-family: "Inter";
+    font-size: 16px;
+  }
+
+  .sbppointdesc {
+    gap: 4px;
+  }
+
+  .sbppointdesc > div:nth-of-type(1) > img {
+    width: 16px;
+    height: 16px;
+  }
+}

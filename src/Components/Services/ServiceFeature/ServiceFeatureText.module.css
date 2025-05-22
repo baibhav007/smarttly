@@ -1,0 +1,204 @@
+.ServiceFeatureText {
+  display: flex;
+  padding-right: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 15rem;
+}
+.ServiceFeatureText > div {
+  display: flex;
+  padding: 2rem 1rem;
+  align-items: center;
+  align-self: stretch;
+  border-bottom: 1px solid var(--MainText, #212529);
+  white-space: nowrap;
+}
+.ServiceFeatureText > ul {
+  list-style: none;
+}
+.ServiceFeatureText > ul > li {
+  display: flex;
+  padding: 2rem 1rem;
+  align-items: center;
+  align-self: stretch;
+  border-bottom: 1px solid var(--MainText, #212529);
+  max-height: 5.4rem;
+  height: 100%;
+}
+
+
+@media (max-width: 375px) {
+  .ServiceFeatureText {
+    padding-top: 15.7rem; /* Reduce top padding for smaller screens */
+  }
+
+  .ServiceFeatureText > div, .ServiceFeatureText > ul > li {
+    padding: 1.5rem 1rem; /* Reduce padding for smaller screens */
+    white-space: nowrap;  
+  }
+
+  .ServiceFeatureText > div {
+    flex-direction: column; /* Stack the content vertically */
+    height: 4rem;
+  }
+
+  .ServiceFeatureText > ul {
+    padding-left: 0; /* Remove extra padding for better alignment */
+  }
+
+  .ServiceFeatureText > ul > li {
+    font-size: 0.7rem;
+    flex-direction: column; /* Stack the list items vertically */
+    height: 4rem;
+  }
+
+  .ServiceFeatureText > ul > li:last-child {
+    border-bottom: none; /* Remove the border from the last item */
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+  .ServiceFeatureText {
+    padding-top: 15.7rem; /* Reduce top padding for smaller screens */
+  }
+
+  .ServiceFeatureText > div, .ServiceFeatureText > ul > li {
+    padding: 1.5rem 1rem; /* Reduce padding for smaller screens */
+    white-space: nowrap;  
+  }
+
+  .ServiceFeatureText > div {
+    flex-direction: column; /* Stack the content vertically */
+    height: 4rem;
+  }
+
+  .ServiceFeatureText > ul {
+    padding-left: 0; /* Remove extra padding for better alignment */
+  }
+
+  .ServiceFeatureText > ul > li {
+    font-size: 0.7rem;
+    flex-direction: column; /* Stack the list items vertically */
+    height: 4rem;
+  }
+
+  .ServiceFeatureText > ul > li:last-child {
+    border-bottom: none; /* Remove the border from the last item */
+  }
+}
+@media (min-width:393px) and (max-width: 475px) {
+  .ServiceFeatureText {
+    padding-top: 16.2rem; /* Reduce top padding for smaller screens */
+  }
+
+  .ServiceFeatureText > div, .ServiceFeatureText > ul > li {
+    padding: 1.5rem 1rem; /* Reduce padding for smaller screens */
+    white-space: nowrap;  
+  }
+
+  .ServiceFeatureText > div {
+    flex-direction: column; /* Stack the content vertically */
+    max-height: 4rem;
+  }
+
+  .ServiceFeatureText > ul {
+    padding-left: 0; /* Remove extra padding for better alignment */
+  }
+
+  .ServiceFeatureText > ul > li {
+    font-size: 0.7rem;
+    flex-direction: column; /* Stack the list items vertically */
+    height: 4rem;
+  }
+
+  .ServiceFeatureText > ul > li:last-child {
+    border-bottom: none; /* Remove the border from the last item */
+  }
+}
+@media (min-width:475px) and (max-width: 600px) {
+  .ServiceFeatureText {
+    padding-top: 16.2rem; /* Reduce top padding for smaller screens */
+  }
+
+  .ServiceFeatureText > div, .ServiceFeatureText > ul > li {
+    padding: 1.5rem 1rem; /* Reduce padding for smaller screens */
+    white-space: nowrap;  
+  }
+
+  .ServiceFeatureText > div {
+    flex-direction: column; /* Stack the content vertically */
+    height: 4rem;
+  }
+
+  .ServiceFeatureText > ul {
+    padding-left: 0; /* Remove extra padding for better alignment */
+  }
+
+  .ServiceFeatureText > ul > li {
+    font-size: 0.7rem;
+    flex-direction: column; /* Stack the list items vertically */
+    height: 4rem;
+  }
+
+  .ServiceFeatureText > ul > li:last-child {
+    border-bottom: none; /* Remove the border from the last item */
+  }
+}
+@media (min-width:600px) and (max-width: 768px) {
+  .ServiceFeatureText {
+    padding-top: 16.2rem; /* Reduce top padding for smaller screens */
+  }
+
+  .ServiceFeatureText > div, .ServiceFeatureText > ul > li {
+    padding: 1.5rem 1rem; /* Reduce padding for smaller screens */
+    white-space: nowrap;  
+  }
+
+  .ServiceFeatureText > div {
+    flex-direction: column; /* Stack the content vertically */
+    height: 4rem;
+  }
+
+  .ServiceFeatureText > ul {
+    padding-left: 0; /* Remove extra padding for better alignment */
+  }
+
+  .ServiceFeatureText > ul > li {
+    font-size: 0.7rem;
+    flex-direction: column; /* Stack the list items vertically */
+    height: 4rem;
+  }
+
+  .ServiceFeatureText > ul > li:last-child {
+    border-bottom: none; /* Remove the border from the last item */
+  }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+  .ServiceFeatureText {
+    padding-top: 16.2rem; /* Reduce top padding for smaller screens */
+  }
+
+  .ServiceFeatureText > div, .ServiceFeatureText > ul > li {
+    padding: 1.5rem 1rem; /* Reduce padding for smaller screens */
+    white-space: nowrap;  
+  }
+
+  .ServiceFeatureText > div {
+    flex-direction: column; /* Stack the content vertically */
+    height: 4rem;
+  }
+
+  .ServiceFeatureText > ul {
+    padding-left: 0; /* Remove extra padding for better alignment */
+  }
+
+  .ServiceFeatureText > ul > li {
+    font-size: 0.7rem;
+    flex-direction: column; /* Stack the list items vertically */
+    height: 4rem;
+  }
+
+  .ServiceFeatureText > ul > li:last-child {
+    border-bottom: none; /* Remove the border from the last item */
+  }
+}

@@ -1,0 +1,117 @@
+.collabframe {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.collab {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.collab > p {
+  color: var(--MainText, #212529);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.scrollingContainer {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+  padding: 1rem 0;
+  align-self: stretch;
+}
+
+.scrollingContent {
+  display: inline-flex;
+  gap: 4rem;
+  animation: scroll 35s linear infinite;
+  white-space: nowrap;
+}
+
+.scrollingContent img {
+  max-height: 6.25rem;
+  object-fit: contain;
+  width: auto;
+}
+
+/* Animation for seamless scroll */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(calc(-100% * 7 / 14)); /* Move the width of the first 7 images */
+  }
+  50.01% {
+    transform: translateX(0); /* Reset to start for seamless loop */
+  }
+  100% {
+    transform: translateX(calc(-100% * 7 / 14)); /* Complete the loop */
+  }
+}
+
+/* Mobile and small screens (up to 768px) */
+@media (max-width: 768px) {
+  .collab {
+    gap: 1.5rem;
+  }
+
+  .collab > p {
+    font-size: 1rem;
+    line-height: 150%;
+    padding: 0 1rem;
+    text-align: start;
+  }
+
+  .scrollingContainer {
+    padding: 0.5rem 0;
+  }
+
+  .scrollingContent {
+    gap: 2rem;
+    animation: scroll 25s linear infinite;
+  }
+
+  .scrollingContent img {
+    max-height: 4.5rem;
+  }
+}
+
+/* Tablets and medium screens (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .collab {
+    gap: 1.75rem;
+  }
+
+  .collab > p {
+    font-size: 1.05rem;
+    line-height: 155%;
+    text-align: center;
+  }
+
+  .scrollingContainer {
+    padding: 0.75rem 0;
+  }
+
+  .scrollingContent {
+    gap: 3rem;
+    animation: scroll 30s linear infinite;
+  }
+
+  .scrollingContent img {
+    max-height: 5.5rem;
+  }
+}

@@ -1,0 +1,230 @@
+.aboutusendFrame {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.aboutusend {
+  width: 90%;
+  display: flex;
+  padding: 2rem 0;
+  align-items: center;
+  gap: 2rem;
+}
+.aboutusend>div:nth-of-type(1)>img{
+  max-width: 45.5rem;
+  max-height: 30rem;
+  object-fit: cover;
+  height: 100%;
+}
+.aboutusend > div:nth-of-type(2) {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+  width: max-content;
+  border-radius: 1rem;
+  background: rgba(52, 168, 82, 0.15);
+}
+.aboutusend > div:nth-of-type(2) > div:nth-of-type(1) {
+  color: var(--MainText, #212529);
+   font-family: "Lexend"!important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%; 
+}
+.aboutusend > div:nth-of-type(2) > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.aboutusend > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) {
+  color: var(--SecondaryText, #6c757d);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; 
+}
+
+
+/* Responsive adjustments for screens 393px or smaller */
+@media (max-width: 375px) {
+  .aboutusend {
+    flex-direction: column; /* Stack the content vertically on small screens */
+    gap: 1rem; /* Reduced gap for smaller screens */
+  }
+
+  .aboutusend > div:nth-of-type(1) > img {
+    width: 100%; /* Ensure the image takes full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .aboutusend > div:nth-of-type(2) {
+    width: 100%; /* Ensure it takes full width */
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 1.25rem; /* Reduced font size for small screens */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(2) {
+    gap: 1rem; /* Reduced gap between items */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 0.875rem; /* Reduced font size */
+  }
+}
+/* Responsive adjustments for screens 393px or smaller */
+@media (min-width:375px) and  (max-width: 393px) {
+  .aboutusend {
+    flex-direction: column; /* Stack the content vertically on small screens */
+    gap: 1rem; /* Reduced gap for smaller screens */
+  }
+
+  .aboutusend > div:nth-of-type(1) > img {
+    width: 100%; /* Ensure the image takes full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .aboutusend > div:nth-of-type(2) {
+    width: 100%; /* Ensure it takes full width */
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 1.25rem; /* Reduced font size for small screens */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(2) {
+    gap: 1rem; /* Reduced gap between items */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 0.875rem; /* Reduced font size */
+  }
+}
+/* Responsive adjustments for screens 393px or smaller */
+@media (min-width:393px) and  (max-width: 475px) {
+  .aboutusend {
+    flex-direction: column; /* Stack the content vertically on small screens */
+    gap: 1rem; /* Reduced gap for smaller screens */
+  }
+
+  .aboutusend > div:nth-of-type(1) > img {
+    width: 100%; /* Ensure the image takes full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .aboutusend > div:nth-of-type(2) {
+    width: 100%; /* Ensure it takes full width */
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 1.25rem; /* Reduced font size for small screens */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(2) {
+    gap: 1rem; /* Reduced gap between items */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 0.875rem; /* Reduced font size */
+  }
+}
+
+
+@media (min-width:475px) and  (max-width: 600px) {
+  .aboutusend {
+    flex-direction: column; /* Stack the content vertically on small screens */
+    gap: 1rem; /* Reduced gap for smaller screens */
+  }
+
+  .aboutusend > div:nth-of-type(1) > img {
+    width: 100%; /* Ensure the image takes full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .aboutusend > div:nth-of-type(2) {
+    width: 100%; /* Ensure it takes full width */
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 1.25rem; /* Reduced font size for small screens */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(2) {
+    gap: 1rem; /* Reduced gap between items */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 0.875rem; /* Reduced font size */
+  }
+}
+
+@media (min-width:600px) and  (max-width: 768px) {
+  .aboutusend {
+    flex-direction: column; /* Stack the content vertically on small screens */
+    gap: 1rem; /* Reduced gap for smaller screens */
+  }
+
+  .aboutusend > div:nth-of-type(1) > img {
+    width: 100%; /* Ensure the image takes full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .aboutusend > div:nth-of-type(2) {
+    width: 100%; /* Ensure it takes full width */
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 1.25rem; /* Reduced font size for small screens */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(2) {
+    gap: 1rem; /* Reduced gap between items */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 0.875rem; /* Reduced font size */
+  }
+}
+
+@media (min-width:768px) and  (max-width: 1024px) {
+  .aboutusend {
+    flex-direction: column; /* Stack the content vertically on small screens */
+    gap: 1rem; /* Reduced gap for smaller screens */
+  }
+
+  .aboutusend > div:nth-of-type(1) > img {
+    width: 100%; /* Ensure the image takes full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .aboutusend > div:nth-of-type(2) {
+    width: 100%; /* Ensure it takes full width */
+    padding: 1rem; /* Reduce padding for smaller screens */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 1.25rem; /* Reduced font size for small screens */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(2) {
+    gap: 1rem; /* Reduced gap between items */
+  }
+
+  .aboutusend > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 0.875rem; /* Reduced font size */
+  }
+}

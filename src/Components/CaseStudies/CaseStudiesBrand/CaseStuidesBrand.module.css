@@ -1,0 +1,212 @@
+.collab {
+  height: max-content;
+  padding: 4rem;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collab > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: max-content;
+}
+
+.collab > div:nth-of-type(1) > div:nth-of-type(1) {
+  font-family: "Lexend"!important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%;
+  align-self: stretch;
+}
+
+.collab > div:nth-of-type(1) > div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.collabbrand {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+  align-items: stretch;
+  align-self: stretch;
+}
+
+.collabbranddata {
+  min-width: 25rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  align-self: stretch;
+}
+
+.collabbranddata > div:nth-of-type(1) {
+  width: 11.125rem;
+  height: 11.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--white);
+}
+
+.collabbranddata > div:nth-of-type(1) > img {
+  max-width: 100%;
+  max-height: 100%;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.collabbranddata > div:nth-of-type(2) > div > p:nth-of-type(1) {
+  color: var(--MainText, #212529);
+  font-family: "Lexend";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-self: stretch;
+}
+
+.collabbranddata > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+.collabbranddata > div:nth-of-type(2) > div > p:nth-of-type(2) {
+  color: var(--MainText, #212529);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  align-self: stretch;
+}
+
+.caseStudiesContainer {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.heading {
+  text-align: center;
+  font-family: "Lexend"!important;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%;
+  margin-bottom: 1.5rem;
+}
+
+.cardsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  overflow-y: auto;
+  padding-bottom: 1rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Mobile responsiveness for all screen sizes (≤ 1024px) */
+@media (max-width: 1024px) {
+  .collab {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .collab > div:nth-of-type(1) {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+
+  .collab > div:nth-of-type(1) > div:nth-of-type(1) {
+    font-family: "Lexend";
+    font-size: clamp(20px, 6vw, 24px);
+    text-align: start;
+    white-space: nowrap;
+  }
+
+  .collabbrand {
+    display: flex; /* Changed from grid to flex for horizontal scrolling */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    padding-bottom: 0.5rem;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for IE/Edge */
+  }
+
+  .collabbrand::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome/Safari */
+  }
+
+  .collabbranddata {
+    min-width: clamp(220px, 70vw, 280px);
+    max-width: clamp(260px, 80vw, 300px);
+    gap: 0.75rem;
+    border: 1px solid var(--secondarytext, #dee2e6);
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    align-items: flex-start;
+    flex-shrink: 0; /* Prevent items from shrinking */
+  }
+
+  .collabbranddata > div:nth-of-type(1) {
+    width: clamp(5rem, 20vw, 6rem);
+    height: clamp(5rem, 20vw, 6rem);
+  }
+
+  .collabbranddata > div:nth-of-type(2) {
+    text-align: start;
+    gap: 0.5rem;
+  }
+
+  .collabbranddata > div:nth-of-type(2) > div > p:nth-of-type(1) {
+    font-family: "Lexend";
+    font-size: clamp(16px, 5vw, 18px);
+  }
+
+  .collabbranddata > div:nth-of-type(2) > div > p:nth-of-type(2) {
+    font-family: "Poppins", sans-serif;
+    font-size: clamp(14px, 4vw, 16px);
+  }
+
+  .caseStudiesContainer {
+    padding: 0.75rem;
+  }
+
+  .heading {
+    font-family: "DM Sans", sans-serif;
+    font-size: clamp(18px, 5vw, 20px);
+    margin-bottom: 0.75rem;
+  }
+
+  .cardsWrapper {
+    gap: 0.75rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .buttons {
+    gap: 8px;
+  }
+}

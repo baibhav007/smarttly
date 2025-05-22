@@ -1,0 +1,337 @@
+.HomeTestimonials {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+.HomeTestimonialscontent {
+  width: 90%;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.HomeTestimonialstext {
+  color: var(--MainText, #212529);
+  text-align: center;
+   font-family: "Lexend"!important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 114%;
+  letter-spacing: 0%;
+  height: 2.75rem;
+}
+
+.HomeTestimonialscontentbottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  padding: 2rem 0;
+  min-height: 28rem;
+}
+
+.HomeTestimonialscontentbottombtn {
+  width: max-content;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TestimonialCardsContainer {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  width: 100%;
+  justify-content: start;
+}
+
+.TestimonialCardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  flex: 2;
+  max-width: 35%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.TestimonialCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  height: 450px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.TestimonialCard:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.QuoteIcon {
+  color: var(--secondary, #34a852);
+  font-size: 2rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.TestimonialText {
+  color: var(--MainText, #212529);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: left;
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-top: 2rem;
+  height: auto;
+}
+
+.TestimonialText p {
+  margin: 0.5rem 0;
+}
+
+.ClientInfo {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.ClientImage {
+  border-radius: 50%;
+  border: 2px solid var(--secondary, #34a852);
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+}
+
+.ClientDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.ClientName {
+  color: var(--MainText, #212529);
+  font-family: "Inter"!important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 8%;
+}
+.navButton{
+  width: 4rem;
+  height: 2.5rem;
+  background-color: var(--secondarycolor, #34A852);
+  border: 1px solid var(--secondarycolor, #34A852);
+ border-radius: 30px; /* Curved sides (small radius for subtle rounding) */
+  display: flex;
+  align-items: center;
+  color: #f8f9fa;
+  font-size: 25px;
+  justify-content: center;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.ClientCompany {
+  color: var(--SecondaryText, #6c757d);
+ font-family: "Inter"!important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-top: 2px;
+}
+
+/* Mobile View (≤ 600px) */
+@media (max-width: 600px) {
+  .HomeTestimonials {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+  }
+
+  .HomeTestimonialscontent {
+    width: 90%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .HomeTestimonialstext {
+    color: var(--MainText, #212529);
+    text-align: center;
+     font-family: "Lexend"!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 114%;
+    letter-spacing: 0%;
+    height: auto;
+  }
+
+  .HomeTestimonialscontentbottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    padding: 1rem 0;
+    min-height: auto; /* Allow height to adjust to content */
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .HomeTestimonialscontentbottombtn {
+    width: max-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .TestimonialCardsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+    width: 100%;
+    max-width: 95%;
+    justify-content: start;
+  }
+
+  .TestimonialCardWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+    max-width: 100%;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .TestimonialCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    height: auto; /* Allow card to grow with content */
+    min-height: 300px; /* Ensure a minimum height for consistency */
+    position: relative;
+    width: 100%;
+    transition: none; /* Disable hover transitions on mobile */
+  }
+
+  /* Disable hover effects on mobile */
+  .TestimonialCard:hover {
+    transform: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+
+  .QuoteIcon {
+    color: var(--secondary, #34a852);
+    font-size: 1.25rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .TestimonialText {
+    color: var(--MainText, #212529);
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: left;
+    flex-grow: 1;
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    margin-top: 1.5rem;
+    height: auto; /* Allow text to take full height */
+    max-height: none; /* Remove max-height to show all content */
+    display: block; /* Remove line clamping */
+  }
+
+  .TestimonialText p {
+    margin: 0.5rem 0;
+  }
+
+  .ClientInfo {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  .ClientImage {
+    border-radius: 50%;
+    border: 1px solid var(--secondary, #34a852);
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+  }
+
+  .ClientDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .ClientName {
+    color: var(--MainText, #212529);
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    letter-spacing: 4%;
+  }
+
+  .ClientCompany {
+    color: var(--SecondaryText, #6c757d);
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 2px;
+  }
+}

@@ -1,0 +1,169 @@
+.ServiceBenefitsFrameOuter{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ServiceBenefitsFrame {
+  display: flex;
+  width: 92%;
+  padding: 2rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.ServiceBenefitsFrame > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  align-self: stretch;
+}
+.ServiceBenefitsFrame > div:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(1) {
+  color: var(--MainText, #212529);
+   font-family: "Lexend"!important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%;
+  align-self: stretch;
+
+  height: 168;
+  width:783;
+}
+.ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(2) {
+  color: var(--SecondaryText, #6c757d);
+  font-family: "Inter",;
+
+  font-style: normal;
+  font-weight: 500;
+ 
+  align-self: stretch;
+
+
+font-size: 18px;
+line-height: 160%;
+letter-spacing: 0%;
+}
+
+@media (max-width: 375px) {
+  .ServiceBenefitsFrame {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) {
+    gap: 0.75rem; /* Reduce gap between child elements */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 2rem; /* Smaller font size for headings */
+    line-height: 120%; /* Adjust line height for readability */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 0.9rem; /* Slightly smaller font for descriptions */
+    line-height: 140%; /* Add more line spacing for smaller font */
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+  .ServiceBenefitsFrame {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) {
+    gap: 0.75rem; /* Reduce gap between child elements */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 2rem; /* Smaller font size for headings */
+    line-height: 120%; /* Adjust line height for readability */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 0.9rem; /* Slightly smaller font for descriptions */
+    line-height: 140%; /* Add more line spacing for smaller font */
+  }
+}
+@media (min-width:393px) and (max-width: 475px) {
+  .ServiceBenefitsFrame {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) {
+    gap: 0.75rem; /* Reduce gap between child elements */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 2rem; /* Smaller font size for headings */
+    line-height: 120%; /* Adjust line height for readability */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 0.9rem; /* Slightly smaller font for descriptions */
+    line-height: 140%; /* Add more line spacing for smaller font */
+  }
+}
+@media (min-width:475px) and (max-width: 600px) {
+  .ServiceBenefitsFrame {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) {
+    gap: 0.75rem; /* Reduce gap between child elements */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 2rem; /* Smaller font size for headings */
+    line-height: 120%; /* Adjust line height for readability */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 0.9rem; /* Slightly smaller font for descriptions */
+    line-height: 140%; /* Add more line spacing for smaller font */
+  }
+}
+@media (min-width:600px) and (max-width: 768px) {
+  .ServiceBenefitsFrame {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) {
+    gap: 0.75rem; /* Reduce gap between child elements */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 2rem; /* Smaller font size for headings */
+    line-height: 120%; /* Adjust line height for readability */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 0.9rem; /* Slightly smaller font for descriptions */
+    line-height: 140%; /* Add more line spacing for smaller font */
+  }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+  .ServiceBenefitsFrame {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) {
+    gap: 0.75rem; /* Reduce gap between child elements */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(1) {
+    font-size: 2rem; /* Smaller font size for headings */
+    line-height: 120%; /* Adjust line height for readability */
+  }
+
+  .ServiceBenefitsFrame > div:nth-of-type(1) > p:nth-of-type(2) {
+    font-size: 0.9rem; /* Slightly smaller font for descriptions */
+    line-height: 140%; /* Add more line spacing for smaller font */
+  }
+}

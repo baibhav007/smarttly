@@ -1,0 +1,18 @@
+  @media (max-width: 768px) {
+    #tawkchat-container {
+      display: none !important;
+    }
+    .font-lato{
+      display: none !important;
+    }
+    .tawk-mobile{
+      display: none !important;
+    }
+    .tawk-script{
+      display: none !important;
+    }
+    .tawk-min-container { 
+      display: none !important;
+    }
+  }
+  

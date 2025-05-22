@@ -1,0 +1,316 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+}
+.container {
+  display: flex;
+  padding: 4rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  background: var(--background, #f8f9fa);
+}
+.header p {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--MainText, #212529);
+  line-height: 160%;
+}
+
+.header h1 {
+  font-family: "Lexend" !important;
+}
+.tabs {
+  display: flex;
+  padding: 2rem 0;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+}
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.tab {
+  background-color: var(--backgroundcolor, #f8f9fa);
+  color: var(--maintext, #212529);
+  border: 1px solid var(--maintext, #212529);
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  border-radius: 3rem;
+  border: 1px solid var(--MainText, #212529);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.tab:hover {
+  background-color: var(--maintext) !important;
+  color: var(--backgroundcolor) !important;
+  border-color: var(--maintext) !important;
+}
+.active {
+  background-color: var(--maintext, #212529);
+  color: var(--backgroundcolor, #f8f9fa);
+  border: 1px solid var(--maintext, #212529);
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  border-radius: 3rem;
+  border: 1px solid var(--MainText, #212529);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 600px) {
+  .container {
+    padding: 2rem;
+    gap: 1.5rem;
+  }
+
+  .header {
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+
+  .header h1 {
+    font-size: 1.5rem; /* Smaller heading on mobile */
+  }
+
+  .header p {
+    font-size: 16px; /* Slightly smaller text */
+  }
+
+  .tabs {
+    flex-wrap: nowrap; /* Prevent wrapping on mobile */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    justify-content: flex-start; /* Align tabs to the start for scrolling */
+    padding: 1rem 0.5rem;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+  }
+
+  .tabs::-webkit-scrollbar {
+    display: none; /* Hide scrollbar for Chrome, Safari, Edge */
+  }
+
+  .tab {
+    padding: 0.5rem 1.5rem; /* Smaller padding for mobile */
+    font-size: 14px; /* Smaller font size */
+    min-width: fit-content; /* Ensure tabs don't shrink too much */
+    white-space: nowrap; /* Prevent text wrapping */
+    border-radius: 2rem; /* Slightly smaller border-radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+
+  .tab:hover {
+    background-color: var(--maintext, #212529) !important;
+    color: var(--backgroundcolor, #f8f9fa) !important;
+  }
+
+  .active {
+    padding: 0.5rem 1.5rem;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* Stronger shadow for active tab */
+  }
+}
+
+/* Finer adjustments for very small screens */
+@media (max-width: 393px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .header h1 {
+    font-size: 1.25rem;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+
+  .tabs {
+    padding: 0.75rem 0.5rem;
+    gap: 0.75rem;
+  }
+
+  .tab {
+    padding: 0.4rem 1.2rem;
+    font-size: 12px;
+  }
+
+  .active {
+    padding: 0.4rem 1.2rem;
+    font-size: 12px;
+  }
+}
+
+/* Adjustments for screens between 375px and 393px */
+@media (min-width: 375px) and (max-width: 393px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .header h1 {
+    font-size: 1.25rem;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+
+  .tabs {
+    gap: 0.75rem;
+  }
+
+  .tab {
+    padding: 0.4rem 1.2rem;
+    font-size: 12px;
+  }
+
+  .active {
+    padding: 0.4rem 1.2rem;
+    font-size: 12px;
+  }
+}
+
+/* Adjustments for screens between 393px and 475px */
+@media (min-width: 393px) and (max-width: 475px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+  .tabs {
+    gap: 0.75rem;
+  }
+
+  .tab {
+    padding: 0.5rem 1.5rem;
+    font-size: 14px;
+  }
+
+  .active {
+    padding: 0.5rem 1.5rem;
+    font-size: 14px;
+  }
+}
+
+/* Adjustments for screens between 475px and 600px */
+@media (min-width: 475px) and (max-width: 600px) {
+  .container {
+    padding: 2rem;
+  }
+
+  .header h1 {
+    font-size: 1.75rem;
+  }
+
+  .header p {
+    font-size: 16px;
+  }
+
+  .tabs {
+    gap: 1rem;
+  }
+
+  .tab {
+    padding: 0.5rem 1.5rem;
+    font-size: 14px;
+  }
+
+  .active {
+    padding: 0.5rem 1.5rem;
+    font-size: 14px;
+  }
+}
+
+/* Adjustments for screens between 600px and 768px */
+@media (min-width: 600px) and (max-width: 768px) {
+  .container {
+    padding: 3rem;
+    gap: 1.5rem;
+  }
+
+  .header {
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+
+  .tabs {
+    flex-wrap: wrap; /* Allow wrapping on larger screens */
+    justify-content: center; /* Center tabs */
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+
+  .tab {
+    padding: 0.75rem 1.75rem;
+    font-size: 15px;
+  }
+
+  .active {
+    padding: 0.75rem 1.75rem;
+    font-size: 15px;
+  }
+}
+
+/* Adjustments for screens between 768px and 1024px */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    padding: 3rem;
+    gap: 1.5rem;
+  }
+
+  .header {
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+  }
+
+  .tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem 0;
+  }
+
+  .tab {
+    padding: 0.75rem 1.75rem;
+    font-size: 15px;
+  }
+
+  .active {
+    padding: 0.75rem 1.75rem;
+    font-size: 15px;
+  }
+}

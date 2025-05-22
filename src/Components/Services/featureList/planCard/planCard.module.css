@@ -1,0 +1,110 @@
+.main {
+  display: flex;
+  padding: 0px 8px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  width: 100%;
+}
+.container {
+  display: flex;
+  padding: 16px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: var(--white, #fff);
+  width: 100%;
+}
+.buttonsContainer {
+  padding: 0 8px;
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 16px;
+  background: var(--white, #fff);
+  width: 100%;
+  color: var(--MainText, #212529);
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; 
+  border-bottom: 2px solid var(--maintext);
+}
+
+.child1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+.child2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+.heading {
+  color: var(--MainText, #212529);
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 30px */
+}
+.para {
+  color: var(--MainText, #212529);
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 17.5px */
+}
+.price {
+  color: var(--secondary, #34a852);
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114%;
+  width: 100%;
+}
+
+.price > span {
+  color: var(--SecondaryText, #6c757d);
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+.buttonContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+.Button {
+  display: flex;
+  padding: 16px 24px;
+  justify-content: center;
+  align-items: center;
+  /* flex: 1 0 0; */
+  border-radius: 50px;
+  border: 1px solid var(--MainText, #212529);
+  color: var(--MainText, #212529);
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

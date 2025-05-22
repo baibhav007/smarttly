@@ -1,0 +1,260 @@
+.ServiceContent {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.75) 0%,
+      rgba(0, 0, 0, 0.75) 100%
+    )
+    50% / cover no-repeat;
+}
+
+.ServiceContent > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.lineImage {
+  width: 20px;
+  height: auto;
+}
+
+.title {
+  color: var(--background, #f8f9fa);
+  flex: 1 0 0;
+  font-size: 28px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: "Lexend";
+  line-height: 114%;
+}
+
+.desc {
+  font-family: "Inter";
+  font-style: normal;
+  color: var(--background, #f8f9fa);
+  flex: 1 0 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0%;
+}
+
+.listsContainer {
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+  width: 100%;
+}
+
+.list {
+  padding-left: 1.5rem;
+  color: var(--background, #f8f9fa);
+  font-family: "Inter"!important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  flex: 1;
+}
+
+.list ul {
+  font-size: 1rem;
+  line-height: 160%;
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.buttonn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  height: 50px;
+}
+
+/* Mobile View (≤ 1024px) */
+@media (max-width: 1024px) {
+  .ServiceContent {
+    padding: 1.75rem;
+    gap: 1.75rem;
+    border-radius: 0.75rem;
+  }
+
+  .ServiceContent > div:nth-of-type(1) {
+    gap: 0.75rem;
+  }
+
+  .titleContainer {
+    gap: 8px;
+  }
+
+  .title {
+   font-family: "Lexend";
+    font-size: 2rem;
+    line-height: 120%;
+  }
+
+  .lineImage {
+    width: 16px;
+  }
+
+  .desc {
+font-family: "Inter";
+    font-size: 18px;
+    line-height: 130%;
+  }
+
+  .listsContainer {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .list {
+    padding-left: 1rem;
+   font-family: "Inter";
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .list ul {
+     font-family: "Inter";
+    font-size: 0.9rem;
+    line-height: 150%;
+    padding-left: 1rem;
+  }
+
+  .link {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .buttonn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+    width: auto;
+  }
+}
+
+/* Smaller Screens (≤ 600px) */
+@media (max-width: 600px) {
+  .ServiceContent {
+    padding: 1.25rem;
+    gap: 1.25rem;
+    border-radius: 0.5rem;
+  }
+
+  .ServiceContent > div:nth-of-type(1) {
+    gap: 0.5rem;
+  }
+
+  .titleContainer {
+    gap: 6px;
+  }
+
+  .title {
+     font-family: "Lexend";
+    font-size: 1.5rem;
+  }
+
+  .lineImage {
+    width: 14px;
+  }
+
+  .desc {
+font-family: "Inter";
+    font-size: 14px;
+  }
+
+  .listsContainer {
+    gap: 1rem;
+  }
+
+  .list {
+    font-family: "Inter";
+    font-size: 13px;
+  }
+
+  .list ul {
+     font-family: "Inter";
+    font-size: 0.85rem;
+    line-height: 140%;
+  }
+
+  .buttonn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* Extra Small Screens (≤ 475px) */
+@media (max-width: 475px) {
+  .ServiceContent {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .titleContainer {
+    gap: 5px;
+  }
+
+  .title {
+     font-family: "Lexend";
+    font-size: 1.3rem;
+  }
+
+  .lineImage {
+    width: 12px;
+  }
+
+  .desc {
+font-family: "Inter";
+    font-size: 14px;
+    line-height: 120%;
+  }
+
+  .listsContainer {
+    gap: 0.75rem;
+  }
+
+  .list {
+    padding-left: 0.75rem;
+     font-family: "Inter";
+    font-size: 12px;
+  }
+
+  .list ul {
+    font-family: "Inter";
+    font-size: 0.8rem;
+    padding-left: 0.75rem;
+  }
+
+  .buttonn {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+}

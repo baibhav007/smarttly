@@ -1,0 +1,26 @@
+.ServiceFeatureMobile {
+  display: flex;
+  width: 100%;
+  padding: 1rem 1.25rem 2rem 1.25rem;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2rem;
+}
+.ServiceFeatureMobileNavigation {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+}
+.ServiceFeatureMobileNavigationTitle {
+  flex: 1 0 0;
+  color: var(--MainText, #212529);
+  font-family: "Montserrat-600", sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  line-height: 114%;
+}
+.ServiceFeatureMobileNavigationButtons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

@@ -1,0 +1,524 @@
+.header {
+  display: flex;
+  padding: 2rem 4rem 4rem 4rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--button-text);
+  border-bottom: 1px solid var(--border, #BEC1C3);
+  gap: 1rem;
+}
+.firstCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+h1 {
+  color: var(--MainText);
+   font-family: "Lexend"!important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%; /* 54.72px */
+}
+.p {
+  color: var(--MainText, #212529);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.secCol {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex: 1 0 0;
+}
+.secColItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  flex: 1 0 0;
+}
+h6 {
+  color: var(--MainText);
+   font-family: "Lexend"!important;
+  font-size: 28px!important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 30px */
+}
+.icon {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0.5rem;
+  border: 1px solid var(--secondary, #34a852);
+  background: rgba(52, 168, 82, 0.1);
+}
+.secColIconDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  align-self: stretch;
+}
+
+.firstCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+h1 {
+  color: var(--MainText);
+  font-family: "Lexend";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%; /* 54.72px */
+}
+.p {
+  color: var(--MainText, #212529);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.secCol {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex: 1 0 0;
+}
+
+.secColItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  flex: 1 0 0;
+}
+
+h6 {
+  color: var(--MainText);
+  font-family: "Lexend"!important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 30px */
+}
+.icon {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid var(--secondary, #34a852);
+  background: rgba(52, 168, 82, 0.1);
+}
+.secColIconDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  align-self: stretch;
+}
+.firstCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.secColIconDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  align-self: stretch;
+}
+.icon {
+  display: flex;
+  width: 2rem;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid var(--secondary, #34a852);
+  background: rgba(52, 168, 82, 0.1);
+}
+.secColItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  flex: 1 0 0;
+}
+
+h6 {
+  color: var(--MainText);
+  font-family: "Lexend";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 30px */
+}
+
+
+.secCol {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex: 1 0 0;
+}
+.p {
+  color: var(--MainText, #212529);
+  font-family: "Inter"!important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+h1 {
+  color: var(--MainText);
+   font-family: "Lexend"!important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%; /* 54.72px */
+}
+
+
+
+@media (max-width: 375px) {
+  .header {
+    flex-direction: column; /* Stack content vertically */
+    padding: 1rem 2rem; /* Reduce padding */
+    gap: 1rem;
+  }
+}
+/* Adjust font size for smaller screens */
+@media (max-width: 375px) {
+  .firstCol {
+    gap: 0.5rem; /* Reduce gap */
+  }
+}
+/* Adjust font size for h1 */
+@media (max-width: 375px) {
+  h1 {
+    font-size: 1rem; /* Smaller font for smaller screens */
+  }
+}
+/* Adjust paragraph font size */
+@media (max-width: 375px){
+  .p {
+    font-size: 0.875rem; /* Smaller font size */
+    line-height: 160%;
+  }
+}
+/* Adjust layout for smaller screens */
+@media (max-width: 375px) {
+  .secCol {
+    /* flex-direction: column; Stack items vertically */
+    gap: 1rem; /* Reduce gap */
+  }
+}
+/* Adjust h6 font size */
+@media (max-width: 375px){
+  h6 {
+    font-size: 1.25rem; /* Slightly smaller */
+  }
+}
+/* Adjust icon size */
+@media (max-width: 375px) {
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem; /* Smaller size */
+  }
+}
+/* Adjust spacing for smaller screens */
+@media (max-width: 375px) {
+  .secColIconDiv {
+    gap: 0.25rem; /* Reduce gap */
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+  .header {
+    flex-direction: column; /* Stack content vertically */
+    padding: 1rem 2rem; /* Reduce padding */
+    gap: 1rem;
+  }
+}
+/* Adjust font size for smaller screens */
+@media (min-width:375px) and (max-width: 393px) {
+  .firstCol {
+    gap: 0.5rem; /* Reduce gap */
+  }
+}
+/* Adjust font size for h1 */
+@media (min-width:375px) and (max-width: 393px) {
+  h1 {
+    font-size: 2rem; /* Smaller font for smaller screens */
+  }
+}
+/* Adjust paragraph font size */
+@media (min-width:375px) and (max-width: 393px){
+  .p {
+    font-size: 0.875rem; /* Smaller font size */
+    line-height: 160%;
+  }
+}
+/* Adjust layout for smaller screens */
+@media (min-width:375px) and (max-width: 393px) {
+  .secCol {
+    /* flex-direction: column; Stack items vertically */
+    gap: 1rem; /* Reduce gap */
+  }
+}
+/* Adjust h6 font size */
+@media (min-width:375px) and (max-width: 393px){
+  h6 {
+    font-size: 1.25rem; /* Slightly smaller */
+  }
+}
+/* Adjust icon size */
+@media (min-width:375px) and (max-width: 393px) {
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem; /* Smaller size */
+  }
+}
+/* Adjust spacing for smaller screens */
+@media (min-width:375px) and (max-width: 393px) {
+  .secColIconDiv {
+    gap: 0.25rem; /* Reduce gap */
+  }
+}
+@media (min-width:393px) and (max-width: 475px) {
+  .header {
+    flex-direction: column; /* Stack content vertically */
+    padding: 1rem 2rem; /* Reduce padding */
+    gap: 1rem;
+  }
+}
+/* Adjust font size for smaller screens */
+@media (min-width:393px) and (max-width: 475px) {
+  .firstCol {
+    gap: 0.5rem; /* Reduce gap */
+  }
+}
+/* Adjust font size for h1 */
+@media (min-width:393px) and (max-width: 475px) {
+  h1 {
+    font-size: 2rem; /* Smaller font for smaller screens */
+  }
+}
+/* Adjust paragraph font size */
+@media (min-width:393px) and (max-width: 475px){
+  .p {
+    font-size: 0.875rem; /* Smaller font size */
+    line-height: 160%;
+  }
+}
+/* Adjust layout for smaller screens */
+@media (min-width:393px) and (max-width: 475px) {
+  .secCol {
+    /* flex-direction: column; Stack items vertically */
+    gap: 1rem; /* Reduce gap */
+  }
+}
+/* Adjust h6 font size */
+@media (min-width:393px) and (max-width: 475px){
+  h6 {
+    font-size: 1.25rem; /* Slightly smaller */
+  }
+}
+/* Adjust icon size */
+@media (min-width:393px) and (max-width: 475px) {
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem; /* Smaller size */
+  }
+}
+/* Adjust spacing for smaller screens */
+@media (min-width:393px) and (max-width: 475px) {
+  .secColIconDiv {
+    gap: 0.25rem; /* Reduce gap */
+  }
+}
+@media (min-width:475px) and (max-width: 600px) {
+  .header {
+    flex-direction: column; /* Stack content vertically */
+    padding: 1rem 2rem; /* Reduce padding */
+    gap: 1rem;
+  }
+}
+/* Adjust font size for smaller screens */
+@media (min-width:475px) and (max-width: 600px) {
+  .firstCol {
+    gap: 0.5rem; /* Reduce gap */
+  }
+}
+/* Adjust font size for h1 */
+@media (min-width:475px) and (max-width: 600px) {
+  h1 {
+    font-size: 2rem; /* Smaller font for smaller screens */
+  }
+}
+/* Adjust paragraph font size */
+@media (min-width:475px) and (max-width: 600px) {
+  .p {
+    font-size: 0.875rem; /* Smaller font size */
+    line-height: 160%;
+  }
+}
+/* Adjust layout for smaller screens */
+@media (min-width:475px) and (max-width: 600px) {
+  .secCol {
+    /* flex-direction: column; Stack items vertically */
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+/* Adjust h6 font size */
+@media (min-width:475px) and (max-width: 600px) {
+  h6 {
+    font-size: 1.25rem; /* Slightly smaller */
+  }
+}
+/* Adjust icon size */
+@media (min-width:475px) and (max-width: 600px) {
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem; /* Smaller size */
+  }
+}
+/* Adjust spacing for smaller screens */
+@media (min-width:475px) and (max-width: 600px) {
+  .secColIconDiv {
+    gap: 0.25rem; /* Reduce gap */
+  }
+}
+@media (min-width:600px) and (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack content vertically */
+    padding: 1rem 2rem; /* Reduce padding */
+    gap: 1rem;
+  }
+}
+/* Adjust font size for smaller screens */
+@media (min-width:600px) and (max-width: 768px) {
+  .firstCol {
+    gap: 0.5rem; /* Reduce gap */
+  }
+}
+/* Adjust font size for h1 */
+@media (min-width:600px) and (max-width: 768px) {
+  h1 {
+    font-size: 2rem; /* Smaller font for smaller screens */
+  }
+}
+/* Adjust paragraph font size */
+@media (min-width:600px) and (max-width: 768px) {
+  .p {
+    font-size: 0.875rem; /* Smaller font size */
+    line-height: 160%;
+  }
+}
+/* Adjust layout for smaller screens */
+@media (min-width:600px) and (max-width: 768px) {
+  .secCol {
+    /* flex-direction: column; Stack items vertically */
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+/* Adjust h6 font size */
+@media (min-width:600px) and (max-width: 768px) {
+  h6 {
+    font-size: 1.25rem; /* Slightly smaller */
+  }
+}
+/* Adjust icon size */
+@media (min-width:600px) and (max-width: 768px) {
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem; /* Smaller size */
+  }
+}
+/* Adjust spacing for smaller screens */
+@media (min-width:600px) and (max-width: 768px) {
+  .secColIconDiv {
+    gap: 0.25rem; /* Reduce gap */
+  }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+  .header {
+    flex-direction: column; /* Stack content vertically */
+    padding: 1rem 2rem; /* Reduce padding */
+    gap: 1rem;
+  }
+}
+/* Adjust font size for smaller screens */
+@media (min-width:768px) and (max-width: 1024px) {
+  .firstCol {
+    gap: 0.5rem; /* Reduce gap */
+  }
+}
+/* Adjust font size for h1 */
+@media (min-width:768px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2rem; /* Smaller font for smaller screens */
+  }
+}
+/* Adjust paragraph font size */
+@media (min-width:768px) and (max-width: 1024px) {
+  .p {
+    font-size: 0.875rem; /* Smaller font size */
+    line-height: 160%;
+  }
+}
+/* Adjust layout for smaller screens */
+@media (min-width:768px) and (max-width: 1024px) {
+  .secCol {
+    /* flex-direction: column; Stack items vertically */
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+/* Adjust h6 font size */
+@media (min-width:768px) and (max-width: 1024px) {
+  h6 {
+    font-size: 1.25rem; /* Slightly smaller */
+  }
+}
+/* Adjust icon size */
+@media (min-width:768px) and (max-width: 1024px) {
+  .icon {
+    width: 1.5rem;
+    height: 1.5rem; /* Smaller size */
+  }
+}
+/* Adjust spacing for smaller screens */
+@media (min-width:768px) and (max-width: 1024px) {
+  .secColIconDiv {
+    gap: 0.25rem; /* Reduce gap */
+  }
+}

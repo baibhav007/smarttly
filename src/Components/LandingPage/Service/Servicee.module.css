@@ -1,0 +1,507 @@
+.Service{
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servicetop{
+  width: 90%;
+  gap: 1rem ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.z {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 2rem;
+    border-radius: 1rem;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.75) 0%,
+        rgba(0, 0, 0, 0.75) 100%  
+      )
+      50% / cover no-repeat;
+  }
+  .ServiceContent > div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+  }
+  .title {
+    color: var(--background, #f8f9fa);
+    font-family: "Lexend";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 114%; /* 45.6px */
+    flex: 1 0 0;
+  }
+  .ServiceContent > div:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    align-self: stretch;
+  }
+  .buttonn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+  }
+  .ServiceContent > div:nth-of-type(2) > div {
+    flex: 1 0 0;
+    color: var(--background, #f8f9fa);
+    font-family: "Roboto",sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 28.8px */
+  }
+  .desc {
+    color: var(--background, #f8f9fa);
+    font-family: "Roboto",sans-serif;
+    font-size: 1.250rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 25px */
+    flex: 1 0 0;
+  }
+  .link {
+    text-decoration: none;
+  }
+  .list {
+    padding-left: 1.5rem;
+  }
+  .list ul{
+    font-size: 1.125rem;
+    line-height: 160%;
+  }
+  @media (max-width: 393px) {
+    .ServiceContent {
+      padding: 16px; 
+      gap: 16px; 
+      border-radius: 12px; 
+    }
+  
+    .ServiceContent > div:nth-of-type(1) {
+      gap: 12px; /* Adjust spacing */
+    }
+  
+    .title {
+      font-size: 1.25rem; /* Reduce title font size */
+      line-height: 130%; /* Adjust line height */
+    }
+  
+    .ServiceContent > div:nth-of-type(2) {
+      flex-direction: column; /* Stack items vertically */
+      gap: 16px; /* Reduce gap between items */
+    }
+  
+    .ServiceContent > div:nth-of-type(2) > div {
+      font-size: 16px; /* Adjust font size for readability */
+      line-height: 140%; /* Adjust line height for better spacing */
+    }
+  
+    .desc {
+      font-size: 1rem; /* Slightly reduce description font size */
+      line-height: 140%; /* Adjust line height */
+    }
+  
+    Button {
+      width: 100%; /* Make buttons stretch to full width */
+    }
+    .list ul{
+      font-size: 0.9rem;
+      line-height: 160%;
+    }
+  }
+
+  .add{
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    /* align-items: flex-end !important; */
+    justify-content: flex-end !important;
+    text-align: end !important;
+  }
+
+
+  /* .ServicePlanPricingContainer > div {
+    display: flex;
+    min-width: 19.75rem;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    gap: 2rem;
+    flex: 1 0 0;
+    border: 2px solid var(--maintext);
+    border-radius: 1rem;
+  } */
+  .servicecard{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .servicecard>div{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 21rem;
+    padding: 2rem;  
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+    flex: 1 0 21rem;
+    border: 2px solid var(--maintext);
+    border-radius: 1rem;
+    align-self: stretch;
+    width: 100%;
+  }
+  .ServicePlanPricing {
+    display: flex;
+    max-width: 19.75rem;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex: 1 0 0;
+    border: 2px solid var(--maintext);
+    border-radius: 1rem;
+  }
+  .ServicePlanPricing > div:nth-of-type(1) {
+    color: var(--MainText, #212529);
+    font-family: "Lexend";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    flex: 1 0 0;
+  }
+  .ServicePlanPricing > div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+  }
+  .ServicePlanPricing > div:nth-of-type(3) {
+    color: var(--SecondaryText, #6c757d);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    align-self: stretch;
+  }
+  .ServicePlanPricing > div:nth-of-type(4) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+  }
+  .ServicePlanPricing > div:nth-of-type(2) > div {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+    align-self: stretch;
+  }
+  .Header {
+    white-space: nowrap;
+    color: var(--MainText, #212529);
+    font-family: "Lexend";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 40px */
+    /* flex: 1 0 0; */
+  }
+  .PlanContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+  }
+  .PlanContent > p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+  }
+  .PlanContent > p > p:nth-of-type(1) {
+    color: var(--MainText, #212529);
+    font-family: "Lexend";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 30px */
+  }
+  .PlanContent > p > p:nth-of-type(2) {
+    color: var(--SecondaryText, #6c757d);
+    font-family: "Roboto",sans-serif;
+    font-size: 0.88rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 17.5px */
+    align-self: stretch;
+  }
+  .PriceContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .PriceContent > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+  }
+  .PriceContent > div > div:nth-of-type(2) {
+    width: 100%;
+  }
+  .np {
+    color: var(--secondary, #34a852);
+    font-family: "Montserrat",sans-serif;
+    font-size: 1.85rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .op {
+    color: var(--border, #bec1c3);
+    font-family: "Montserrat",sans-serif;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .btn {
+    width: 100%;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.65rem;
+    align-self: stretch;
+    border-radius: 3.125rem;
+    border: 1px solid var(--MainText, #212529);
+    background: var(--MainText, #212529);
+    color: var(--background, #f8f9fa);
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+  }
+  .Description {
+    color: var(--black, #0b0c0d);
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 20px */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: "from-font";
+    align-self: stretch;
+  }
+  .Points {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    min-height: 0;
+  }
+  .Point {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+  }
+  .TickIcon {
+    padding-top: 0.125rem;
+  }
+  .PointsContainer {
+    max-height: auto;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+    margin-top: 0.88rem;
+    width: 100%;
+
+  }
+  .PriceCard.expanded {
+    min-height: 25rem; /* Adjust to your needs */
+  }
+  
+  .PointsContainer::-webkit-scrollbar {
+    appearance: none;
+  }
+  
+  .PointsContainer::-webkit-scrollbar-thumb {
+    appearance: none;
+  }
+  
+  .PointsContainer::-webkit-scrollbar-thumb:hover {
+    appearance: none;
+  }
+  .SpecialTitle {
+    font-size: 1.3rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    font-weight: bold;
+  }
+  @media (max-width: 393px) {
+    .ServicePlanPricingContainer {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center;
+    }
+  
+    .ServicePlanPricingContainer > div,
+    .ServicePlanPricing {
+      min-width: auto;
+      width: 100%;
+      padding: 1.5rem; /* Reduce padding */
+    }
+  
+    .ServicePlanPricing > div:nth-of-type(1) {
+      font-size: 1.8rem; /* Reduce font size */
+    }
+  
+    .PriceContent {
+      gap: 1.5rem; /* Adjust spacing */
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+      padding: 0.8rem 1.5rem; /* Reduce button padding */
+    }
+  
+    .Points {
+      gap: 2rem; /* Adjust spacing for better layout */
+    }
+  
+    .PointsContainer {
+      max-height: 20rem; /* Adjust height for better scrollability */
+    }
+  
+    .SpecialTitle {
+      font-size: 1.1rem; /* Reduce title font size */
+    }
+  }
+
+
+
+  .ServiceContact {
+    display: flex;
+    width: 100%;
+    padding: 4rem;
+    align-items: center;
+    gap: 2rem;
+  }
+  .ServiceContact > div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    flex: 1 0 0;
+  }
+  .ServiceContact > div:nth-of-type(1) > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+  }
+  .ServiceContacttoptext {
+    color: var(--MainText, #212529);
+    font-family: "Lexend";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%; /* 60px */
+    align-self: stretch;
+  }
+  .ServiceContactbottext {
+    color: var(--SecondaryText, #6c757d);
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; /* 25.6px */
+    align-self: stretch;
+  }
+  .ServiceContact>div:nth-of-type(2){
+    width: 100%;
+    max-width: 33.25rem;
+    height: auto;
+    max-height: 26.25rem;
+  }
+  .ServiceContact>div:nth-of-type(2)>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  @media (max-width: 393px) {
+    .ServiceContact {
+      flex-direction: column;
+      padding: 2rem; /* Reduce padding */
+      gap: 1rem; /* Reduce gap */
+    }
+  
+    .ServiceContacttoptext {
+      font-size: 2rem; /* Reduce heading size */
+      line-height: 120%;
+    }
+  
+    .ServiceContactbottext {
+      font-size: 0.9rem; /* Adjust text size */
+      line-height: 150%;
+    }
+    .ServiceContact>div:nth-of-type(2){
+      width: 100%;
+      height: auto;
+    }
+    .ServiceContact>div:nth-of-type(2)>img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }   
+  }

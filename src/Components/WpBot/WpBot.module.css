@@ -1,0 +1,98 @@
+/* WpBot.module.css */
+
+.WpBot {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 0.9rem;
+  right: 1.5rem;
+  background-color: #075E54;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.WpBot:hover {
+  height: 4.8rem;
+  width: 4.8rem;
+}
+
+/* Ensure the <a> tag (from <Link>) fills the circle and centers its content */
+.WpBot a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none; /* Remove default underline from <a> */
+  color: inherit; /* Inherit color from .WpBot */
+}
+
+/* Optional: Ensure the icon itself is centered */
+.WpBot a svg {
+  display: block; /* Remove any inline quirks */
+}
+
+@media (max-width: 375px) {
+  .WpBot {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    bottom: 0.7rem;
+    right: 2rem;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 393px) {
+  .WpBot {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    bottom: 0.7rem;
+    right: 1rem;
+  }
+}
+
+@media (min-width: 393px) and (max-width: 475px) {
+  .WpBot {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    bottom: 0.7rem;
+    right: 1rem;
+  }
+}
+
+@media (min-width: 475px) and (max-width: 600px) {
+  .WpBot {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    bottom: 0.7rem;
+    right: 1rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .WpBot {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    bottom: 0.7rem;
+    right: 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .WpBot {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    bottom: 0.7rem;
+    right: 1rem;
+  }
+}

@@ -1,0 +1,386 @@
+/* que.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  align-self: stretch;
+}
+
+.faqItem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 0.5rem;
+}
+
+.faq {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 0.5rem;
+  border: 1px solid var(--SecondaryText, #6c757d);
+}
+
+.faq:hover {
+  background: var(--black, #0b0c0d);
+  color: var(--background, #f8f9fa);
+  transition: 0.5s;
+
+  .para {
+    color: var(--background, #f8f9fa);
+  }
+  transition: 0.5s;
+}
+
+.para {
+  width: 100%;
+  color: var(--SecondaryText, #6c757d);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.active {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  align-self: stretch;
+  border: 1px solid var(--SecondaryText, #6c757d);
+  background: var(--black, #0b0c0d);
+  box-shadow: 0px 0.5rem 1.5rem 0px rgba(0, 0, 0, 0.16);
+  color: var(--background, #f8f9fa);
+  border-radius: 0.5rem 0.5rem 0 0;
+
+  .para {
+    color: var(--background, #f8f9fa);
+  }
+}
+
+.ansContainer {
+  display: flex;
+  padding: 2rem;
+  align-items: flex-start;
+  align-self: stretch;
+  background: rgba(11, 12, 13, 0.05);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.ansPara {
+  color: var(--MainText, #212529);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+
+.faqsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  align-self: stretch;
+}
+
+@media (max-width: 393px) {
+  .container {
+    gap: 1rem; /* Reduce gap */
+  }
+
+  .faq {
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .para {
+    font-size: 1rem; /* Smaller font size */
+  }
+
+  .active {
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .ansContainer {
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .ansPara {
+    font-size: 0.875rem; /* Smaller font size */
+  }
+
+  .faqsContainer {
+    gap: 1rem; /* Reduce gap */
+  }
+}
+
+@media (min-width: 375px) and (max-width: 393px) {
+  .container {
+    gap: 1rem; /* Reduce gap */
+  }
+
+  .faq {
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .para {
+    font-size: 1rem; /* Smaller font size */
+  }
+
+  .active {
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .ansContainer {
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .ansPara {
+    font-size: 0.875rem; /* Smaller font size */
+  }
+
+  .faqsContainer {
+    gap: 1rem; /* Reduce gap */
+  }
+}
+
+@media (min-width: 393px) and (max-width: 475px) {
+  .container {
+    gap: 1rem; /* Reduce gap */
+  }
+
+  .faq {
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .para {
+    font-size: 1rem; /* Smaller font size */
+  }
+
+  .active {
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .ansContainer {
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .ansPara {
+    font-size: 0.875rem; /* Smaller font size */
+  }
+
+  .faqsContainer {
+    gap: 1rem; 
+  }
+}
+
+/* Updated Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  align-self: stretch;
+}
+
+.paginationBtn {
+  background-color:#34A852; /* Green for active state */
+
+
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-family: "Inter";
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 50px;
+  width: 150px;
+}
+
+.paginationBtn:hover:not(:disabled) {
+   background-color:#34A852; /* Slightly darker green on hover */
+}
+
+.paginationBtn:disabled {
+  background-color:#34A852;  /* Grey for disabled state */
+  color: white; /* White font color for disabled state */
+  cursor: not-allowed;
+}
+
+.pageNumbers {
+  display: flex;
+  gap: 0.5rem; /* Space between page number circles */
+}
+
+.singlePageIndicator {
+  display: none; /* Hidden by default on desktop */
+}
+
+.pageIndicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  background-color: #6c757d; /* Grey for inactive pages */
+  color: white;
+  border-radius: 50%;
+  font-family: "Inter", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pageIndicator:hover {
+  background-color: #5a6268; /* Slightly darker grey on hover */
+}
+
+.activePage {
+  background-color:#34A852; /* Green for active page */
+  color: white;
+  background-color:#34A852;/* Subtle border to enhance button appearance */
+}
+
+/* Responsive adjustments for pagination */
+@media (max-width: 393px) {
+  .pagination {
+    padding: 0.5rem 0;
+  }
+
+  .paginationBtn {
+    padding: 0.4rem 1rem;
+    font-size: 0.75rem;
+    height: 50px;
+    width: 100px;
+  }
+
+  /* Ensure Previous button is always green in mobile view */
+  .previousBtn,
+  .previousBtn:disabled {
+     background-color:#34A852; /* Always green */
+    color: white;
+  }
+
+  .previousBtn:hover:not(:disabled) {
+   background-color:#34A852; /* Slightly darker green on hover */
+  }
+
+  /* Hide all page numbers and show only the current page */
+  .pageNumbers {
+    display: none; /* Hide all page numbers */
+  }
+
+  .singlePageIndicator {
+    display: flex; /* Show only the current page */
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color:#34A852; /* Green background */
+    color: white;
+    border-radius: 50%; /* Round shape */
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    background-color:#34A852;/* Subtle border to enhance button appearance */
+  }
+}
+
+/* Adjust pagination for smaller screens */
+@media (min-width: 375px) and (max-width: 393px) {
+  .pagination {
+    padding: 0.5rem 0;
+  }
+
+  .paginationBtn {
+    padding: 0.4rem 1rem;
+    font-size: 0.75rem;
+    height: 50px;
+    width: 100px;
+  }
+
+  /* Ensure Previous button is always green in mobile view */
+  .previousBtn,
+  .previousBtn:disabled {
+     background-color:#34A852;/* Always green */
+    color: white;
+  }
+
+  .previousBtn:hover:not(:disabled) {
+   background-color:#34A852; /* Slightly darker green on hover */
+  }
+
+  /* Hide all page numbers and show only the current page */
+  .pageNumbers {
+    display: none; /* Hide all page numbers */
+  }
+
+  .singlePageIndicator {
+    display: flex; /* Show only the current page */
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+   background-color:#34A852; /* Green background */
+    color: white;
+    border-radius: 50%; /* Round shape */
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+   background-color:#34A852;/* Subtle border to enhance button appearance */
+  }
+}
+
+/* Adjust pagination for smaller screens */
+@media (min-width: 393px) and (max-width: 475px) {
+  .pagination {
+    padding: 0.5rem 0;
+  }
+
+  .paginationBtn {
+    padding: 0.4rem 1rem;
+    font-size: 0.75rem;
+    height: 50px;
+    width: 100px;
+  }
+
+  /* Ensure Previous button is always green in mobile view */
+  .previousBtn,
+  .previousBtn:disabled {
+    background-color:#34A852; /* Always green */
+    color: white;
+  }
+
+  .previousBtn:hover:not(:disabled) {
+    background-color:#34A852; /* Slightly darker green on hover */
+  }
+
+  /* Hide all page numbers and show only the current page */
+  .pageNumbers {
+    display: none; /* Hide all page numbers */
+  }
+
+  .singlePageIndicator {
+    display: flex; /* Show only the current page */
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color:#34A852; /* Green background */
+    color: white;
+    border-radius: 50%; /* Round shape */
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    background-color:#34A852;/* Subtle border to enhance button appearance */
+  }
+}

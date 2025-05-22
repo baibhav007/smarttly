@@ -1,0 +1,294 @@
+/* ServiceFeatureDataOne.module.css */
+
+/* ServiceFeature Styles */
+.ServiceFeatureFrame {
+  width: 90%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 1300px;
+}
+
+.ServiceFeature {
+  display: flex;
+  width: 90%;
+  max-width: 1500px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.ServiceFeature > div:nth-of-type(1) {
+  color: var(--MainText, #212529);
+  text-align: center;
+  font-family: "Lexend"!important;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 114%;
+  align-self: center;
+}
+
+.ServiceFeature > div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+}
+
+.ServiceFeature > div:nth-of-type(2) > div {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ServiceFeatureDataOne Styles */
+.featureContainer {
+  padding: 32px 18px; /* Remove horizontal padding to allow full width */
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Inter";
+  overflow-x: visible; /* Ensure parent doesn't clip the table */
+}
+
+.featureTitle {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  color: #333;
+  font-family: "Lexend";
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  background-color: #F8F9FA;
+  padding: 0; /* Remove padding to allow table to take full width */
+  border-radius: 0; /* Remove border-radius since we're removing shadows */
+  position: relative;
+  -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+  width: 100%; /* Ensure wrapper takes full width */
+}
+
+.tableWrapper::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome/Safari */
+}
+
+/* Remove the shadow effects entirely */
+.tableWrapper::after,
+.tableWrapper::before {
+  display: none; /* Remove the grey shadow lines */
+}
+
+/* Table styling for clear structure and full width */
+.featureTable {
+  width: 100%;
+  max-width: none; /* Remove max-width to allow full width */
+  min-width: 900px; /* Maintain minimum width for scrolling */
+  margin: 0; /* Remove centering margin to take full width */
+  padding: 0;
+  border-collapse: collapse; /* Ensure borders don't double up */
+  background-color: #fff;
+  display: table;
+  border: 2px solid #333; /* Bolder border for table */
+}
+
+/* Style for section header */
+.sectionHeader {
+  font-family: "Lexend";
+  font-size: 28px;
+  font-weight: 500; /* Bolder font for emphasis */
+  padding: 16px;
+  background-color: #34A852; /* Green background */
+  color: #F8F9FA; /* Light text */
+  border: 1px solid #333; /* Bolder border for visibility */
+  text-align: center;
+}
+
+/* Style for plan headers */
+.planHeader {
+  padding: 16px;
+  background-color: #fff;
+  border: 1px solid #333; /* Bolder border for visibility */
+  vertical-align: top;
+}
+
+.btn {
+  width: 100%; /* Increased width */
+  display: flex;
+  padding: 12px 32px; /* Reduced vertical padding to decrease height */
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 1px solid var(--MainText, #212529);
+  background: var(--MainText, #212529);
+  color: var(--background, #f8f9fa);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  height: 3rem;
+}
+
+/* Plan header content */
+.planHeaderContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.planLine {
+  display: block;
+  font-size: 28px;
+  font-weight: 500;
+  color: #333;
+  font-family: "Lexend";
+  align-self: flex-start;
+}
+
+.planPrice {
+  font-size: 28px;
+  font-weight: 500;
+  color: #28a745;
+  margin: 0;
+  font-family: "Inter";
+}
+
+.planPriceTime {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fffefe;
+  white-space: nowrap;
+  font-family: "Inter";
+}
+
+/* Style for the first column (feature labels) */
+.firstColumn {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500; /* Bolder font for emphasis */
+  padding: 16px;
+  background-color: #F8F9FA; /* Light gray background */
+  color: #333; /* Darker text */
+  border: 1px solid #333; /* Bolder border for visibility */
+  text-align: left;
+  min-width: 144px;
+}
+
+/* Style for plan cells */
+.planCell {
+  padding: 16px;
+  border: 1px solid #333; /* Bolder border for visibility */
+  background-color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  min-width: 150px; /* Ensure cells are wide enough */
+}
+
+.link {
+  text-decoration: none;
+}
+
+.featureItem {
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  font-family: "Inter"!important;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.featureTable thead tr:first-child th:first-child {
+  border-bottom: none;
+}
+
+.featureTable thead tr:nth-of-type(2) th:nth-of-type(1) {
+  border-top: none;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  .featureContainer {
+    padding: 16px 0; /* Remove horizontal padding in mobile view */
+    font-family: "Roboto", sans-serif; /* Match web view */
+  }
+
+  .tableWrapper {
+    padding: 0; /* Remove padding in mobile view */
+  }
+
+  .featureTable {
+    min-width: 900px; /* Ensure table is scrollable */
+    border: 3px solid #333; /* Maintain bolder border */
+    max-width: none; /* Remove max-width in mobile view */
+  }
+
+  .sectionHeader {
+    font-size: 16px;
+    border: 3px solid #333;
+    font-family: "Lexend"; /* Match web view */
+  }
+
+  .planLine {
+    font-size: 16px;
+    font-family: "Lexend"; /* Match web view */
+  }
+
+  .planPrice {
+    font-size: 16px;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .planPriceTime {
+    font-size: 14px;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .firstColumn {
+    font-size: 14px;
+    min-width: 120px;
+    border: 3px solid #333;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .planCell {
+    padding: 12px;
+    min-width: 120px;
+    border: 3px solid #333;
+  }
+
+  .featureItem {
+    font-size: 14px;
+    font-family: "Inter"; /* Match web view */
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+/* Cross-browser compatibility for Safari */
+@supports (-webkit-overflow-scrolling: touch) {
+  .ServiceFeatureFrame {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .tableWrapper {
+    -webkit-overflow-scrolling: touch;
+  }
+}

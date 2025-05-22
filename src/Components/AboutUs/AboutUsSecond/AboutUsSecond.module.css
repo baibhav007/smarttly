@@ -1,0 +1,361 @@
+.AboutUsSecondFrame{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.AboutUsSecond {
+  width: 90%;
+  display: flex;
+  padding: 2rem 0;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+  align-self: stretch;
+}
+.AboutUsSecond > img {
+  max-width: 45.5rem;
+  max-height: 24rem;
+  flex: 1 0 0;
+  border-radius: 1rem;
+}
+.AboutUsSecond > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.AboutUsSecondcard {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+  border-radius: 1rem;
+  background: rgba(52, 168, 82, 0.15);
+  align-self: stretch;
+  color: var(--SecondaryText, #6c757d);
+  font-family: "Inter"!important;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.AboutUsSecondcardheading {
+  display: flex;
+  padding: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--secondary, #34a852);
+  background: var(--background, #f8f9fa);
+  color: var(--MainText, #154678);
+ font-family: "Lexend"!important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%; /* 36.48px */
+}
+.AboutUsSecond > img {
+  max-width: 45.5rem;
+  max-height: 30rem;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  flex: 1 0 0;
+  border-radius: 1rem;
+}
+
+.AboutUsSecond > div:nth-of-type(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.AboutUsSecondcard {
+  display: flex;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+  border-radius: 1rem;
+  background: rgba(52, 168, 82, 0.15);
+  color: var(--SecondaryText, #6c757d);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 25.6px */
+  
+}
+.AboutUsSecondcardheading {
+  display: flex;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--secondary, #34a852);
+  background: var(--background, #f8f9fa);
+  color: var(--MainText, #212529);
+   font-family: "Lexend"!important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114%; /* 36.48px */
+  
+}
+
+
+/* Responsive adjustments for .AboutUsSecond */
+@media (max-width: 375px) {
+  .AboutUsSecond {
+    flex-direction: column; /* Stack items vertically */
+    gap: 1rem; /* Reduce gap */
+    align-items: center; /* Center-align content */
+  }
+}
+/* Responsive adjustments for the image */
+@media (max-width: 375px) {
+  .AboutUsSecond > img {
+    width: 100%; /* Full width for smaller screens */
+    max-width: none; /* Remove max width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+/* Responsive adjustments for content container */
+@media (max-width: 375px) {
+  .AboutUsSecond > div:nth-of-type(1) {
+    align-items: center; /* Center-align content */
+    text-align: center; /* Center text for readability */
+  }
+}
+/* Responsive adjustments for .AboutUsSecondcard */
+@media (max-width: 375px) {
+  .AboutUsSecondcard {
+    padding: 0.75rem; /* Reduce padding */
+    font-size: 0.875rem; /* Decrease font size */
+    text-align: start;
+  }
+}
+/* Responsive adjustments for .AboutUsSecondcardheading */
+@media (max-width: 375px) {
+  .AboutUsSecondcardheading {
+    font-size: 1.5rem; /* Reduce font size */
+    padding: 0.5rem; /* Adjust padding */
+    gap: 0.5rem; /* Decrease gap */
+  }
+}
+
+
+
+/* Responsive adjustments for .AboutUsSecond */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsSecond {
+    flex-direction: column; /* Stack items vertically */
+    gap: 1rem; /* Reduce gap */
+    align-items: center; /* Center-align content */
+  }
+}
+/* Responsive adjustments for the image */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsSecond > img {
+    width: 100%; /* Full width for smaller screens */
+    max-width: none; /* Remove max width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+/* Responsive adjustments for content container */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsSecond > div:nth-of-type(1) {
+    align-items: center; /* Center-align content */
+    text-align: center; /* Center text for readability */
+  }
+}
+/* Responsive adjustments for .AboutUsSecondcard */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsSecondcard {
+    padding: 0.75rem; /* Reduce padding */
+    font-size: 0.875rem; /* Decrease font size */
+    text-align: start;
+  }
+}
+/* Responsive adjustments for .AboutUsSecondcardheading */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsSecondcardheading {
+    font-size: 1.5rem; /* Reduce font size */
+    padding: 0.5rem; /* Adjust padding */
+    gap: 0.5rem; /* Decrease gap */
+  }
+}
+/* Responsive adjustments for .AboutUsSecond */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsSecond {
+    flex-direction: column; /* Stack items vertically */
+    gap: 1rem; /* Reduce gap */
+    align-items: center; /* Center-align content */
+  }
+}
+/* Responsive adjustments for the image */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsSecond > img {
+    width: 100%; /* Full width for smaller screens */
+    max-width: none; /* Remove max width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+/* Responsive adjustments for content container */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsSecond > div:nth-of-type(1) {
+    align-items: center; /* Center-align content */
+    text-align: center; /* Center text for readability */
+  }
+}
+/* Responsive adjustments for .AboutUsSecondcard */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsSecondcard {
+    padding: 0.75rem; /* Reduce padding */
+    font-size: 0.875rem; /* Decrease font size */
+    text-align: start;
+  }
+}
+/* Responsive adjustments for .AboutUsSecondcardheading */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsSecondcardheading {
+    font-size: 1.5rem; /* Reduce font size */
+    padding: 0.5rem; /* Adjust padding */
+    gap: 0.5rem; /* Decrease gap */
+  }
+}
+
+
+
+/* Responsive adjustments for .AboutUsSecond */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsSecond {
+    flex-direction: column; /* Stack items vertically */
+    gap: 1rem; /* Reduce gap */
+    align-items: center; /* Center-align content */
+  }
+}
+/* Responsive adjustments for the image */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsSecond > img {
+    width: 100%; /* Full width for smaller screens */
+    max-width: none; /* Remove max width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+/* Responsive adjustments for content container */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsSecond > div:nth-of-type(1) {
+    align-items: center; /* Center-align content */
+    text-align: center; /* Center text for readability */
+  }
+}
+/* Responsive adjustments for .AboutUsSecondcard */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsSecondcard {
+    padding: 0.75rem; /* Reduce padding */
+    font-size: 0.875rem; /* Decrease font size */
+    text-align: start;
+  }
+}
+/* Responsive adjustments for .AboutUsSecondcardheading */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsSecondcardheading {
+    font-size: 1.5rem; /* Reduce font size */
+    padding: 0.5rem; /* Adjust padding */
+    gap: 0.5rem; /* Decrease gap */
+  }
+}
+
+
+
+/* Responsive adjustments for .AboutUsSecond */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsSecond {
+    flex-direction: column; /* Stack items vertically */
+    gap: 1rem; /* Reduce gap */
+    align-items: center; /* Center-align content */
+  }
+}
+/* Responsive adjustments for the image */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsSecond > img {
+    width: 100%; /* Full width for smaller screens */
+    max-width: none; /* Remove max width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+/* Responsive adjustments for content container */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsSecond > div:nth-of-type(1) {
+    align-items: center; /* Center-align content */
+    text-align: center; /* Center text for readability */
+  }
+}
+/* Responsive adjustments for .AboutUsSecondcard */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsSecondcard {
+    padding: 0.75rem; /* Reduce padding */
+    font-size: 0.875rem; /* Decrease font size */
+    text-align: start;
+  }
+}
+/* Responsive adjustments for .AboutUsSecondcardheading */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsSecondcardheading {
+    font-size: 1.5rem; /* Reduce font size */
+    padding: 0.5rem; /* Adjust padding */
+    gap: 0.5rem; /* Decrease gap */
+  }
+}
+
+
+
+
+/* Responsive adjustments for .AboutUsSecond */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsSecond {
+    flex-direction: column; /* Stack items vertically */
+    gap: 1rem; /* Reduce gap */
+    align-items: center; /* Center-align content */
+  }
+}
+/* Responsive adjustments for the image */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsSecond > img {
+    width: 100%; /* Full width for smaller screens */
+    max-width: none; /* Remove max width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+/* Responsive adjustments for content container */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsSecond > div:nth-of-type(1) {
+    align-items: center; /* Center-align content */
+    text-align: center; /* Center text for readability */
+  }
+}
+/* Responsive adjustments for .AboutUsSecondcard */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsSecondcard {
+    padding: 0.75rem; /* Reduce padding */
+    font-size: 0.875rem; /* Decrease font size */
+    text-align: start;
+  }
+}
+/* Responsive adjustments for .AboutUsSecondcardheading */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsSecondcardheading {
+    font-size: 1.5rem; /* Reduce font size */
+    padding: 0.5rem; /* Adjust padding */
+    gap: 0.5rem; /* Decrease gap */
+  }
+}

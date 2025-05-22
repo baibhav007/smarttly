@@ -1,0 +1,132 @@
+.BSubPoint{
+    color: var(--MainText, #212529);
+    font-family: "Roboto";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    flex: 1 0 0;
+    padding: 0.25rem 6.25rem;
+}
+.BSubPoint>span{
+    color: var(--MainText, #212529);
+    font-family: "Roboto";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 20px */
+}
+.BSubPoint {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .BSubPoint strong {
+    font-weight: bold;
+    color: #000;
+  }
+  
+
+  @media (max-width: 375px) {
+    .BSubPoint {
+      font-size: 0.875rem; /* Smaller font size for better mobile layout */
+      line-height: 1.4; /* Adjusted line height for mobile readability */
+      padding: 0.25rem 2rem; /* Reduced padding for smaller screens */
+    }
+  
+    .BSubPoint > span {
+      font-size: 1rem; /* Keep the span font size the same */
+      font-weight: 600;
+    }
+  
+    .BSubPoint strong {
+      font-weight: bold;
+      color: #000;
+    }
+  }
+  @media (min-width:375px) and (max-width: 393px) {
+    .BSubPoint {
+      font-size: 0.875rem; /* Smaller font size for better mobile layout */
+      line-height: 1.4; /* Adjusted line height for mobile readability */
+      padding: 0.25rem 2rem; /* Reduced padding for smaller screens */
+    }
+  
+    .BSubPoint > span {
+      font-size: 1rem; /* Keep the span font size the same */
+      font-weight: 600;
+    }
+  
+    .BSubPoint strong {
+      font-weight: bold;
+      color: #000;
+    }
+  }
+  @media (min-width:393px) and (max-width: 475px) {
+    .BSubPoint {
+      font-size: 0.875rem; /* Smaller font size for better mobile layout */
+      line-height: 1.4; /* Adjusted line height for mobile readability */
+      padding: 0.25rem 2rem; /* Reduced padding for smaller screens */
+    }
+  
+    .BSubPoint > span {
+      font-size: 1rem; /* Keep the span font size the same */
+      font-weight: 600;
+    }
+  
+    .BSubPoint strong {
+      font-weight: bold;
+      color: #000;
+    }
+  }
+  @media (min-width:475px) and (max-width: 600px) {
+    .BSubPoint {
+      font-size: 0.875rem; /* Smaller font size for better mobile layout */
+      line-height: 1.4; /* Adjusted line height for mobile readability */
+      padding: 0.25rem 2rem; /* Reduced padding for smaller screens */
+    }
+  
+    .BSubPoint > span {
+      font-size: 1rem; /* Keep the span font size the same */
+      font-weight: 600;
+    }
+  
+    .BSubPoint strong {
+      font-weight: bold;
+      color: #000;
+    }
+  }
+  @media (min-width:600px) and (max-width: 768px) {
+    .BSubPoint {
+      font-size: 0.875rem; /* Smaller font size for better mobile layout */
+      line-height: 1.4; /* Adjusted line height for mobile readability */
+      padding: 0.25rem 2rem; /* Reduced padding for smaller screens */
+    }
+  
+    .BSubPoint > span {
+      font-size: 1rem; /* Keep the span font size the same */
+      font-weight: 600;
+    }
+  
+    .BSubPoint strong {
+      font-weight: bold;
+      color: #000;
+    }
+  }
+  @media (min-width:768px) and (max-width: 1024px) {
+    .BSubPoint {
+      font-size: 0.875rem; /* Smaller font size for better mobile layout */
+      line-height: 1.4; /* Adjusted line height for mobile readability */
+      padding: 0.25rem 2rem; /* Reduced padding for smaller screens */
+    }
+  
+    .BSubPoint > span {
+      font-size: 1rem; /* Keep the span font size the same */
+      font-weight: 600;
+    }
+  
+    .BSubPoint strong {
+      font-weight: bold;
+      color: #000;
+    }
+  }

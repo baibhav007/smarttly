@@ -1,0 +1,52 @@
+.BTitle{
+    color: var(--MainText, #212529);
+font-family: "TT Ramillas Trl";
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 114%; /* 45.6px */
+padding: 0.5rem 4rem;
+}
+
+@media (max-width: 375px) {
+  .BTitle {
+    font-size: 1.5rem; /* Reduce font size for smaller screens */
+    padding: 0.5rem 1rem; /* Reduce padding for mobile */
+    line-height: 130%; /* Slightly increase line height for readability */
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+    .BTitle {
+      font-size: 1.5rem; /* Reduce font size for smaller screens */
+      padding: 0.5rem 1rem; /* Reduce padding for mobile */
+      line-height: 130%; /* Slightly increase line height for readability */
+    }
+  }
+  @media (min-width:393px) and (max-width: 475px) {
+    .BTitle {
+      font-size: 1.5rem; /* Reduce font size for smaller screens */
+      padding: 0.5rem 1rem; /* Reduce padding for mobile */
+      line-height: 130%; /* Slightly increase line height for readability */
+    }
+  }
+  @media (min-width:475px) and (max-width: 600px) {
+    .BTitle {
+      font-size: 1.5rem; /* Reduce font size for smaller screens */
+      padding: 0.5rem 1rem; /* Reduce padding for mobile */
+      line-height: 130%; /* Slightly increase line height for readability */
+    }
+  }
+  @media (min-width:600px) and (max-width: 768px) {
+    .BTitle {
+      font-size: 1.5rem; /* Reduce font size for smaller screens */
+      padding: 0.5rem 1rem; /* Reduce padding for mobile */
+      line-height: 130%; /* Slightly increase line height for readability */
+    }
+  }
+  @media (min-width:768px) and (max-width: 1024px) {
+    .BTitle {
+      font-size: 1.5rem; /* Reduce font size for smaller screens */
+      padding: 0.5rem 1rem; /* Reduce padding for mobile */
+      line-height: 130%; /* Slightly increase line height for readability */
+    }
+  }

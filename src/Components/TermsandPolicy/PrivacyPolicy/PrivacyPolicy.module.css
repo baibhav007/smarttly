@@ -1,0 +1,122 @@
+.PrivacyPolicy {
+  padding: 2rem 4rem;
+}
+.PrivacyPolicy {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+}
+.PrivacyPolicy > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.para {
+  color: var(--SecondaryText, #6c757d);
+  font-family: "Roboto",sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  align-self: stretch;
+}
+.point {
+  color: var(--MainText, #212529);
+  font-family: "Montserrat",sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114%;
+}
+.parainner {
+  color: var(--MainText, #212529);
+  font-family: "Montserrat",sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114%; /* 36.48px */
+}
+.parainnerpoint {
+  color: var(--MainText, #212529);
+  font-family: "Montserrat",sans-serif;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114%;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 375px) {
+  .PrivacyPolicy {
+    padding: 1.5rem 1rem; /* Reduce padding for smaller screens */
+    gap: 1.5rem; /* Adjust gap between elements */
+  }
+
+  .para {
+    font-size: 0.875rem; /* Reduce font size */
+    line-height: 150%; /* Slightly tighter line height */
+  }
+
+  .point {
+    font-size: 1.5rem; /* Reduce font size of headings */
+  }
+
+  .parainner {
+    font-size: 1.25rem; /* Scale down inner paragraph headings */
+  }
+
+  .parainnerpoint {
+    font-size: 0.65rem; /* Adjust smaller point text */
+    line-height: 130%; /* Tighter spacing */
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+    .PrivacyPolicy {
+      padding: 1.5rem 1rem; /* Reduce padding for smaller screens */
+      gap: 1.5rem; /* Adjust gap between elements */
+    }
+  
+    .para {
+      font-size: 0.875rem; /* Reduce font size */
+      line-height: 150%; /* Slightly tighter line height */
+    }
+  
+    .point {
+      font-size: 1.5rem; /* Reduce font size of headings */
+    }
+  
+    .parainner {
+      font-size: 1.25rem; /* Scale down inner paragraph headings */
+    }
+  
+    .parainnerpoint {
+      font-size: 0.65rem; /* Adjust smaller point text */
+      line-height: 130%; /* Tighter spacing */
+    }
+  }
+
+  @media (min-width:393px) and (max-width: 475px) {
+    .PrivacyPolicy {
+      padding: 1.5rem 1rem; /* Reduce padding for smaller screens */
+      gap: 1.5rem; /* Adjust gap between elements */
+    }
+  
+    .para {
+      font-size: 0.875rem; /* Reduce font size */
+      line-height: 150%; /* Slightly tighter line height */
+    }
+  
+    .point {
+      font-size: 1.5rem; /* Reduce font size of headings */
+    }
+  
+    .parainner {
+      font-size: 1.25rem; /* Scale down inner paragraph headings */
+    }
+  
+    .parainnerpoint {
+      font-size: 0.65rem; /* Adjust smaller point text */
+      line-height: 130%; /* Tighter spacing */
+    }
+  }

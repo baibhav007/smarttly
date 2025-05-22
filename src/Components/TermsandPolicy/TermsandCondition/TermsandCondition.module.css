@@ -1,0 +1,79 @@
+.heading {
+  color: var(--MainText, #212529);
+  font-family: "Montserrat",sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114%; /* 45.6px */
+  flex: 1 0 0;
+  text-align: center;
+  align-self: center;
+}
+.TermsandCondition{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap:1.5rem;
+  padding: 2rem 4rem;
+}
+.top{
+  color: var(--MainText, #212529);
+  font-family: "Montserrat",sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114%; /* 45.6px */
+  flex: 1 0 0;
+  padding: 0.5rem 0;
+}
+@media (max-width: 375px) {
+  .heading {
+    font-size: 1.75rem; /* Reduce font size for smaller screens */
+    line-height: 120%; /* Adjust line height for readability */
+  }
+
+  .TermsandCondition {
+    padding: 1rem 1.5rem; /* Reduce padding for a compact layout */
+    gap: 1rem; /* Adjust gap for smaller screens */
+  }
+
+  .top {
+    font-size: 1.25rem; /* Scale down font size */
+    line-height: 120%; /* Adjust line height for tighter spacing */
+    padding: 0.5rem 0; /* Keep padding minimal */
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+  .heading {
+    font-size: 1.75rem; /* Reduce font size for smaller screens */
+    line-height: 120%; /* Adjust line height for readability */
+  }
+
+  .TermsandCondition {
+    padding: 1rem 1.5rem; /* Reduce padding for a compact layout */
+    gap: 1rem; /* Adjust gap for smaller screens */
+  }
+
+  .top {
+    font-size: 1.25rem; /* Scale down font size */
+    line-height: 120%; /* Adjust line height for tighter spacing */
+    padding: 0.5rem 0; /* Keep padding minimal */
+  }
+}
+@media (min-width:393px) and (max-width: 475px) {
+  .heading {
+    font-size: 1.75rem; /* Reduce font size for smaller screens */
+    line-height: 120%; /* Adjust line height for readability */
+  }
+
+  .TermsandCondition {
+    padding: 1rem 1.5rem; /* Reduce padding for a compact layout */
+    gap: 1rem; /* Adjust gap for smaller screens */
+  }
+
+  .top {
+    font-size: 1.25rem; /* Scale down font size */
+    line-height: 120%; /* Adjust line height for tighter spacing */
+    padding: 0.5rem 0; /* Keep padding minimal */
+  }
+}

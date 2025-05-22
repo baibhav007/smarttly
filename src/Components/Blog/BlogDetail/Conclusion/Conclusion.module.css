@@ -1,0 +1,211 @@
+.Conclusion {
+  display: flex;
+  padding: 0px 4rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.Conclusioncontent {
+  display: flex;
+  padding: 2rem 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+}
+.Conclusioncontent > p:nth-of-type(1) {
+  color: var(--MainText, #212529);
+  font-family: "TT Ramillas Trl";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 114%; /* 45.6px */
+}
+/* .Conclusioncontent > p:nth-of-type(2) {
+  color: var(--MainText, #212529);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+  align-self: stretch;
+} */
+.Conclusioncontenttop{
+  color: var(--MainText, #212529);
+font-family: "Montserrat-600",sans-serif;
+font-size: 2.5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 114%; /* 45.6px */
+}
+.Conclusioncontenttoptext{
+  color: var(--MainText, #212529);
+font-family: "Roboto",sans-serif;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 114%; /* 45.6px */
+}
+.Conclusioncontenttext{
+  color: var(--MainText, #212529);
+font-family:"Roboto",sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 160%; /* 25.6px */
+align-self: stretch;
+}
+
+@media (max-width: 375px) {
+  .Conclusion {
+    padding: 0 1.5rem; /* Reduce side padding */
+  }
+
+  .Conclusioncontent {
+    padding: 1.5rem 0;
+    gap: 0.75rem; /* Reduce gap */
+  }
+
+  .Conclusioncontent > p:nth-of-type(1),
+  .Conclusioncontenttop {
+    font-size: 2rem; /* Reduce title size */
+    line-height: 120%;
+  }
+
+  .Conclusioncontenttoptext {
+    font-size: 1.3rem; /* Adjust subheading */
+  }
+
+  .Conclusioncontenttext {
+    font-size: 0.9rem; /* Slightly smaller for readability */
+    line-height: 150%;
+  }
+}
+
+@media (min-width:375px) and (max-width: 393px) {
+  .Conclusion {
+    padding: 0 1.5rem; /* Reduce side padding */
+  }
+
+  .Conclusioncontent {
+    padding: 1.5rem 0;
+    gap: 0.75rem; /* Reduce gap */
+  }
+
+  .Conclusioncontent > p:nth-of-type(1),
+  .Conclusioncontenttop {
+    font-size: 2rem; /* Reduce title size */
+    line-height: 120%;
+  }
+
+  .Conclusioncontenttoptext {
+    font-size: 1.3rem; /* Adjust subheading */
+  }
+
+  .Conclusioncontenttext {
+    font-size: 0.9rem; /* Slightly smaller for readability */
+    line-height: 150%;
+  }
+}
+
+@media (min-width:393px) and (max-width: 475px) {
+  .Conclusion {
+    padding: 0 1.5rem; /* Reduce side padding */
+  }
+
+  .Conclusioncontent {
+    padding: 1.5rem 0;
+    gap: 0.75rem; /* Reduce gap */
+  }
+
+  .Conclusioncontent > p:nth-of-type(1),
+  .Conclusioncontenttop {
+    font-size: 2rem; /* Reduce title size */
+    line-height: 120%;
+  }
+
+  .Conclusioncontenttoptext {
+    font-size: 1.3rem; /* Adjust subheading */
+  }
+
+  .Conclusioncontenttext {
+    font-size: 0.9rem; /* Slightly smaller for readability */
+    line-height: 150%;
+  }
+}
+@media (min-width:475px) and (max-width: 600px) {
+  .Conclusion {
+    padding: 0 1.5rem; /* Reduce side padding */
+  }
+
+  .Conclusioncontent {
+    padding: 1.5rem 0;
+    gap: 0.75rem; /* Reduce gap */
+  }
+
+  .Conclusioncontent > p:nth-of-type(1),
+  .Conclusioncontenttop {
+    font-size: 2rem; /* Reduce title size */
+    line-height: 120%;
+  }
+
+  .Conclusioncontenttoptext {
+    font-size: 1.3rem; /* Adjust subheading */
+  }
+
+  .Conclusioncontenttext {
+    font-size: 0.9rem; /* Slightly smaller for readability */
+    line-height: 150%;
+  }
+}
+@media (min-width:600px) and (max-width: 768px) {
+  .Conclusion {
+    padding: 0 1.5rem; /* Reduce side padding */
+  }
+
+  .Conclusioncontent {
+    padding: 1.5rem 0;
+    gap: 0.75rem; /* Reduce gap */
+  }
+
+  .Conclusioncontent > p:nth-of-type(1),
+  .Conclusioncontenttop {
+    font-size: 2rem; /* Reduce title size */
+    line-height: 120%;
+  }
+
+  .Conclusioncontenttoptext {
+    font-size: 1.3rem; /* Adjust subheading */
+  }
+
+  .Conclusioncontenttext {
+    font-size: 0.9rem; /* Slightly smaller for readability */
+    line-height: 150%;
+  }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+  .Conclusion {
+    padding: 0 1.5rem; /* Reduce side padding */
+  }
+
+  .Conclusioncontent {
+    padding: 1.5rem 0;
+    gap: 0.75rem; /* Reduce gap */
+  }
+
+  .Conclusioncontent > p:nth-of-type(1),
+  .Conclusioncontenttop {
+    font-size: 2rem; /* Reduce title size */
+    line-height: 120%;
+  }
+
+  .Conclusioncontenttoptext {
+    font-size: 1.3rem; /* Adjust subheading */
+  }
+
+  .Conclusioncontenttext {
+    font-size: 0.9rem; /* Slightly smaller for readability */
+    line-height: 150%;
+  }
+}

@@ -1,0 +1,49 @@
+.BEndHeading {
+  color: var(--SecondaryText, #6c757d);
+  font-family: "Roboto",sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  align-self: stretch;
+}
+@media (max-width: 375px) {
+  .BEndHeading {
+    font-size: 0.875rem; /* Adjusted font size for better fit on smaller screens */
+    line-height: 1.4; /* Slightly adjusted line-height */
+    padding: 0 1rem; /* Reduced padding for mobile view */
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+  .BEndHeading {
+    font-size: 0.875rem; /* Adjusted font size for better fit on smaller screens */
+    line-height: 1.4; /* Slightly adjusted line-height */
+    padding: 0 1rem; /* Reduced padding for mobile view */
+  }
+}
+@media (min-width:375px) and (max-width: 475px) {
+  .BEndHeading {
+    font-size: 0.875rem; /* Adjusted font size for better fit on smaller screens */
+    line-height: 1.4; /* Slightly adjusted line-height */
+    padding: 0 1rem; /* Reduced padding for mobile view */
+  }
+}
+@media (min-width:475px) and (max-width: 600px) {
+  .BEndHeading {
+    font-size: 0.875rem; /* Adjusted font size for better fit on smaller screens */
+    line-height: 1.4; /* Slightly adjusted line-height */
+    padding: 0 1rem; /* Reduced padding for mobile view */
+  }
+}@media (min-width:600px) and (max-width: 768px) {
+  .BEndHeading {
+    font-size: 0.875rem; /* Adjusted font size for better fit on smaller screens */
+    line-height: 1.4; /* Slightly adjusted line-height */
+    padding: 0 1rem; /* Reduced padding for mobile view */
+  }
+}@media (min-width:768px) and (max-width: 1024px) {
+  .BEndHeading {
+    font-size: 0.875rem; /* Adjusted font size for better fit on smaller screens */
+    line-height: 1.4; /* Slightly adjusted line-height */
+    padding: 0 1rem; /* Reduced padding for mobile view */
+  }
+}

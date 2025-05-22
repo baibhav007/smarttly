@@ -1,0 +1,51 @@
+.BHeading {
+    padding: 1rem 4rem;
+  color: var(--MainText, #212529);
+  font-family: "Montserrat-600",sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114%; /* 45.6px */
+}
+@media (max-width: 375px) {
+  .BHeading {
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    line-height: 1.3; /* Slightly adjusted line-height for readability */
+    padding: 0.5rem 1rem; /* Reduced padding for mobile view */
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+  .BHeading {
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    line-height: 1.3; /* Slightly adjusted line-height for readability */
+    padding: 0.5rem 1rem; /* Reduced padding for mobile view */
+  }
+}
+@media (min-width:393px) and (max-width: 475px) {
+  .BHeading {
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    line-height: 1.3; /* Slightly adjusted line-height for readability */
+    padding: 0.5rem 1rem; /* Reduced padding for mobile view */
+  }
+}
+@media (min-width:475px) and (max-width: 600px) {
+  .BHeading {
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    line-height: 1.3; /* Slightly adjusted line-height for readability */
+    padding: 0.5rem 1rem; /* Reduced padding for mobile view */
+  }
+}
+@media (min-width:600px) and (max-width: 768px) {
+  .BHeading {
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    line-height: 1.3; /* Slightly adjusted line-height for readability */
+    padding: 0.5rem 1rem; /* Reduced padding for mobile view */
+  }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+  .BHeading {
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+    line-height: 1.3; /* Slightly adjusted line-height for readability */
+    padding: 0.5rem 1rem; /* Reduced padding for mobile view */
+  }
+}

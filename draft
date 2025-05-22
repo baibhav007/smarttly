@@ -1,0 +1,32 @@
+// const toggleCard = (cardKey) => {
+  //   setExpandedCards((prev) => ({
+  //     ...prev,
+  //     [cardKey]: !prev[cardKey],
+  //   }));
+  // };
+// const toggleCard = (cardKey) => {
+  //   setExpandedCards((prev) => ({
+  //     ...prev,
+  //     [cardKey]: !prev[cardKey],
+  //   }));
+  // };
+  //   const selectedService = serviceOptions.find(
+//     (service) => service.value === formValues.services
+//   );
+//   console.log("Selected Service:", selectedService);
+// console.log("Generated Tiers:", selectedService?.tiers);
+// const options = selectedService?.tiers.map((tier) => ({
+//   value: tier.toLowerCase().replace(/\s+/g, "-"),
+//   label: tier,
+// })) || [];
+
+// console.log("Dropdown Options:", options);
+
+// options={[
+            //   { value: "seo", label: "SEO" },
+            //   { value: "smo", label: "SMO" },
+            //   { value: "ppc-advertising", label: "PPC Adverytising" },
+            //   { value: "content-creation", label: "Content Creation" },
+            //   { value: "app-development", label: "App Development" },
+            //   { value: "web-development", label: "Web Development" },
+            // ]}

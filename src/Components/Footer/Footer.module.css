@@ -1,0 +1,1252 @@
+
+.footer {
+  width: 100%;
+  padding: 2rem 0;
+  min-height: max-content;
+  color: #f8f9fa;
+  background-color: black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footertop {
+  width: 90%;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footertopcontent {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footertopcontentdata {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.footermap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 100%;
+}
+.footermap > div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  gap: 0.3rem;
+}
+.fgreen {
+  color: var(--secondary, #34a852);
+   font-family: "Inter"!important;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.fpoint {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.fpointtext {
+  color: var(--background, #f8f9fa);
+   font-family: "Inter"!important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  
+}
+.footerlinks {
+  width: max-content;
+  height: min-content;
+  display: flex;
+  gap: 2rem;
+}
+.company {
+  height: min-content;
+  width: max-content;
+}
+.DigitalMarketingServices {
+  width: max-content;
+  height: min-content;
+}
+.company p,
+.resources p,
+.DigitalMarketingServices p {
+  height: 1.25rem;
+  font-size: 18px;
+
+  margin-bottom: 1.1rem;
+  width: max-content;
+  color: #f8f9fa;
+    font-family: "Inter"!important;
+  font-weight: 500;
+  
+}
+.resources {
+  height: min-content;
+  width: max-content;
+}
+.list {
+  list-style: none;
+}
+.error{
+  color: red;
+}
+.footerlinks ul li {
+  margin-bottom: 1rem;
+  height: 1rem;
+  gap: 1rem;
+  
+}
+
+
+.footertopcontentform {
+  max-width: 100%;
+  max-height: 100%;
+}
+.footertopcontentform caption {
+  width: max-content;
+  text-align: start;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+.footertopcontentform form {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.footertopcontentform form input {
+  width: 100%;
+  height: 3rem;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  background-color: #212529;
+  border: none;
+  box-sizing: border-box;
+}
+.footertopcontentform form input::placeholder {
+  color: #f3f6f8;
+  font-size: 16px;
+  font-family: "Inter"!important;
+}
+.footertopcontentform form > .submit {
+  margin-left: auto;
+  padding: 0.5rem 2rem;
+  height:50px;
+  justify-content: center;
+  width: 150px;
+}
+.footertopbrand {
+  width: max-content;
+  height: max-content;
+  border-bottom: 2px solid var(--copywright-text);
+  border-image: linear-gradient(
+    to right,
+    rgba(var(--copywright-text), 0.5),
+    rgba(var(--copywright-text), 0.5),
+    rgba(var(--copywright-text), 0.5)
+  );
+}
+.footertopbrand ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  justify-content: center;
+  display: none;
+}
+.footerbottom {
+  height: max-content;
+  width: 90%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerbottom .logo {
+  width: min-content;
+  height: min-content;
+}
+.social ul {
+  width: max-content;
+  height: 2rem;
+  gap: 0.75rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.social ul li {
+  font-size: 1.125rem;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  border: 1px solid #34a852;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  background: rgba(52, 168, 82, 0.1);
+}
+.social ul a {
+  text-decoration: none;
+}
+.copywright {
+  color: var(--SecondaryText, #6c757d);
+  text-align: center;
+  font-family: "Inter"!important;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  flex: 1 0 0;
+}
+.input {
+  color: #bec1c3;
+  font-size: 0.88rem;
+    font-family: "Inter"!important;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0); /* Start fully transparent */
+  z-index: 999; /* Behind the modal */
+  animation: fadeInBackground 4s ease-out forwards,
+    fadeOutBackground 2s 4s forwards;
+}
+
+@keyframes fadeInBackground {
+  from {
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent */
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent */
+  }
+}
+
+@keyframes fadeOutBackground {
+  from {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent */
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent */
+  }
+}
+
+.modal {
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  z-index: 1000; /* Above the overlay */
+  animation: slideDownToCenter 4s ease-out, fadeOut 2s 4s forwards;
+  display: inline-flex;
+  padding: 3.125rem 9.5rem;
+  align-items: center;
+  gap: 1rem;
+  max-height: min-content;
+  min-width: min-content;
+  background-color: white;
+}
+.modal > div {
+  display: flex;
+  padding: 1.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+}
+.modalfirst {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modalsecond {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+}
+.modalsecond > p:nth-of-type(1) {
+  color: var(--secondary, #34a852);
+  text-align: center;
+  font-family: "Montserrat",sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.modalsecond > p:nth-of-type(2) {
+  color: var(--secondary, #6c757d);
+  text-align: center;
+  font-family: "Roboto",sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.25rem;
+  align-self: stretch;
+}
+
+@keyframes slideDownToCenter {
+  from {
+    top: -100%;
+  }
+  to {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.collabone,.collabtwo{
+  height: 3rem;
+}
+.collabthree{
+  height: 4.25rem;
+}
+.collabfour{
+  width: 6rem;
+  height: 5rem;
+}
+.formcontrolclass{
+  width: 100% !important;
+  min-width: 352px !important;
+  height: 3.125rem !important;
+  border: none !important;
+  border-radius: 0.5rem !important;
+}
+.formcontrolphone{
+  width: 100% !important;
+  min-width: 352px !important;
+  height: 3.125rem !important;
+  color: var(--backgroundcolor) !important;
+  border: none !important;
+  background-color:var(--maintext) !important;
+}
+.formcontrolphone::placeholder{
+  color: #bec1c3 !important;
+  font-size: 0.9rem !important;
+}
+.btnclassphone{
+  height: 3.125rem !important;
+  border: none !important;
+  background-color: var(--maintext) !important;
+  color: white !important;
+  border: none !important;
+}
+.dropdownclassform{
+  width: 100% !important;
+  min-width: 22rem !important;
+  color: var(--maintext) !important;
+}
+.searchclassform input{
+  background-color: var(--backgroundcolor) !important;
+}
+@media (max-width: 375px) {
+  .footer {
+    padding: 2rem 1rem 0 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footertop {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footertopcontent {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .footertopcontentdata {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footermap > div {
+    max-width: 100%;
+    align-items: flex-start;
+  }
+
+  .fpointtext {
+    font-size: 0.8rem;
+    text-align: flex-start;
+  }
+
+  .footerlinks {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .footerlinks ul {
+    text-align: flex-start;
+  }
+
+  .footertopcontentform {
+    width: 100%;
+  }
+
+  .footertopcontentform form input {
+    font-size: 0.8rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .footertopcontentform form > .submit {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .footertopbrand ul {
+    display: none;
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+  .footerbottom {
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Allow absolute positioning for copywright */
+    gap: 1rem;
+  }
+
+  .footerbottom .social ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* Wrap if needed for smaller widths */
+    padding-bottom: 1rem;
+  }
+  .collabone,.collabtwo{
+    height: 2rem;
+  }
+  .collabthree{
+    height: 2.80rem;
+  }
+  .collabfour{
+    width: 3.96rem;
+    height: 3.30rem;
+    border-radius: 0.5rem;
+  }
+
+  .footerbottom .copywright {
+    position: absolute; /* Ensure it's positioned at the bottom */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.75rem; /* Slightly smaller text */
+    color: var(--SecondaryText, #6c757d);
+    padding: 0.5rem 0;
+  }
+
+  .modal {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* max-width: 20rem; */
+  }
+
+  .modalfirst {
+    justify-content: center;
+  }
+
+  .modalsecond > p:nth-of-type(1) {
+    font-size: 1.8rem;
+  }
+
+  .modalsecond > p:nth-of-type(2) {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .formcontrolclass,
+  .formcontrolphone
+   {
+    min-width: 100% !important;
+    max-height: 2.5rem !important;
+  }
+  .dropdownclassform {
+    min-width: 20.25rem !important;
+  }
+
+  .formcontrolphone {
+    height: 2.5rem !important;
+  }
+
+  .btnclassphone {
+    height: 2.5rem !important;
+  }
+}
+@media (min-width:375px) and (max-width: 393px) {
+  .footer {
+    padding: 2rem 1rem 0 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footertop {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footertopcontent {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .footertopcontentdata {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footermap > div {
+    max-width: 100%;
+    align-items: flex-start;
+  }
+
+  .fpointtext {
+    font-size: 0.8rem;
+    text-align: flex-start;
+  }
+
+  .footerlinks {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .footerlinks ul {
+    text-align: flex-start;
+  }
+
+  .footertopcontentform {
+    width: 100%;
+  }
+
+  .footertopcontentform form input {
+    font-size: 0.8rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .footertopcontentform form > .submit {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .footertopbrand ul {
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+  .footerbottom {
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Allow absolute positioning for copywright */
+    gap: 1rem;
+  }
+
+  .footerbottom .social ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* Wrap if needed for smaller widths */
+    padding-bottom: 1rem;
+  }
+  .collabone,.collabtwo{
+    height: 2rem;
+  }
+  .collabthree{
+    height: 2.80rem;
+  }
+  .collabfour{
+    width: 3.96rem;
+    height: 3.30rem;
+    border-radius: 0.5rem;
+  }
+
+  .footerbottom .copywright {
+    position: absolute; /* Ensure it's positioned at the bottom */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.75rem; /* Slightly smaller text */
+    color: var(--SecondaryText, #6c757d);
+    padding: 0.5rem 0;
+  }
+
+  .modal {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* max-width: 20rem; */
+  }
+
+  .modalfirst {
+    justify-content: center;
+  }
+
+  .modalsecond > p:nth-of-type(1) {
+    font-size: 1.8rem;
+  }
+
+  .modalsecond > p:nth-of-type(2) {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .formcontrolclass,
+  .formcontrolphone
+   {
+    min-width: 100% !important;
+    max-height: 2.5rem !important;
+  }
+  .dropdownclassform {
+    min-width: 20.25rem !important;
+  }
+
+  .formcontrolphone {
+    height: 2.5rem !important;
+  }
+
+  .btnclassphone {
+    height: 2.5rem !important;
+  }
+}
+@media (min-width:393px) and (max-width: 475px) {
+  .footer {
+    padding: 2rem 1rem 0 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footertop {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footertopcontent {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .footertopcontentdata {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footermap > div {
+    max-width: 100%;
+    align-items: flex-start;
+  }
+
+  .fpointtext {
+    font-size: 0.8rem;
+    text-align: flex-start;
+  }
+
+  .footerlinks {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .footerlinks ul {
+    text-align: flex-start;
+  }
+
+  .footertopcontentform {
+    width: 100%;
+  }
+
+  .footertopcontentform form input {
+    font-size: 0.8rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .footertopcontentform form > .submit {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .footertopbrand ul {
+    display: none;
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+  .footerbottom {
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Allow absolute positioning for copywright */
+    gap: 1rem;
+  }
+
+  .footerbottom .social ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* Wrap if needed for smaller widths */
+    padding-bottom: 1rem;
+  }
+  .collabone,.collabtwo{
+    height: 2rem;
+  }
+  .collabthree{
+    height: 2.80rem;
+  }
+  .collabfour{
+    width: 3.96rem;
+    height: 3.30rem;
+    border-radius: 0.5rem;
+  }
+
+  .footerbottom .copywright {
+    position: absolute; /* Ensure it's positioned at the bottom */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.75rem; /* Slightly smaller text */
+    color: var(--SecondaryText, #6c757d);
+    padding: 0.5rem 0;
+  }
+
+  .modal {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* max-width: 20rem; */
+  }
+
+  .modalfirst {
+    justify-content: center;
+  }
+
+  .modalsecond > p:nth-of-type(1) {
+    font-size: 1.8rem;
+  }
+
+  .modalsecond > p:nth-of-type(2) {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .formcontrolclass,
+  .formcontrolphone
+   {
+    min-width: 100% !important;
+    max-height: 2.5rem !important;
+  }
+  .dropdownclassform {
+    min-width: 20.25rem !important;
+  }
+
+  .formcontrolphone {
+    height: 2.5rem !important;
+  }
+
+  .btnclassphone {
+    height: 2.5rem !important;
+  }
+  .test{
+    display: none;
+  }
+}
+@media (min-width:475px) and (max-width: 600px) {
+  .footer {
+    padding: 2rem 1rem 0 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footertop {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footertopcontent {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .footertopcontentdata {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footermap > div {
+    max-width: 100%;
+    align-items: flex-start;
+  }
+
+  .fpointtext {
+    font-size: 0.8rem;
+    text-align: flex-start;
+  }
+
+  .footerlinks {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .footerlinks ul {
+    text-align: flex-start;
+  }
+
+  .footertopcontentform {
+    width: 100%;
+  }
+
+  .footertopcontentform form input {
+    font-size: 0.8rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .footertopcontentform form > .submit {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .footertopbrand ul {
+    display: none;
+    padding: 1rem;
+    gap: 0.5rem;
+  }
+  .footerbottom {
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Allow absolute positioning for copywright */
+    gap: 1rem;
+  }
+
+  .footerbottom .social ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* Wrap if needed for smaller widths */
+    padding-bottom: 1rem;
+  }
+  .collabone,.collabtwo{
+    height: 2rem;
+  }
+  .collabthree{
+    height: 2.80rem;
+  }
+  .collabfour{
+    width: 3.96rem;
+    height: 3.30rem;
+    border-radius: 0.5rem;
+  }
+
+  .footerbottom .copywright {
+    position: absolute; /* Ensure it's positioned at the bottom */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.75rem; /* Slightly smaller text */
+    color: var(--SecondaryText, #6c757d);
+    padding: 0.5rem 0;
+  }
+
+  .modal {
+
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 2rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* max-width: 20rem; */
+  }
+
+  .modalfirst {
+    justify-content: center;
+  }
+
+  .modalsecond > p:nth-of-type(1) {
+    font-size: 1.8rem;
+  }
+
+  .modalsecond > p:nth-of-type(2) {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .formcontrolclass,
+  .formcontrolphone
+   {
+    min-width: 100% !important;
+    max-height: 2.5rem !important;
+  }
+  .dropdownclassform {
+    min-width: 20.25rem !important;
+  }
+
+  .formcontrolphone {
+    height: 2.5rem !important;
+  }
+
+  .btnclassphone {
+    height: 2.5rem !important;
+  }
+}
+@media (min-width:600px) and (max-width: 768px) {
+  @media (max-width: 768px) {
+    .calendly-badge-widget {
+      display: none !important;
+    }
+  }
+  .footer {
+    padding: 2rem 1rem 0 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footertop {
+    flex-direction: column;
+    /* align-items: flex-start; */
+  }
+
+  .footertopcontent {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .footertopcontentdata {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footermap > div {
+    max-width: 100%;
+    align-items: flex-start;
+  }
+
+  .fpointtext {
+    font-size: 0.8rem;
+    text-align: flex-start;
+  }
+
+  .footerlinks {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .footerlinks ul {
+    text-align: flex-start;
+  }
+
+  .footertopcontentform {
+    width: 100%;
+  }
+
+  .footertopcontentform form input {
+    font-size: 0.8rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .footertopcontentform form > .submit {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .footertopbrand ul {
+    padding: 1rem;
+    gap: 0.5rem;
+    display: none;
+  }
+  .footerbottom {
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    position: relative; /* Allow absolute positioning for copywright */
+    gap: 1rem;
+  }
+
+  .footerbottom .social ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* Wrap if needed for smaller widths */
+    padding-bottom: 1rem;
+  }
+  .collabone,.collabtwo{
+    height: 3rem;
+  }
+  .collabthree{
+    height: 3.9rem;
+  }
+  .collabfour{
+    width: 5rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+  }
+
+  .footerbottom .copywright {
+    position: absolute; /* Ensure it's positioned at the bottom */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.75rem; /* Slightly smaller text */
+    color: var(--SecondaryText, #6c757d);
+    padding: 0.5rem 0;
+  }
+
+  .modal {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* max-width: 20rem; */
+  }
+
+  .modalfirst {
+    justify-content: center;
+  }
+
+  .modalsecond > p:nth-of-type(1) {
+    font-size: 1.8rem;
+  }
+
+  .modalsecond > p:nth-of-type(2) {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .formcontrolclass,
+  .formcontrolphone
+   {
+    min-width: 100% !important;
+    max-height: 2.5rem !important;
+  }
+  .dropdownclassform {
+    min-width: 20.25rem !important;
+  }
+
+  .formcontrolphone {
+    height: 2.5rem !important;
+  }
+
+  .btnclassphone {
+    height: 2.5rem !important;
+  }
+}
+@media (min-width:768px) and (max-width: 1024px) {
+  .footer {
+    padding: 2rem 1rem 0 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footertop {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footertopcontent {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+  }
+
+  .footertopcontentdata {
+    /* flex-direction: column; */
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .footermap > div {
+    max-width: 100%;
+    align-items: flex-start;
+  }
+
+  .fpointtext {
+    font-size: 0.8rem;
+    text-align: flex-start;
+  }
+
+  .footerlinks {
+    /* flex-direction: column; */
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .footerlinks ul {
+    text-align: flex-start;
+  }
+
+  .footertopcontentform {
+    width: 100%;
+  }
+
+  .footertopcontentform form input {
+    font-size: 0.8rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .footertopcontentform form > .submit {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .footertopbrand ul {
+    padding: 1rem;
+    gap: 0.5rem;
+    display: none;
+  }
+  .footerbottom {
+    width: 100%;
+    padding: 3rem 0;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    position: relative; /* Allow absolute positioning for copywright */
+    gap: 1rem;
+  }
+
+  .footerbottom .social ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* Wrap if needed for smaller widths */
+    padding-bottom: 1rem;
+  }
+  .collabone,.collabtwo{
+    height: 3rem;
+  }
+  .collabthree{
+    height: 3.9rem;
+  }
+  .collabfour{
+    width: 5rem;
+    height: 4rem;
+    border-radius: 0.5rem;
+  }
+
+  .footerbottom .copywright {
+    position: absolute; /* Ensure it's positioned at the bottom */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 0.75rem; /* Slightly smaller text */
+    color: var(--SecondaryText, #6c757d);
+    padding: 0.5rem 0;
+  }
+
+
+  .modal {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 2rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* max-width: 20rem; */
+  }
+
+  .modalfirst {
+    justify-content: center;
+  }
+
+  .modalsecond > p:nth-of-type(1) {
+    font-size: 1.8rem;
+  }
+
+  .modalsecond > p:nth-of-type(2) {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+
+  .formcontrolclass,
+  .formcontrolphone
+   {
+    min-width: 100% !important;
+    max-height: 2.5rem !important;
+  }
+  .dropdownclassform {
+    min-width: 20.25rem !important;
+  }
+
+  .formcontrolphone {
+    height: 2.5rem !important;
+  }
+
+  .btnclassphone {
+    height: 2.5rem !important;
+  }
+  
+}

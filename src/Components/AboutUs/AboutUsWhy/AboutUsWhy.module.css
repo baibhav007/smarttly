@@ -1,0 +1,640 @@
+.AboutUsWhyFrame{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AboutUsWhy {
+  display: flex;
+  width: 90%;
+  padding: 2rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AboutUsWhy > div:nth-of-type(1) {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  background: var(--black, #0b0c0d);
+  border-radius: 0.5rem;
+}
+.AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.AboutUsWhy>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1){
+  max-width: 34.5rem;
+  flex: 1 0 0;
+}
+.AboutUsWhy
+  > div:nth-of-type(1)
+  > div:nth-of-type(1)
+  > div:nth-of-type(1)
+  > img {
+  flex: 1 0 0;
+  background-color: var(--black, #0b0c0d);
+  border-radius: 0.5rem;
+  width: 100%;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("https://firebasestorage.googleapis.com/v0/b/loyaltty-prod-89ee9.firebasestorage.app/o/smarttly%2Faboutusvalue.jpg?alt=media&token=c54ededd-a653-4fd2-b9cd-8ee9b684d01d") lightgray 50% / cover no-repeat;
+}
+.AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(2) {
+  color: var(--background, #f8f9fa);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+}
+.AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(2) > span {
+  color: var(--background, #f8f9fa);
+  font-family: "Inter";
+  font-size:18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) {
+  display: flex;
+  padding: 2rem 0px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  flex: 1 0 0;
+}
+.AboutUsWhy
+  > div:nth-of-type(1)
+  > div:nth-of-type(1)
+  > div:nth-of-type(2)
+  > div:nth-of-type(1) {
+  color: var(--background, #f8f9fa);
+   font-family: "Lexend"!important;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 125%; /* 36.48px */
+  letter-spacing: 0%;
+  align-self: stretch;
+}
+.AboutUsWhy
+  > div:nth-of-type(1)
+  > div:nth-of-type(1)
+  > div:nth-of-type(2)
+  > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+  align-self: stretch;
+  text-align: start;
+}
+.AboutUsWhy
+  > div:nth-of-type(1)
+  > div:nth-of-type(1)
+  > div:nth-of-type(2)
+  > div:nth-of-type(2)
+  > div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+.AboutUsWhy
+  > div:nth-of-type(1)
+  > div:nth-of-type(1)
+  > div:nth-of-type(2)
+  > div:nth-of-type(2)
+  > div
+  > div {
+  color: var(--background, #ffffff);
+ font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.AboutUsWhy
+  > div:nth-of-type(1)
+  > div:nth-of-type(1)
+  > div:nth-of-type(2)
+  > div:nth-of-type(2)
+  > div
+  > div
+  > img {
+  padding-top: 0.25rem;
+}
+.AboutUsWhy > div:nth-of-type(2) {
+  display: flex;
+  padding: 2rem 0;
+  /* flex-direction: column; */
+  align-items: flex-start;
+  gap: 2rem;
+  flex: 1 0 0;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.AboutUsWhy > div:nth-of-type(2) > div:nth-of-type(1) {
+  color: var(--backgroundcolor, #f8f9fa);
+  font-family: "Montserrat-600",sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114%;
+  align-self: stretch;
+}
+.AboutUsWhy > div:nth-of-type(2) > div:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  align-self: stretch;
+}
+.AboutUsWhypoint {
+  color: var(--background, #f8f9fa);
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  flex: 1 0 0;
+}
+.AboutUsWhypoint > span {
+  color: var(--backgroundcolor, #f8f9fa);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+}
+.AboutUsWhy > div:nth-of-type(1) {
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  background: var(--black, #0b0c0d);
+  border-radius: 0.5rem;
+}
+.AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) {
+  max-width: 34.5rem;
+  flex: 1 0 0;
+}
+/* Responsive adjustments for image */
+.AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img {
+  flex: 1 0 0;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+.AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(2) {
+  color: var(--background, #f8f9fa);
+  text-align: center;
+  font-family: "Inter";
+  font-size:18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.AboutUsWhy > div:nth-of-type(2) > div:nth-of-type(1) {
+  color: var(--backgroundcolor, #f8f9fa);
+  font-family: "Montserrat-600",sans-serif;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114%;
+  align-self: stretch;
+}
+.AboutUsWhypoint {
+  color: var(--background, #2f6dab);
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
+  flex: 1 0 0;
+}
+
+
+
+/* Responsive adjustments for .AboutUsWhy */
+@media (max-width: 375px) {
+  .AboutUsWhy {
+    width: 100%; /* Use full width for smaller screens */
+    padding: 1rem 0; /* Adjust padding */
+  }
+}
+/* Responsive adjustments for content container */
+@media (max-width: 375px) {
+  .AboutUsWhy > div:nth-of-type(1) {
+    width: 90%;
+    padding: 1rem; /* Reduce padding */
+    gap: 1rem; /* Adjust gap */
+  }
+}
+/* Responsive adjustments for image and text container */
+@media (max-width: 375px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align elements */
+    gap: 1rem; /* Reduce gap */
+  }
+}
+/* Responsive adjustments for text content */
+@media (max-width: 375px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) {
+    align-items: center; /* Center-align text */
+    text-align: center; /* Center-align content */
+  }
+}
+/* Responsive adjustments for font size */
+@media (max-width: 375px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(2) {
+    font-size: 0.9rem; /* Slightly reduce font size */
+    text-align: start;
+  }
+}
+/* Responsive adjustments for the bottom section */
+@media (max-width: 375px) {
+  .AboutUsWhy > div:nth-of-type(2) {
+    align-items: center; /* Center-align content */
+    padding: 1rem; /* Adjust padding */
+    gap: 1.5rem; /* Adjust gap */
+  }
+}
+/* Responsive adjustments for headings */
+@media (max-width: 375px) {
+  .AboutUsWhy > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 1.5rem; /* Reduce font size */
+    text-align: center; /* Center-align text */
+  }
+}
+/* Responsive adjustments for text points */
+@media (max-width: 375px) {
+  .AboutUsWhypoint {
+    font-size: 0.9rem; /* Reduce font size slightly */
+    text-align: center; /* Center-align text */
+  }
+}
+/* Responsive adjustments for points span */
+@media (max-width: 375px) {
+  .AboutUsWhypoint > span {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+}
+
+
+/* Responsive adjustments for .AboutUsWhy */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsWhy {
+    width: 100%; /* Use full width for smaller screens */
+    padding: 1rem 0; /* Adjust padding */
+  }
+}
+/* Responsive adjustments for content container */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsWhy > div:nth-of-type(1) {
+    width: 90%;
+    padding: 1rem; /* Reduce padding */
+    gap: 1rem; /* Adjust gap */
+  }
+}
+/* Responsive adjustments for image and text container */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align elements */
+    gap: 1rem; /* Reduce gap */
+  }
+}
+/* Responsive adjustments for text content */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) {
+    align-items: center; /* Center-align text */
+    text-align: center; /* Center-align content */
+  }
+}
+/* Responsive adjustments for font size */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(2) {
+    font-size: 0.9rem; /* Slightly reduce font size */
+    text-align: start;
+  }
+}
+/* Responsive adjustments for the bottom section */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsWhy > div:nth-of-type(2) {
+    align-items: center; /* Center-align content */
+    padding: 1rem; /* Adjust padding */
+    gap: 1.5rem; /* Adjust gap */
+  }
+}
+/* Responsive adjustments for headings */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsWhy > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 1.5rem; /* Reduce font size */
+    text-align: center; /* Center-align text */
+  }
+}
+/* Responsive adjustments for text points */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsWhypoint {
+    font-size: 0.9rem; /* Reduce font size slightly */
+    text-align: center; /* Center-align text */
+  }
+}
+/* Responsive adjustments for points span */
+@media (min-width:375px) and  (max-width: 393px) {
+  .AboutUsWhypoint > span {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+}
+
+
+
+
+/* Responsive adjustments for .AboutUsWhy */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsWhy {
+    width: 100%; /* Use full width for smaller screens */
+    padding: 1rem 0; /* Adjust padding */
+  }
+}
+/* Responsive adjustments for content container */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsWhy > div:nth-of-type(1) {
+    width: 90%;
+    padding: 1rem; /* Reduce padding */
+    gap: 1rem; /* Adjust gap */
+  }
+}
+/* Responsive adjustments for image and text container */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align elements */
+    gap: 1rem; /* Reduce gap */
+  }
+}
+/* Responsive adjustments for text content */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) {
+    align-items: center; /* Center-align text */
+    text-align: center; /* Center-align content */
+  }
+}
+/* Responsive adjustments for font size */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(2) {
+    font-size: 0.9rem; /* Slightly reduce font size */
+    text-align: start;
+  }
+}
+/* Responsive adjustments for the bottom section */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsWhy > div:nth-of-type(2) {
+    align-items: center; /* Center-align content */
+    padding: 1rem; /* Adjust padding */
+    gap: 1.5rem; /* Adjust gap */
+  }
+}
+/* Responsive adjustments for headings */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsWhy > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 1.5rem; /* Reduce font size */
+    text-align: center; /* Center-align text */
+  }
+}
+/* Responsive adjustments for text points */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsWhypoint {
+    font-size: 0.9rem; /* Reduce font size slightly */
+    text-align: center; /* Center-align text */
+  }
+}
+/* Responsive adjustments for points span */
+@media (min-width:393px) and  (max-width: 475px) {
+  .AboutUsWhypoint > span {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+}
+
+
+
+
+/* Responsive adjustments for .AboutUsWhy */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsWhy {
+    width: 100%; /* Use full width for smaller screens */
+    padding: 1rem 0; /* Adjust padding */
+  }
+}
+/* Responsive adjustments for content container */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsWhy > div:nth-of-type(1) {
+    width: 90%;
+    padding: 1rem; /* Reduce padding */
+    gap: 1rem; /* Adjust gap */
+  }
+}
+/* Responsive adjustments for image and text container */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align elements */
+    gap: 1rem; /* Reduce gap */
+  }
+}
+/* Responsive adjustments for text content */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) {
+    align-items: center; /* Center-align text */
+    text-align: center; /* Center-align content */
+  }
+}
+/* Responsive adjustments for font size */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(2) {
+    font-size: 0.9rem; /* Slightly reduce font size */
+    text-align: start;
+  }
+}
+/* Responsive adjustments for the bottom section */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsWhy > div:nth-of-type(2) {
+    align-items: center; /* Center-align content */
+    padding: 1rem; /* Adjust padding */
+    gap: 1.5rem; /* Adjust gap */
+  }
+}
+/* Responsive adjustments for headings */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsWhy > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 1.5rem; /* Reduce font size */
+    text-align: center; /* Center-align text */
+  }
+}
+/* Responsive adjustments for text points */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsWhypoint {
+    font-size: 0.9rem; /* Reduce font size slightly */
+    text-align: center; /* Center-align text */
+  }
+}
+/* Responsive adjustments for points span */
+@media (min-width:475px) and  (max-width: 600px) {
+  .AboutUsWhypoint > span {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+}
+
+
+
+/* Responsive adjustments for .AboutUsWhy */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsWhy {
+    width: 100%; /* Use full width for smaller screens */
+    padding: 1rem 0; /* Adjust padding */
+  }
+}
+/* Responsive adjustments for content container */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsWhy > div:nth-of-type(1) {
+    width: 90%;
+    padding: 1rem; /* Reduce padding */
+    gap: 1rem; /* Adjust gap */
+  }
+}
+/* Responsive adjustments for image and text container */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center-align elements */
+    gap: 1rem; /* Reduce gap */
+  }
+}
+/* Responsive adjustments for text content */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) {
+    align-items: center; /* Center-align text */
+    text-align: center; /* Center-align content */
+  }
+}
+/* Responsive adjustments for font size */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(2) {
+    font-size: 0.9rem; /* Slightly reduce font size */
+    text-align: start;
+  }
+}
+/* Responsive adjustments for the bottom section */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsWhy > div:nth-of-type(2) {
+    align-items: center; /* Center-align content */
+    padding: 1rem; /* Adjust padding */
+    gap: 1.5rem; /* Adjust gap */
+  }
+}
+/* Responsive adjustments for headings */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsWhy > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 1.5rem; /* Reduce font size */
+    text-align: center; /* Center-align text */
+  }
+}
+/* Responsive adjustments for text points */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsWhypoint {
+    font-size: 0.9rem; /* Reduce font size slightly */
+    text-align: center; /* Center-align text */
+  }
+}
+/* Responsive adjustments for points span */
+@media (min-width:600px) and  (max-width: 768px) {
+  .AboutUsWhypoint > span {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+}
+
+
+
+/* Responsive adjustments for .AboutUsWhy */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsWhy {
+    width: 100%; /* Use full width for smaller screens */
+    padding: 1rem 0; /* Adjust padding */
+  }
+}
+/* Responsive adjustments for content container */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsWhy > div:nth-of-type(1) {
+    width: 90%;
+    padding: 1rem; /* Reduce padding */
+    gap: 1rem; /* Adjust gap */
+  }
+}
+/* Responsive adjustments for image and text container */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) {
+    align-items: center; /* Center-align elements */
+    gap: 1rem; /* Reduce gap */
+  }
+}
+/* Responsive adjustments for text content */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) {
+    align-items: center; /* Center-align text */
+    text-align: center; /* Center-align content */
+  }
+}
+/* Responsive adjustments for font size */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsWhy > div:nth-of-type(1) > div:nth-of-type(2) {
+    font-size: 0.9rem; /* Slightly reduce font size */
+    text-align: start;
+  }
+}
+/* Responsive adjustments for the bottom section */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsWhy > div:nth-of-type(2) {
+    align-items: center; /* Center-align content */
+    padding: 1rem; /* Adjust padding */
+    gap: 1.5rem; /* Adjust gap */
+  }
+}
+/* Responsive adjustments for headings */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsWhy > div:nth-of-type(2) > div:nth-of-type(1) {
+    font-size: 1.5rem; /* Reduce font size */
+    text-align: center; /* Center-align text */
+  }
+}
+/* Responsive adjustments for text points */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsWhypoint {
+    font-size: 0.9rem; /* Reduce font size slightly */
+    text-align: center; /* Center-align text */
+  }
+}
+/* Responsive adjustments for points span */
+@media (min-width:768px) and  (max-width: 1024px) {
+  .AboutUsWhypoint > span {
+    font-size: 0.9rem; /* Adjust font size */
+  }
+}

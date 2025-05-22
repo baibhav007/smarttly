@@ -1,0 +1,46 @@
+.MobileCardLayout {
+  display: flex;
+  width: 100%;
+  padding: 1.25rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  border-radius: 1rem;
+}
+.MobileCardLayoutIntro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  align-self: stretch;
+}
+.heading {
+  color: var(--MainText, #212529);
+  text-align: center;
+  font-family: "Montserrat-600",sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114%; /* 26.22px */
+  align-self: stretch;
+}
+.planbutton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.navigatebutton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.activeButton{
+  background-color: black !important;
+  color: white !important;
+  border-color: black !important;
+  padding: 0.5rem 1rem;
+}
+.button{
+  padding: 0.5rem 1rem;
+}
